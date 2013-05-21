@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\08.UserChoice\bin\Debug\08.UserChoice.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\08.UserChoice\bin\Debug\08.UserChoice.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\08.UserChoice\bin\Debug\08.UserChoice.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\08.UserChoice\obj\Debug\08.UserChoice.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\08.UserChoice\obj\Debug\08.UserChoice.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\08.UserChoice\obj\Debug\08.UserChoice.pdb

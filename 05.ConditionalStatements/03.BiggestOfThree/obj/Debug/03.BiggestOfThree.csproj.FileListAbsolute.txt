@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\03.BiggestOfThree\bin\Debug\03.BiggestOfThree.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\03.BiggestOfThree\bin\Debug\03.BiggestOfThree.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\03.BiggestOfThree\bin\Debug\03.BiggestOfThree.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\03.BiggestOfThree\obj\Debug\03.BiggestOfThree.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\03.BiggestOfThree\obj\Debug\03.BiggestOfThree.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\03.BiggestOfThree\obj\Debug\03.BiggestOfThree.csprojResolveAssemblyReference.cache
