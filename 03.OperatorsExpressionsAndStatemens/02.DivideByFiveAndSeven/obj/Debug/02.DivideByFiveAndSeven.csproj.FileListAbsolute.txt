@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\02.DivideByFiveAndSeven\bin\Debug\02.DivideByFiveAndSeven.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\02.DivideByFiveAndSeven\bin\Debug\02.DivideByFiveAndSeven.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\02.DivideByFiveAndSeven\bin\Debug\02.DivideByFiveAndSeven.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\02.DivideByFiveAndSeven\obj\Debug\02.DivideByFiveAndSeven.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\02.DivideByFiveAndSeven\obj\Debug\02.DivideByFiveAndSeven.pdb

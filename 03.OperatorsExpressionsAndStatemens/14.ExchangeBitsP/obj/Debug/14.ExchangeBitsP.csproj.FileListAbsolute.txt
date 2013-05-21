@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\14.ExchangeBitsP\bin\Debug\14.ExchangeBitsP.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\14.ExchangeBitsP\obj\Debug\14.ExchangeBitsP.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\14.ExchangeBitsP\bin\Debug\14.ExchangeBitsP.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\14.ExchangeBitsP\bin\Debug\14.ExchangeBitsP.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\14.ExchangeBitsP\obj\Debug\14.ExchangeBitsP.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\14.ExchangeBitsP\obj\Debug\14.ExchangeBitsP.pdb

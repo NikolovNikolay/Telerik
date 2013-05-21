@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\03.RectangleArrea\bin\Debug\03.RectangleArrea.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\03.RectangleArrea\bin\Debug\03.RectangleArrea.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\03.RectangleArrea\bin\Debug\03.RectangleArrea.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\03.RectangleArrea\obj\Debug\03.RectangleArrea.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\03.RectangleArrea\obj\Debug\03.RectangleArrea.pdb

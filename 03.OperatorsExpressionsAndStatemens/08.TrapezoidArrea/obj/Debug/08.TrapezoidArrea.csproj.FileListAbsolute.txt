@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\08.TrapezoidArrea\bin\Debug\08.TrapezoidArrea.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\08.TrapezoidArrea\bin\Debug\08.TrapezoidArrea.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\08.TrapezoidArrea\bin\Debug\08.TrapezoidArrea.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\08.TrapezoidArrea\obj\Debug\08.TrapezoidArrea.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\08.TrapezoidArrea\obj\Debug\08.TrapezoidArrea.pdb

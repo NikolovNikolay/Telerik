@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\08.PrintAllToN\bin\Debug\08.PrintAllToN.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\08.PrintAllToN\bin\Debug\08.PrintAllToN.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\08.PrintAllToN\bin\Debug\08.PrintAllToN.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\08.PrintAllToN\obj\Debug\08.PrintAllToN.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\08.PrintAllToN\obj\Debug\08.PrintAllToN.pdb

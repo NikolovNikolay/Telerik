@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\04.ThirdDigitIsSeven\bin\Debug\04.ThirdDigitIsSeven.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\04.ThirdDigitIsSeven\bin\Debug\04.ThirdDigitIsSeven.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\04.ThirdDigitIsSeven\bin\Debug\04.ThirdDigitIsSeven.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\04.ThirdDigitIsSeven\obj\Debug\04.ThirdDigitIsSeven.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\04.ThirdDigitIsSeven\obj\Debug\04.ThirdDigitIsSeven.pdb

@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\06.QuadraticEquasion\bin\Debug\06.QuadraticEquasion.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\06.QuadraticEquasion\bin\Debug\06.QuadraticEquasion.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\06.QuadraticEquasion\bin\Debug\06.QuadraticEquasion.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\06.QuadraticEquasion\obj\Debug\06.QuadraticEquasion.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\06.QuadraticEquasion\obj\Debug\06.QuadraticEquasion.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\06.QuadraticEquasion\obj\Debug\06.QuadraticEquasion.csprojResolveAssemblyReference.cache

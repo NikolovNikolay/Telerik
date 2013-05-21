@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\09.PointInCircleAndRectangle\bin\Debug\09.PointInCircleAndRectangle.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\09.PointInCircleAndRectangle\bin\Debug\09.PointInCircleAndRectangle.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\09.PointInCircleAndRectangle\bin\Debug\09.PointInCircleAndRectangle.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\09.PointInCircleAndRectangle\obj\Debug\09.PointInCircleAndRectangle.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\09.PointInCircleAndRectangle\obj\Debug\09.PointInCircleAndRectangle.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\09.PointInCircleAndRectangle\obj\Debug\09.PointInCircleAndRectangle.pdb
