@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\8.SquareOf12345\bin\Debug\8.SquareOf12345.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\8.SquareOf12345\bin\Debug\8.SquareOf12345.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\8.SquareOf12345\bin\Debug\8.SquareOf12345.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\8.SquareOf12345\obj\Debug\8.SquareOf12345.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\8.SquareOf12345\obj\Debug\8.SquareOf12345.pdb

@@ -1,0 +1,11 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\9.FirstTenMembers\bin\Debug\9.FirstTenMembers.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\9.FirstTenMembers\bin\Debug\9.FirstTenMembers.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\9.FirstTenMembers\bin\Debug\9.FirstTenMembers.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\9.FirstTenMembers\obj\Debug\9.FirstTenMembers.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\9.FirstTenMembers\obj\Debug\9.FirstTenMembers.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgrammingHomework\9.FirstTenMembers\bin\Debug\9.FirstTenMembers.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgrammingHomework\9.FirstTenMembers\obj\Debug\9.FirstTenMembers.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgrammingHomework\9.FirstTenMembers\obj\Debug\9.FirstTenMembers.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgrammingHomework\9.FirstTenMembers\bin\Debug\9.FirstTenMembers.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgrammingHomework\9.FirstTenMembers\bin\Debug\9.FirstTenMembers.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgrammingHomework\9.FirstTenMembers\obj\Debug\9.FirstTenMembers.csprojResolveAssemblyReference.cache

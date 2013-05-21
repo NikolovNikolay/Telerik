@@ -1,0 +1,9 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\2.HelloCSharpApp\bin\Debug\2.HelloCSharpApp.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\2.HelloCSharpApp\bin\Debug\2.HelloCSharpApp.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\2.HelloCSharpApp\bin\Debug\2.HelloCSharpApp.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\2.HelloCSharpApp\obj\Debug\2.HelloCSharpApp.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\2.HelloCSharpApp\obj\Debug\2.HelloCSharpApp.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\2.HelloCSharpApp\obj\Debug\2.HelloCSharpApp.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgrammingHomework\2.HelloCSharpApp\bin\Debug\2.HelloCSharpApp.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgrammingHomework\2.HelloCSharpApp\obj\Debug\2.HelloCSharpApp.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgrammingHomework\2.HelloCSharpApp\obj\Debug\2.HelloCSharpApp.pdb
