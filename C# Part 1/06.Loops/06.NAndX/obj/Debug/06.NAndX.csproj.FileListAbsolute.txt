@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\06.NAndX\bin\Debug\06.NAndX.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\06.NAndX\bin\Debug\06.NAndX.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\06.NAndX\bin\Debug\06.NAndX.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\06.NAndX\obj\Debug\06.NAndX.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\06.NAndX\obj\Debug\06.NAndX.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\06.NAndX\obj\Debug\06.NAndX.pdb

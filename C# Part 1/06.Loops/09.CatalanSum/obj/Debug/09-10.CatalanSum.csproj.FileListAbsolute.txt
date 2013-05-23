@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\09.CatalanSum\bin\Debug\09.CatalanSum.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\09.CatalanSum\obj\Debug\09.CatalanSum.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\09.CatalanSum\obj\Debug\09.CatalanSum.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\09.CatalanSum\bin\Debug\09.CatalanSum.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\09.CatalanSum\bin\Debug\09.CatalanSum.pdb

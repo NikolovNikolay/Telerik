@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\01.PrintNumbersOneToTen\bin\Debug\01.PrintNumbersOneToTen.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\01.PrintNumbersOneToTen\bin\Debug\01.PrintNumbersOneToTen.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\01.PrintNumbersOneToTen\bin\Debug\01.PrintNumbersOneToTen.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\01.PrintNumbersOneToTen\obj\Debug\01.PrintNumbersOneToTen.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\01.PrintNumbersOneToTen\obj\Debug\01.PrintNumbersOneToTen.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\01.PrintNumbersOneToTen\obj\Debug\01.PrintNumbersOneToTen.pdb

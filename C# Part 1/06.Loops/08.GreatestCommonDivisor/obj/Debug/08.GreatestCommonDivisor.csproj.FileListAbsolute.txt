@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\08.GreatestCommonDivisor\bin\Debug\08.GreatestCommonDivisor.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\08.GreatestCommonDivisor\bin\Debug\08.GreatestCommonDivisor.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\08.GreatestCommonDivisor\bin\Debug\08.GreatestCommonDivisor.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\08.GreatestCommonDivisor\obj\Debug\08.GreatestCommonDivisor.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\08.GreatestCommonDivisor\obj\Debug\08.GreatestCommonDivisor.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\08.GreatestCommonDivisor\obj\Debug\08.GreatestCommonDivisor.pdb

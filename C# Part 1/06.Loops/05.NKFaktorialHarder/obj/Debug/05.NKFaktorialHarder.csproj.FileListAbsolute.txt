@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\05.NKFaktorialHarder\bin\Debug\05.NKFaktorialHarder.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\05.NKFaktorialHarder\bin\Debug\05.NKFaktorialHarder.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\05.NKFaktorialHarder\bin\Debug\05.NKFaktorialHarder.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\05.NKFaktorialHarder\obj\Debug\05.NKFaktorialHarder.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\05.NKFaktorialHarder\obj\Debug\05.NKFaktorialHarder.pdb

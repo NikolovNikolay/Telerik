@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\07.FirstNMembersOfFibonacci\bin\Debug\07.FirstNMembersOfFibonacci.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\07.FirstNMembersOfFibonacci\bin\Debug\07.FirstNMembersOfFibonacci.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\07.FirstNMembersOfFibonacci\bin\Debug\07.FirstNMembersOfFibonacci.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\07.FirstNMembersOfFibonacci\obj\Debug\07.FirstNMembersOfFibonacci.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\07.FirstNMembersOfFibonacci\obj\Debug\07.FirstNMembersOfFibonacci.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\07.FirstNMembersOfFibonacci\obj\Debug\07.FirstNMembersOfFibonacci.csprojResolveAssemblyReference.cache
