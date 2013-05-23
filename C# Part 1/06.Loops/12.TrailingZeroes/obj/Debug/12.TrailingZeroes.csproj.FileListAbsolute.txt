@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\12.TrailingZeroes\bin\Debug\12.TrailingZeroes.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\12.TrailingZeroes\bin\Debug\12.TrailingZeroes.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\12.TrailingZeroes\bin\Debug\12.TrailingZeroes.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\12.TrailingZeroes\obj\Debug\12.TrailingZeroes.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\12.TrailingZeroes\obj\Debug\12.TrailingZeroes.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\12.TrailingZeroes\obj\Debug\12.TrailingZeroes.pdb

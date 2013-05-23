@@ -5,7 +5,7 @@
 
 using System;
 
-class SimpleMatrix
+class Matrix
 {
     static void Main()
     {

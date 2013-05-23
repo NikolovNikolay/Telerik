@@ -13,7 +13,6 @@ class NKFaktorial
         Console.Write("K= ");
         int k = int.Parse(Console.ReadLine());
        
-
         if (k > 1 && n > k)
         {
             decimal nFaktorial=1;
