@@ -15,7 +15,7 @@ class PrimeOrNot
         int count = 0;
         bool numberIsPrime = false;
 
-        for (int i = 1; i < Math.Sqrt(number); i++)
+        for (int i = 1; i < number; i++)
         {
             if (number % i == 0)
             {

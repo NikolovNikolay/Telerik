@@ -3,3 +3,9 @@ E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpres
 E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\07.PrimeOrNot\bin\Debug\07.PrimeOrNot.pdb
 E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\07.PrimeOrNot\obj\Debug\07.PrimeOrNot.exe
 E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\07.PrimeOrNot\obj\Debug\07.PrimeOrNot.pdb
+C:\Users\Nikolov\Desktop\HW_nikolay.n_Operatori-i-izrazi_2013-05-21_13-32\3.OperatorsExpressionsAndStatemens\07.PrimeOrNot\bin\Debug\07.PrimeOrNot.exe.config
+C:\Users\Nikolov\Desktop\HW_nikolay.n_Operatori-i-izrazi_2013-05-21_13-32\3.OperatorsExpressionsAndStatemens\07.PrimeOrNot\obj\Debug\07.PrimeOrNot.exe
+C:\Users\Nikolov\Desktop\HW_nikolay.n_Operatori-i-izrazi_2013-05-21_13-32\3.OperatorsExpressionsAndStatemens\07.PrimeOrNot\obj\Debug\07.PrimeOrNot.pdb
+C:\Users\Nikolov\Desktop\HW_nikolay.n_Operatori-i-izrazi_2013-05-21_13-32\3.OperatorsExpressionsAndStatemens\07.PrimeOrNot\bin\Debug\07.PrimeOrNot.exe
+C:\Users\Nikolov\Desktop\HW_nikolay.n_Operatori-i-izrazi_2013-05-21_13-32\3.OperatorsExpressionsAndStatemens\07.PrimeOrNot\bin\Debug\07.PrimeOrNot.pdb
+C:\Users\Nikolov\Desktop\HW_nikolay.n_Operatori-i-izrazi_2013-05-21_13-32\3.OperatorsExpressionsAndStatemens\07.PrimeOrNot\obj\Debug\07.PrimeOrNot.csprojResolveAssemblyReference.cache
