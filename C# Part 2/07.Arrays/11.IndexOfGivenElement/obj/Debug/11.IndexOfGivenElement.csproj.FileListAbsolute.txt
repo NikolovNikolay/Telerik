@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\11.IndexOfGivenElement\bin\Debug\11.IndexOfGivenElement.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\11.IndexOfGivenElement\bin\Debug\11.IndexOfGivenElement.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\11.IndexOfGivenElement\bin\Debug\11.IndexOfGivenElement.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\11.IndexOfGivenElement\obj\Debug\11.IndexOfGivenElement.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\11.IndexOfGivenElement\obj\Debug\11.IndexOfGivenElement.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\11.IndexOfGivenElement\obj\Debug\11.IndexOfGivenElement.pdb

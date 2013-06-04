@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\01.ArrayMultilyBy5Elements\bin\Debug\01.ArrayMultilyBy5Elements.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\01.ArrayMultilyBy5Elements\bin\Debug\01.ArrayMultilyBy5Elements.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\01.ArrayMultilyBy5Elements\bin\Debug\01.ArrayMultilyBy5Elements.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\01.ArrayMultilyBy5Elements\obj\Debug\01.ArrayMultilyBy5Elements.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\01.ArrayMultilyBy5Elements\obj\Debug\01.ArrayMultilyBy5Elements.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\01.ArrayMultilyBy5Elements\obj\Debug\01.ArrayMultilyBy5Elements.pdb

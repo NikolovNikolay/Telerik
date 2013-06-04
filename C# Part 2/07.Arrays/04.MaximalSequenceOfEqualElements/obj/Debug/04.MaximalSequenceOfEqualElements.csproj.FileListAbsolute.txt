@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\04.MaximalSequenceOfEqualElements\bin\Debug\04.MaximalSequenceOfEqualElements.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\04.MaximalSequenceOfEqualElements\bin\Debug\04.MaximalSequenceOfEqualElements.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\04.MaximalSequenceOfEqualElements\bin\Debug\04.MaximalSequenceOfEqualElements.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\04.MaximalSequenceOfEqualElements\obj\Debug\04.MaximalSequenceOfEqualElements.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\04.MaximalSequenceOfEqualElements\obj\Debug\04.MaximalSequenceOfEqualElements.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\04.MaximalSequenceOfEqualElements\obj\Debug\04.MaximalSequenceOfEqualElements.pdb

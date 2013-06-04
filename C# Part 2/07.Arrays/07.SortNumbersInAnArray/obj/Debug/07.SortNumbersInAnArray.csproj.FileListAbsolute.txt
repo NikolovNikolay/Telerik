@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\07.SortNumbersInAnArray\bin\Debug\07.SortNumbersInAnArray.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\07.SortNumbersInAnArray\bin\Debug\07.SortNumbersInAnArray.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\07.SortNumbersInAnArray\bin\Debug\07.SortNumbersInAnArray.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\07.SortNumbersInAnArray\obj\Debug\07.SortNumbersInAnArray.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\07.SortNumbersInAnArray\obj\Debug\07.SortNumbersInAnArray.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\07.SortNumbersInAnArray\obj\Debug\07.SortNumbersInAnArray.csprojResolveAssemblyReference.cache
