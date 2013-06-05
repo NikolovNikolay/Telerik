@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\15.PrimeViaSieveOfErathostene\bin\Debug\15.PrimeViaSieveOfErathostene.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\15.PrimeViaSieveOfErathostene\bin\Debug\15.PrimeViaSieveOfErathostene.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\15.PrimeViaSieveOfErathostene\bin\Debug\15.PrimeViaSieveOfErathostene.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\15.PrimeViaSieveOfErathostene\obj\Debug\15.PrimeViaSieveOfErathostene.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\15.PrimeViaSieveOfErathostene\obj\Debug\15.PrimeViaSieveOfErathostene.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\15.PrimeViaSieveOfErathostene\obj\Debug\15.PrimeViaSieveOfErathostene.pdb

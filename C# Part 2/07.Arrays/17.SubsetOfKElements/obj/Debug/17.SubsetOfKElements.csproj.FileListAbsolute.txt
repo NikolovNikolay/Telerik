@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\17.SubsetOfKElements\bin\Debug\17.SubsetOfKElements.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\17.SubsetOfKElements\bin\Debug\17.SubsetOfKElements.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\17.SubsetOfKElements\bin\Debug\17.SubsetOfKElements.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\17.SubsetOfKElements\obj\Debug\17.SubsetOfKElements.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\17.SubsetOfKElements\obj\Debug\17.SubsetOfKElements.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\17.SubsetOfKElements\obj\Debug\17.SubsetOfKElements.pdb
