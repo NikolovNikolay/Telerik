@@ -9,45 +9,86 @@ class SumInASequence
 {
     static void Main()
     {
-        Console.Write("Search for sum: ");
-        int n = int.Parse(Console.ReadLine());
+        // Find sum in a sequence of numbers 
+
+        int[] array = { 4, 3, 1, 4, 2, 5, 8 };
+        Console.WriteLine("Enter desired sum");
+        int s = int.Parse(Console.ReadLine());
+        int count = 0;
         int sum = 0;
-        string sequence = string.Empty;
-        StringBuilder sequenceBuild = new StringBuilder();
-        //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
-        int[] arr = new int[15];
-        Random generator = new Random();
-        for (int i = 0; i < arr.Length; i++)
+        string elements = string.Empty;
+
+        for (int i = 0; i < array.Length; i++)
         {
-            arr[i] = generator.Next(0, 15);
-        }
-        for (int i = 0; i < arr.Length; i++)
-        {
-            Console.Write(" {0} ",arr[i]);
-        }
-        Console.WriteLine();
-        Console.WriteLine("The existing sequences, which sum is {0} are: ", n);
-        for (int i = 0; i < arr.Length; i++)
-        {
-            for (int j = i; j < arr.Length; j++)
+            sum = 0;
+            for (int j = i; j < array.Length; j++)
             {
-                sum = sum + arr[j];
-                sequence = string.Empty;
-                sequenceBuild.AppendFormat("{0}, ", arr[j]);
-                if (sum > n)
+                sum = sum + array[j];
+                elements = elements + " " + array[j];
+
+                if (sum == s)
                 {
-                    sequenceBuild.Clear();
+                    Console.WriteLine(elements);
+                    count++;
+                    elements = string.Empty;
+                    sum = 0;
+
+                }
+                if (sum > s)
+                {
+                    elements = string.Empty;
                     sum = 0;
                     break;
                 }
-                if (sum == n)
-                {
-                    sequence = sequenceBuild.ToString();
-                    Console.Write(sequence);
-                    Console.WriteLine();
-                }
             }
-
         }
+
+        if (count == 0)
+        {
+            Console.WriteLine("There is no sequence, forming that sum!");
+        }
+
+        /* Find sum, formed by any number*/
+
+        //Console.WriteLine("Enter the wanted sum of the subsets:");
+        //long wantedSum = long.Parse(Console.ReadLine());
+        //Console.WriteLine("Enter the number of elements:");
+        //long numberOfElements = long.Parse(Console.ReadLine());
+        //long[] elements = new long[numberOfElements];
+        //int counter = 0;
+        //string subset = string.Empty;
+
+        //for (int i = 0; i < elements.Length; i++)
+        //{
+        //    Console.WriteLine("Enter element № {0}", i + 1);
+        //    elements[i] = long.Parse(Console.ReadLine());
+        //}
+
+        //int maxSubsets = (int)Math.Pow(2, numberOfElements);
+        //for (int i = 1; i < maxSubsets; i++)
+        //{
+        //    subset = string.Empty;
+        //    long checkingSum = 0;
+        //    for (int j = 0; j <= numberOfElements; j++)
+        //    {
+        //        //int mask = 1 << j;
+        //        //int nAndMask = i & mask;
+        //        //int bit = nAndMask >> j;
+        //        if (((i>>j) & 1) == 1)
+        //        {
+        //            checkingSum = checkingSum + elements[j];
+        //            subset = subset + " " + elements[j];
+        //        }
+        //    }
+
+        //    if (checkingSum == wantedSum)
+        //    {
+        //        Console.WriteLine("Number of subest that have the sum of {0}", wantedSum);
+        //        counter++;
+        //        Console.WriteLine("This subset has a sum of {0} : {1} ", wantedSum, subset);
+        //    }
+        //}
+
+        //Console.WriteLine(counter);
     }
 }

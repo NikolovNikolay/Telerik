@@ -4,29 +4,36 @@
 */
 
 using System;
-using System.Collections.Generic;
+
 
 class SieveOfEratosthenes
 {
     static void Main()
     {
-        List<int> numbers = new List<int>();
-        int allNumbers = 10000000;
+        int n = 10000000;
+        bool[] array = new bool[n];
 
-        for (int i = 0; i <= allNumbers; i++)
+        for (int i = 2; i < array.Length; i++)
         {
-            numbers.Add(i);
+            array[i] = true;
         }
 
-        for (int i = 2; i < allNumbers; i++)
+        for (int i = 2; i < n; i++)
         {
-            if (numbers[i] != 0)
+            if (array[i] == true)
             {
-                for (int j = numbers[i] * 2; j <= allNumbers; j += numbers[i])
+                for (int j = i * 2; j < n; j += i)
                 {
-                    numbers[j] = 0;
+                    array[j] = false;
                 }
-                Console.Write("{0,10}", numbers[i]);
+            }
+        }
+
+        for (int i = 2; i < n; i++)
+        {
+            if (array[i] == true)
+            {
+                Console.Write("{0,10}", i);
             }
         }
     }

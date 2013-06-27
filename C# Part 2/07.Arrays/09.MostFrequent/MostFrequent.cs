@@ -5,30 +5,30 @@ public class SequenceByGivenSum
 {
     public static void Main()
     {
-        int s = int.Parse(Console.ReadLine());
-        int[] myArray = { 4, 3, 1, 4, 2, 5, 8 };
-        string sequence = string.Empty;
-        StringBuilder sequenceBuild = new StringBuilder();
-        for (int i = 0; i < myArray.Length; i++)
-        {
-            int sum = 0;
-            for (int j = i; j < myArray.Length; j++)
-            {
-                sum = sum + myArray[j];
-                sequenceBuild.AppendFormat("{0}, ", myArray[j]);
-                if (sum > s)
-                {
-                    sequenceBuild.Clear();
-                    sum = 0;
-                    break;
-                }
+        int[] array = { 4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 9, 10 };
 
-                if (sum == s)
+        int mostFrequentElement = 0;
+        int count = 0;
+        int maxCount = 0;
+
+        for (int i = 0; i < array.Length; i++)
+        {
+            count = 0;
+            for (int j = 0; j < array.Length; j++)
+            {
+                if (array[i] == array[j])
                 {
-                    sequence = sequenceBuild.ToString();
-                    Console.WriteLine("This sequence has the sum of {0} : {1}", s, sequence);
+                    count++;
                 }
             }
+
+            if (count > maxCount)
+            {
+                maxCount = count;
+                mostFrequentElement = array[i];
+            }
         }
+
+        Console.WriteLine("{0} ({1} times)", mostFrequentElement, maxCount);
     }
 }

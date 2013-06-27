@@ -8,44 +8,48 @@ class SubsetSum
 {
     static void Main()
     {
-        Console.Write("Desired sum: ");
-        int wantedSum = int.Parse(Console.ReadLine());
+        int[] array = { 2, 1, 2, 4, 3, 5, 2, 6 };
+        int arrayLength = array.Length;
 
-        Console.Write("Enter quantity of digits: ");
-        int digitsInArray = int.Parse(Console.ReadLine());
-
-        int[] arrayOfNumbers = new int[digitsInArray];
-        for (int i = 0; i < arrayOfNumbers.Length; i++)
+        for (int i = 0; i < array.Length; i++)
         {
-            Console.WriteLine("Please enter digit {0}: ", i+1);
-            arrayOfNumbers[i] = int.Parse(Console.ReadLine());
+            Console.Write("{0} ", array[i]);
         }
+        Console.WriteLine();
 
-        int combinationsAvailable = (1 << digitsInArray) - 1;
-        string sequence = string.Empty;
-        int currentSum = 0;
-        bool possible = false;
+        Console.WriteLine("Desired sum?");
+        int S = int.Parse(Console.ReadLine());
 
-        for (int i = 0; i < combinationsAvailable; i++)
+        int sum = 0;
+        int minCount = 0;
+        string sequence = "";
+
+
+        int allCombinations = (1<<arrayLength) - 1;
+        for (int i = 1; i <= allCombinations; i++)
         {
-            
-            sequence = string.Empty;
-            currentSum = 0;
-            for (int j = 0; j < digitsInArray; j++)
+            sum = 0;
+            sequence = "";
+            for (int j = 0; j < arrayLength; j++)
             {
                 if (((i >> j) & 1) == 1)
                 {
-                    sequence = sequence + " " + arrayOfNumbers[j];
-                    possible = true;
-                    currentSum += arrayOfNumbers[j];
+                    sum = sum + array[j];
+                    sequence = sequence +"+" + array[j];
                 }
             }
-            if (currentSum == wantedSum)
+            if (sum == S)
             {
-                Console.WriteLine("Yes: {0}", sequence);
+                minCount++;
+                sequence = sequence.TrimStart('+');
+                Console.WriteLine("yes ( {0} )", sequence);
             }
-            if (!possible) Console.WriteLine("--");
         }
-        
+
+        if (minCount == 0)
+        {
+            Console.WriteLine("no");
+        }
+    
     }
 }

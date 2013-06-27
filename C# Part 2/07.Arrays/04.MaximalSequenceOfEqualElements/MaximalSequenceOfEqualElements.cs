@@ -7,40 +7,56 @@ public class MaxSequenceInArray
 {
     public static void Main()
     {
-        Console.Write("Enter how many numbers would you like to compare? ");
-        int n = int.Parse(Console.ReadLine());
-        int[] array = new int[n];
-        int len = 1;
-        int greatestLen = 0;
-        int maxNumer = 0;
+        int[] array = { 1, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 6, 2, 2, 6, 6, 6, 6, 6, 6, 6, 7 };
+        //Random randomGenerator = new Random();
 
-        for (int i = 0; i < array.Length; i++)
+        //for (int i = 0; i < 10; i++)
+        //{
+        //    array[i] = randomGenerator.Next(1, 6);
+        //}
+
+        //for (int i = 0; i < array.Length; i++)
+        //{
+        //    Console.Write(array[i] + " ");
+        //}
+
+        int counter = 1;
+        int maxCounter = 0;
+        string sequence = string.Empty;
+        string bestSequence = string.Empty;
+
+        for (int i = 0; i < array.Length - 1; i++)
         {
-            Console.Write("Enter number {0}: ", i+1);
-            array[i] = int.Parse(Console.ReadLine());
-        }
-        for (int j = 0; j < array.Length -1; j++)
-			{
-                if (array[j] == array[j + 1])
+            if (array[i] == array[i + 1])
             {
-                len++;
+                counter++;
+                sequence = array[i].ToString();
             }
+
+            if (counter > maxCounter)
+            {
+                maxCounter = counter;
+                bestSequence = sequence;
+            }
+
+            if (array[i] != array[i + 1])
+            {
+                sequence = "";
+                counter = 1;
+            }
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("Length of best sequence: {0}", maxCounter);
+        Console.Write("{");
+        for (int i = 0; i < maxCounter; i++)
+        {
+            if (i == maxCounter - 1)
+                Console.Write(bestSequence);
             else
-            {
-                if (len > greatestLen)
-                {
-                    greatestLen = len;
-                    maxNumer = array[j];
-                }
-                len = 1;
-			}
-            
-            if (len > greatestLen)
-            {
-                greatestLen = len;
-                maxNumer = array[array.Length - 1];
-            }
+                Console.Write(bestSequence + ",");
         }
-        Console.WriteLine("The maximal equal sequence consists of {0} elements of number {1}", greatestLen, maxNumer);
+        Console.Write("}");
+        Console.WriteLine();
     }
 }

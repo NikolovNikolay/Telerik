@@ -7,40 +7,29 @@ class CompareTwoCharArrays
 {
     static void Main()
     {
-        Console.Write("How many letters wolud you like to compare? ");
+        Console.Write("How many elements is an array? ");
         int n = int.Parse(Console.ReadLine());
+
         char[] firstArray = new char[n];
         char[] secondArray = new char[n];
-
-        Console.WriteLine("Enter letters for first array");
+        Console.WriteLine("For a correct comparison, use only capital or small letters!");
+        Console.WriteLine("Input elements for the first array");
         for (int i = 0; i < n; i++)
         {
-            Console.Write(" Enter value for index {0}: ", i );
             firstArray[i] = char.Parse(Console.ReadLine());
         }
-
-        Console.WriteLine(" Enter letters for second array");
-        for (int j = 0; j < n; j++)
+        Console.WriteLine("Input elements for the second array");
+        for (int i = 0; i < n; i++)
         {
-            Console.Write("Enter value for index {0}: ", j);
-            secondArray[j] = char.Parse(Console.ReadLine());
+            secondArray[i] = char.Parse(Console.ReadLine());
         }
-        for (int k = 0; k < n; k++)
+        Console.WriteLine();
+        for (int i = 0; i < n; i++)
         {
-            int compare = firstArray[k].CompareTo(secondArray[k]);
-
-            if (compare > 0)
-            {
-                Console.WriteLine("\'{0}\' comes earlier than \'{1}\' in alphabetical order", secondArray[k], firstArray[k]);
-            }
-            else if (compare < 0)
-            {
-                Console.WriteLine("\'{0}\' comes earlier than \'{1}\' in alphabetical order", firstArray[k], secondArray[k]);
-            }
-            else
-            {
-                Console.WriteLine("The two letters are equal");
-            }
+            Console.Write("{0}. ", i + 1);
+            if (firstArray[i] > secondArray[i]) Console.WriteLine("{0} comes later than {1}", firstArray[i], secondArray[i]);
+            if (firstArray[i] < secondArray[i]) Console.WriteLine("{0} comes earlier than {1}", firstArray[i], secondArray[i]);
+            if (firstArray[i] == secondArray[i]) Console.WriteLine("{0} is equal to {1}", firstArray[i], secondArray[i]);
         }
     }
 }

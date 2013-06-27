@@ -8,69 +8,50 @@ class MaxSumNNumbersKelements
 {
     static void Main()
     {
-        Console.Write("Enter the array's length: ");
-        int n = int.Parse(Console.ReadLine());
-        Console.Write("Enter number of elements: ");
-        int k = int.Parse(Console.ReadLine());
-        if (n < k)
-        {
-            Console.WriteLine("Input correct value for k");
-            return;
-        }
-        string currentSeq = string.Empty;
-        int sum = 0;
-        string bestSeq = string.Empty;
-        int bestSum = int.MinValue;
+        Console.WriteLine("Array length?");
+        int arrayLength = int.Parse(Console.ReadLine());
+        Random randomGenerator = new Random();
 
-        int[] array = new int[n];
-        int arrayLength = array.Length;
-        Console.WriteLine("Input numbers:");
+        int[] array = new int[arrayLength];
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < arrayLength; i++)
         {
-            array[i] = int.Parse(Console.ReadLine());
+            array[i] = randomGenerator.Next(1, 15);
+            Console.Write(array[i] + " ");
         }
 
-        if (n == k)
+        Console.WriteLine();
+        Console.WriteLine("Elements to sum:");
+        int elements = int.Parse(Console.ReadLine());
+
+        int currentSum = 0;
+        int maximalSum = 0;
+        string numbers = string.Empty;
+        string numsWithMaxSum = string.Empty;
+
+        for (int i = 0; i < arrayLength; i++)
         {
-            Console.Write("Best sequance is: ");
-            for (int i = 0; i < array.Length; i++)
+            numbers = string.Empty;
+            if (i + elements > array.Length)
             {
-                Console.Write("{0} ", array[i]);
-                sum += array[i];
+                break;
             }
-            Console.WriteLine();
-            Console.WriteLine("Best sum is {0}", sum);
-        }
-        else if (n > k)
-        {
-             for (int i = 0; i < arrayLength; i++)
-            {
-                currentSeq = string.Empty;
 
-                if (i + k > arrayLength)
-                {
-                    break;
-                }
-                for (int j = i; j < i+k; j++)
-			    {
-                    sum = sum + array[j];
-                    currentSeq = currentSeq + ' ' + array[j];
-                    if (sum > bestSum)
-                    {
-                        bestSum = sum;
-                        bestSeq = currentSeq;
-                    }
-                    
-			    }
-                sum = 0;
+            for (int j = i; j < i + elements; j++)
+            {
+                currentSum = currentSum + array[j];
+                numbers = numbers + " " + array[j];
             }
-             Console.Write("The sequence of numbers with Max sum is: {0}",bestSeq);
-             Console.WriteLine();
-             Console.WriteLine("Max sum = {0}",bestSum);
+
+            if (currentSum > maximalSum)
+            {
+                maximalSum = currentSum;
+                numsWithMaxSum = numbers;
+            }
+
+            currentSum = 0;
         }
+        Console.WriteLine("Elements with maximal sum:{0}", numsWithMaxSum);
+        Console.WriteLine("Their sum is {0}", maximalSum);
     }
 }
-//1. ako k>n, vuvedete corekten k
-//2. ako k=n, bestSeq = celiq masiv i bestSum= sumata na celiq masiv
-//3. 

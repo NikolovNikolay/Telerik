@@ -10,45 +10,57 @@ class SubsetOfKElements
 {
     static void Main()
     {
-        Console.Write("Enter quantity of elements in the array: ");
-        int N = int.Parse(Console.ReadLine());
-        int[] numbers = new int[N]; 
+        Console.Write("Input length of the array: ");
+        int n = int.Parse(Console.ReadLine());
 
-        Console.Write("Subsum of how many elements: ");
-        int K = int.Parse(Console.ReadLine());
+        Random randomGenerator = new Random();
+        int[] array = new int[n];
 
-        Console.Write("Wanted sum: ");
-        int S = int.Parse(Console.ReadLine());
-
-        for (int i = 0; i < numbers.Length; i++)
-		{
-            Console.Write("Enter element {0}: ", i+1);
-            numbers[i] = int.Parse(Console.ReadLine());
-		}
-
-        int currentSum = 0;
-        string sequence = string.Empty;
-        int combinations = (1<<N) - 1;
-        int count = 0;
-
-        for (int i = 0; i < combinations; i++)
+        for (int i = 0; i < n; i++)
         {
-            sequence = string.Empty;
-            currentSum = 0;
+            array[i] = randomGenerator.Next(-4, 12);
+            Console.Write("{0} ", array[i]);
+        }
+        Console.WriteLine();
+
+        Console.Write("How many elements to sum? ");
+        int k = int.Parse(Console.ReadLine());
+
+        Console.Write("Desired sum? ");
+        int s = int.Parse(Console.ReadLine());
+
+        int combinations = ((1 << n) - 1);
+        int sum = 0;
+        string sequence = "";
+        int count = 0;
+        int minCount = 0;
+
+        for (int i = 1; i <= combinations; i++)
+        {
+            sum = 0;
+            sequence = "";
             count = 0;
-            for (int j = 0; j < N; j++)
+            for (int j = 0; j < n; j++)
             {
                 if (((i >> j) & 1) == 1)
                 {
-                    sequence = sequence + " " + numbers[j];
-                    currentSum += numbers[j];
+                    sum = sum + array[j];
+                    sequence = sequence + "+" + array[j];
                     count++;
                 }
             }
-            if (count == K && currentSum == S)
+
+            if (sum == s && count == k)
             {
-                Console.WriteLine(sequence);
+                minCount++;
+                sequence = sequence.TrimStart('+');
+                Console.WriteLine("yes ( {0} )", sequence);
             }
+        }
+
+        if (minCount == 0)
+        {
+            Console.WriteLine("There is no such sequence in the array!");
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿/*Write a program that finds the maximal increasing sequence in an array. Example: {3, 2, 3, 4, 2, 2, 4}  {2, 3, 4}.
+﻿/*Write a program that finds the maximal 
+ * increasing sequence in an array. 
+ * Example: {3, 2, 3, 4, 2, 2, 4}  {2, 3, 4}.
 */
 
 using System;
@@ -7,53 +9,48 @@ class MaximalSequenceOfIncreasingElements
 {
     static void Main()
     {
-        Console.Write("Enter how many numbers would you like to compare? ");
-        int n = int.Parse(Console.ReadLine());
-        int len = 1;
-        int greatestIncrease = 0;
-        int lastNumber = 0;
+        int[] array = { 3, 5, 6, 7, 4, 2, 6, 1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11, 6, 4, 9, 10, 11, 12, 14, 20, 21 };
+        int arrayLength = array.Length;
 
-        int[] array = new int[n];
-        for (int i = 0; i < array.Length; i++)
+        int count = 1;
+        int maxCount = 1;
+        int maxEnd = 0;
+        int end = 0;
+
+        for (int i = 0; i < arrayLength - 1; i++)
         {
-            Console.Write("Enter value for number {0}: ", i + 1);
-            array[i] = int.Parse(Console.ReadLine());
-        }
-        for (int j = 0; j < array.Length - 1; j++)
-        {
-            if (array[j] < array[j + 1])
+            if (array[i] < array[i + 1])
             {
-                if (array[j] == (array[j + 1] - 1))
-                {
-                    len++;
-                }
-                else
-                {
-                    if (len > greatestIncrease)
-                    {
-                        greatestIncrease = len;
-                        lastNumber = j;
-                    }
-                    len = 1;
-                }
+                count++;
+                end = i + 1;
+            }
+
+            if (count > maxCount)
+            {
+                maxCount = count;
+                maxEnd = end;
+            }
+
+            if (array[i] >= array[i + 1])
+            {
+                end = i;
+                count = 1;
             }
         }
 
-            if (len > greatestIncrease)
-            {
-                greatestIncrease = len;
-                lastNumber = array.Length - 1;
-            }
 
-                Console.Write("The longest sequance of increasing numbers is: ");
-                Console.Write("{");
-                for (int k = lastNumber - greatestIncrease + 1; k < lastNumber + 1; k++)
-                {
-                    Console.Write(" {0} ", array[k]);
-                }
-                Console.Write("}");
-            }
+        Console.Write("{");
+        for (int i = maxEnd - maxCount + 1; i <= maxEnd; i++)
+        {
+            if (i != maxEnd)
+                Console.Write(array[i] + ",");
+            else
+                Console.Write(array[i]);
+        }
+        Console.Write("}");
+        Console.WriteLine();
+        }
         
-    }
+}
 
 
