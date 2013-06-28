@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\21.CombinationsNK\bin\Debug\21.CombinationsNK.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\21.CombinationsNK\bin\Debug\21.CombinationsNK.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\21.CombinationsNK\bin\Debug\21.CombinationsNK.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\21.CombinationsNK\obj\Debug\21.CombinationsNK.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\21.CombinationsNK\obj\Debug\21.CombinationsNK.pdb

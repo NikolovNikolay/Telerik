@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\excersize\bin\Debug\excersize.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\excersize\bin\Debug\excersize.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\excersize\bin\Debug\excersize.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\excersize\obj\Debug\excersize.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\excersize\obj\Debug\excersize.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\excersize\obj\Debug\excersize.pdb
