@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\03.LastDigitToInt\bin\Debug\03.LastDigitToInt.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\03.LastDigitToInt\bin\Debug\03.LastDigitToInt.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\03.LastDigitToInt\bin\Debug\03.LastDigitToInt.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\03.LastDigitToInt\obj\Debug\03.LastDigitToInt.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\03.LastDigitToInt\obj\Debug\03.LastDigitToInt.pdb

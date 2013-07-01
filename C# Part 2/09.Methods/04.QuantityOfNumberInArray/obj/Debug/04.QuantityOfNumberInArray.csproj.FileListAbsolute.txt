@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\04.QuantityOfNumberInArray\bin\Debug\04.QuantityOfNumberInArray.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\04.QuantityOfNumberInArray\bin\Debug\04.QuantityOfNumberInArray.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\04.QuantityOfNumberInArray\bin\Debug\04.QuantityOfNumberInArray.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\04.QuantityOfNumberInArray\obj\Debug\04.QuantityOfNumberInArray.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\04.QuantityOfNumberInArray\obj\Debug\04.QuantityOfNumberInArray.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\04.QuantityOfNumberInArray\obj\Debug\04.QuantityOfNumberInArray.pdb

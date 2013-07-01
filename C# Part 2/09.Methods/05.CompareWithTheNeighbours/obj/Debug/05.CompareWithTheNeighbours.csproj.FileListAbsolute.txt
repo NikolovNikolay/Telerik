@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\05.CompareWithTheNeighbours\bin\Debug\05.CompareWithTheNeighbours.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\05.CompareWithTheNeighbours\bin\Debug\05.CompareWithTheNeighbours.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\05.CompareWithTheNeighbours\bin\Debug\05.CompareWithTheNeighbours.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\05.CompareWithTheNeighbours\obj\Debug\05.CompareWithTheNeighbours.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\05.CompareWithTheNeighbours\obj\Debug\05.CompareWithTheNeighbours.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\05.CompareWithTheNeighbours\obj\Debug\05.CompareWithTheNeighbours.pdb

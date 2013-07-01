@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\13.SolvingMultipleTasks\bin\Debug\13.SolvingMultipleTasks.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\13.SolvingMultipleTasks\bin\Debug\13.SolvingMultipleTasks.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\13.SolvingMultipleTasks\bin\Debug\13.SolvingMultipleTasks.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\13.SolvingMultipleTasks\obj\Debug\13.SolvingMultipleTasks.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\13.SolvingMultipleTasks\obj\Debug\13.SolvingMultipleTasks.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\13.SolvingMultipleTasks\obj\Debug\13.SolvingMultipleTasks.pdb
