@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\08.BinaryRepresentationOfShort\bin\Debug\08.BinaryRepresentationOfShort.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\08.BinaryRepresentationOfShort\bin\Debug\08.BinaryRepresentationOfShort.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\08.BinaryRepresentationOfShort\bin\Debug\08.BinaryRepresentationOfShort.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\08.BinaryRepresentationOfShort\obj\Debug\08.BinaryRepresentationOfShort.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\08.BinaryRepresentationOfShort\obj\Debug\08.BinaryRepresentationOfShort.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\08.BinaryRepresentationOfShort\obj\Debug\08.BinaryRepresentationOfShort.pdb

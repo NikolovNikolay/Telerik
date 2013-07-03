@@ -3,3 +3,4 @@ E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.Multidimension
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\03.LongestSequenceOfEqualStrings\bin\Debug\03.LongestSequenceOfEqualStrings.pdb
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\03.LongestSequenceOfEqualStrings\obj\Debug\03.LongestSequenceOfEqualStrings.exe
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\03.LongestSequenceOfEqualStrings\obj\Debug\03.LongestSequenceOfEqualStrings.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\03.LongestSequenceOfEqualStrings\obj\Debug\03.LongestSequenceOfEqualStrings.csprojResolveAssemblyReference.cache

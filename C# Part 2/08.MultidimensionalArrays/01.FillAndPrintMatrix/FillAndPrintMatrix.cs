@@ -1,147 +1,157 @@
-﻿using System;
+﻿/*Write a program that fills and prints a matrix of size (n, n) as shown*/
+
+using System;
 
 class FillAndPrintMatrix
 {
     static void Main()
     {
-        int n = 4;
-        int[,] matrixOne = new int[n,n];
-        int count = 1;
-        
-        while (count <= 16)
-        {
-            for (int col = 0; col < n; col++)
-            {
-                for (int row = 0; row < n; row++)
-                {
-                    matrixOne[row, col] = count;
-                    count++;
-                }
-            } 
-        }
+        Console.Write("Input n = ");
+        int n = int.Parse(Console.ReadLine());
 
-        PrintMatrix(matrixOne, n);
-       
-        //--------------------------------------------------------------
+        int[,] matrixOne = new int[n, n];
+        int counter = 1;
+        int row = 0;
+        int col = 0;
+
+        for (int mCol = col; mCol < n; mCol++)
+        {
+            for (int mRow = row; mRow < n; mRow++)
+            {
+                matrixOne[mRow, mCol] = counter;
+                counter++;
+            }
+        }
+        PrintMatrix(matrixOne);
+        //------------------------------------------------------------
+        
+        row = 0;
+        col = 0;
 
         int[,] matrixTwo = new int[n, n];
-        int currentRow = 0; 
-        int currentCol = -1;
-        count = 1;
 
-        while (count <= 16)
+        string direction = "down";
+
+        counter = 1;
+        for (int mCol = 0; mCol < n; mCol++)
         {
-            if (currentRow == 0)
+            if (direction == "down" && mCol % 2 == 0)
             {
-                currentCol++;
-                for (int row = 0; row < n; row++)
+                for (int mRow = 0; mRow < n; mRow++)
                 {
-                    matrixTwo[row, currentCol] = count;
-                    count++;
+                    matrixTwo[mRow, mCol] = counter;
+                    counter++;
                 }
-
-                currentRow = n - 1;
+                direction = "up";
+                
             }
 
-            if (currentRow == n - 1)
+            if (direction == "up" && mCol % 2 != 0)
             {
-                currentCol++;
-                for (int row = n - 1; row >= 0; row--)
+                for (int mRow = n - 1; mRow >= 0; mRow--)
                 {
-                    matrixTwo[row, currentCol] = count;
-                    count++;
+                    matrixTwo[mRow, mCol] = counter;
+                    counter++;
                 }
-                currentRow = 0;
+                direction = "down";
+                
+            }
+        }
+        PrintMatrix(matrixTwo);
+        //----------------------------------------------------------------
+
+        int[,] matrixThree = new int[n, n];
+
+        int initialRow = n - 1;
+        int initialCol = 0;
+        counter = 1;
+        direction = "up";
+        col = 0;
+
+        for ( int i = n; i >= 0 ; i--)
+        {
+            int mRow = i;
+            mRow--;
+            if (mRow >= 0)
+            {
+                while (mRow <= n - 1)
+                {
+
+                    matrixThree[mRow, col] = counter;
+                    mRow++;
+                    col++;
+                    counter++;
+                }
+                col = 0;
             }
         }
 
-        PrintMatrix(matrixTwo, n);
-      
-        //------------------------------------------------------------
-
-        int[,] matrixThree = { { 7, 11, 14,16 }, { 4, 8, 12, 15 },
-                             {2,5,9,13}, {1,3,6,10}};
-
-        PrintMatrix(matrixThree, n);
-        //------------------------------------------------------------
-
-        int[,] matrixFour = new int[n, n];
-
-        int startCol = 0;
-        int startRow = 0;
-        count = 1;
-        currentCol = 0;
-        currentRow = 0;
-
-        while (count <= 16)
+        row = 0;
+        for (int i = 1; i < n; i++)
         {
-            for (int row = 0; row < n; row++)
+            int mCol = i;
+            while (mCol < n)
             {
-                matrixFour[currentRow, currentCol] = count;
-                count++;
-                currentRow++;
+                matrixThree[row, mCol] = counter;
+                row++;
+                mCol++;
+                counter++;
+                
+
             }
-
-            currentRow--;
-            currentCol++;
-
-            for (int col = 0; col < n - 1; col++)
-            {
-                matrixFour[currentRow, currentCol] = count;
-                count++;
-                currentCol++;
-            }
-
-            currentCol--;
-            currentRow--;
-
-            for (int row = 0; row < n - 1; row++)
-            {
-                matrixFour[currentRow, currentCol] = count;
-                currentRow--;
-                count++;
-            }
-
-            currentRow++;
-            currentCol--;
-
-            for (int col = 0; col < n - 2; col++)
-            {
-                matrixFour[currentRow, currentCol] = count;
-                currentCol--;
-                count++;
-            }
-
-            currentRow++;
-            currentCol++;
-
-            for (int row = 0; row < n - 2; row++)
-            {
-                matrixFour[currentRow, currentCol] = count;
-                count++;
-                currentRow++;
-            }
-
-            currentCol++;
-            currentRow--;
-
-            for (int col = 0; col < n - 2; col++)
-            {
-                matrixFour[currentRow, currentCol] = count;
-                currentRow--;
-                count++;
-            }
+            row = 0;
         }
-        PrintMatrix(matrixFour, n);
+        PrintMatrix(matrixThree);
+        // ---------------------------------------------------------
+        int[,] matrixFour = new int[n,n];
+        int activeRow = 0;
+        int activeCol = 0;
+        counter = 1;
+        int maxRow = n - 1;
+        int maxCol = n - 1;
+
+        while (counter <= n * n)
+        {
+            for (int i = activeRow; i <= maxRow; i++)
+            {
+                matrixFour[i, activeCol] = counter;
+                counter++;
+            }
+            activeCol++;
+
+            for (int i = activeCol; i <= maxCol; i++)
+            {
+                matrixFour[maxRow, i] = counter;
+                counter++;
+            }
+            maxRow--;
+
+            for (int i = maxRow; i >= activeRow; i--)
+            {
+                matrixFour[i, maxCol] = counter;
+                counter++;
+            }
+            maxCol--;
+
+            for (int i = maxCol; i >= activeCol; i--)
+            {
+                matrixFour[activeRow, i] = counter;
+                counter++;
+            }
+            activeRow++;
+        }
+
+        PrintMatrix(matrixFour);
     }
 
-    static void PrintMatrix(int[,] matrix, int n)
+
+    static void PrintMatrix(int[,] matrix)
     {
-        for (int row = 0; row < n; row++)
+        for (int row = 0; row < matrix.GetLength(0); row++)
         {
-            for (int col = 0; col < n; col++)
+            for (int col = 0; col < matrix.GetLength(1); col++)
             {
-                Console.Write("{0,3}", matrix[row, col]);
+                Console.Write("{0,3}", matrix[row,col]);
             }
             Console.WriteLine();
         }

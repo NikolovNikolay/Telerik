@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\06.BinaryToHexadecimal\bin\Debug\06.BinaryToHexadecimal.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\06.BinaryToHexadecimal\bin\Debug\06.BinaryToHexadecimal.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\06.BinaryToHexadecimal\bin\Debug\06.BinaryToHexadecimal.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\06.BinaryToHexadecimal\obj\Debug\06.BinaryToHexadecimal.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\06.BinaryToHexadecimal\obj\Debug\06.BinaryToHexadecimal.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\06.BinaryToHexadecimal\obj\Debug\06.BinaryToHexadecimal.pdb

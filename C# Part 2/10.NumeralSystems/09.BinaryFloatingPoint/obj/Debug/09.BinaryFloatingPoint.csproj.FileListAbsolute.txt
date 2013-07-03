@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\09.BinaryFloatingPoint\bin\Debug\09.BinaryFloatingPoint.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\09.BinaryFloatingPoint\bin\Debug\09.BinaryFloatingPoint.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\09.BinaryFloatingPoint\bin\Debug\09.BinaryFloatingPoint.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\09.BinaryFloatingPoint\obj\Debug\09.BinaryFloatingPoint.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\09.BinaryFloatingPoint\obj\Debug\09.BinaryFloatingPoint.pdb

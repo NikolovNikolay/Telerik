@@ -3,3 +3,4 @@ E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.Multidimension
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\05.SortStringArray\bin\Debug\05.SortStringArray.pdb
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\05.SortStringArray\obj\Debug\05.SortStringArray.exe
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\05.SortStringArray\obj\Debug\05.SortStringArray.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\05.SortStringArray\obj\Debug\05.SortStringArray.csprojResolveAssemblyReference.cache

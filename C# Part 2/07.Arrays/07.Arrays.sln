@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "excersize", "excersize\excersize.csproj", "{469C2398-C3BC-4AFE-A29D-CED197153843}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ArrayMultilyBy5Elements", "01.ArrayMultilyBy5Elements\01.ArrayMultilyBy5Elements.csproj", "{AC92A26A-E543-4E15-B10E-9A24E6913EED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CompareTwoArrays", "02.CompareTwo Arrays\02.CompareTwoArrays.csproj", "{FD4E93F5-02AE-46EA-A04E-9EDAB0287866}"
@@ -51,10 +49,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{469C2398-C3BC-4AFE-A29D-CED197153843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{469C2398-C3BC-4AFE-A29D-CED197153843}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{469C2398-C3BC-4AFE-A29D-CED197153843}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{469C2398-C3BC-4AFE-A29D-CED197153843}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC92A26A-E543-4E15-B10E-9A24E6913EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC92A26A-E543-4E15-B10E-9A24E6913EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC92A26A-E543-4E15-B10E-9A24E6913EED}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\04.HexadeciamalToDecimal\bin\Debug\04.HexadeciamalToDecimal.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\04.HexadeciamalToDecimal\bin\Debug\04.HexadeciamalToDecimal.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\04.HexadeciamalToDecimal\bin\Debug\04.HexadeciamalToDecimal.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\04.HexadeciamalToDecimal\obj\Debug\04.HexadeciamalToDecimal.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\04.HexadeciamalToDecimal\obj\Debug\04.HexadeciamalToDecimal.pdb
