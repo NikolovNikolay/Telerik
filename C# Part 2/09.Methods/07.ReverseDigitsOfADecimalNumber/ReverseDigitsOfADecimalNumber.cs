@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*Write a method that reverses the digits of given decimal number. Example: 256  652
+*/
+
+using System;
 
 class ReverseDigitsOfADecimalNumber
 {
@@ -18,7 +21,7 @@ class ReverseDigitsOfADecimalNumber
 
     static void Main()
     {
-        Console.Write("Input number with a floating point: ");
+        Console.Write("Input decimal number: ");
         decimal number = decimal.Parse(Console.ReadLine());
 
         Console.WriteLine(ReverseDigits(number));

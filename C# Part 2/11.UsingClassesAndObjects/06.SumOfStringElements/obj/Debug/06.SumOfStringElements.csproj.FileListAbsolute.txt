@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\06.SumOfStringElements\bin\Debug\06.SumOfStringElements.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\06.SumOfStringElements\bin\Debug\06.SumOfStringElements.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\06.SumOfStringElements\bin\Debug\06.SumOfStringElements.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\06.SumOfStringElements\obj\Debug\06.SumOfStringElements.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\06.SumOfStringElements\obj\Debug\06.SumOfStringElements.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\06.SumOfStringElements\obj\Debug\06.SumOfStringElements.pdb

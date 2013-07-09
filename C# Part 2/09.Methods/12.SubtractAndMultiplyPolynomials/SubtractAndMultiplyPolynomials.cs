@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*Extend the program to support also subtraction and multiplication of polynomials.
+*/
+
+using System;
 
 class SubtractAndMultiplyPolynomials
 {
