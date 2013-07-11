@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\02.TenNumbers\bin\Debug\02.TenNumbers.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\02.TenNumbers\bin\Debug\02.TenNumbers.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\02.TenNumbers\bin\Debug\02.TenNumbers.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\02.TenNumbers\obj\Debug\02.TenNumbers.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\02.TenNumbers\obj\Debug\02.TenNumbers.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\02.TenNumbers\obj\Debug\02.TenNumbers.pdb

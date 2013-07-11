@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\01.TryCalculateSquareRoot\bin\Debug\01.TryCalculateSquareRoot.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\01.TryCalculateSquareRoot\bin\Debug\01.TryCalculateSquareRoot.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\01.TryCalculateSquareRoot\bin\Debug\01.TryCalculateSquareRoot.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\01.TryCalculateSquareRoot\obj\Debug\01.TryCalculateSquareRoot.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\01.TryCalculateSquareRoot\obj\Debug\01.TryCalculateSquareRoot.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\01.TryCalculateSquareRoot\obj\Debug\01.TryCalculateSquareRoot.pdb

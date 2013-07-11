@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\03.ReadAndPrintAFile\bin\Debug\03.ReadAndPrintAFile.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\03.ReadAndPrintAFile\bin\Debug\03.ReadAndPrintAFile.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\03.ReadAndPrintAFile\bin\Debug\03.ReadAndPrintAFile.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\03.ReadAndPrintAFile\obj\Debug\03.ReadAndPrintAFile.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\03.ReadAndPrintAFile\obj\Debug\03.ReadAndPrintAFile.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\03.ReadAndPrintAFile\obj\Debug\03.ReadAndPrintAFile.pdb

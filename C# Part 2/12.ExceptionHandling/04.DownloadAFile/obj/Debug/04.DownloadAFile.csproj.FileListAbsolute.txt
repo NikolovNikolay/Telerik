@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\04.DownloadAFile\bin\Debug\04.DownloadAFile.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\04.DownloadAFile\bin\Debug\04.DownloadAFile.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\04.DownloadAFile\bin\Debug\04.DownloadAFile.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\04.DownloadAFile\obj\Debug\04.DownloadAFile.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\04.DownloadAFile\obj\Debug\04.DownloadAFile.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\12.ExceptionHandling\04.DownloadAFile\obj\Debug\04.DownloadAFile.csprojResolveAssemblyReference.cache
