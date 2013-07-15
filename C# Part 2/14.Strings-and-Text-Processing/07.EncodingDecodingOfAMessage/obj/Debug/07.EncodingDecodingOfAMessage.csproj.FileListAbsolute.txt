@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\07.EncodingDecodingOfAMessage\bin\Debug\07.EncodingDecodingOfAMessage.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\07.EncodingDecodingOfAMessage\bin\Debug\07.EncodingDecodingOfAMessage.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\07.EncodingDecodingOfAMessage\bin\Debug\07.EncodingDecodingOfAMessage.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\07.EncodingDecodingOfAMessage\obj\Debug\07.EncodingDecodingOfAMessage.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\07.EncodingDecodingOfAMessage\obj\Debug\07.EncodingDecodingOfAMessage.pdb

@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\04.ContainedSubstring\bin\Debug\04.ContainedSubstring.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\04.ContainedSubstring\bin\Debug\04.ContainedSubstring.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\04.ContainedSubstring\bin\Debug\04.ContainedSubstring.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\04.ContainedSubstring\obj\Debug\04.ContainedSubstring.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\04.ContainedSubstring\obj\Debug\04.ContainedSubstring.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\04.ContainedSubstring\obj\Debug\04.ContainedSubstring.csprojResolveAssemblyReference.cache
