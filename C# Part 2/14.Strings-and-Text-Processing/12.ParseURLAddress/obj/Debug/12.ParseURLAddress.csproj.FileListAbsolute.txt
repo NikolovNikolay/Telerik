@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\12.ParseURLAddress\bin\Debug\12.ParseURLAddress.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\12.ParseURLAddress\bin\Debug\12.ParseURLAddress.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\12.ParseURLAddress\bin\Debug\12.ParseURLAddress.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\12.ParseURLAddress\obj\Debug\12.ParseURLAddress.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\12.ParseURLAddress\obj\Debug\12.ParseURLAddress.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\12.ParseURLAddress\obj\Debug\12.ParseURLAddress.pdb

@@ -1,1 +1,5 @@
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\01.DescribeStringsInCSharp\bin\Debug\01.DescribeStringsInCSharp.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\01.DescribeStringsInCSharp\bin\Debug\01.DescribeStringsInCSharp.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\01.DescribeStringsInCSharp\bin\Debug\01.DescribeStringsInCSharp.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\01.DescribeStringsInCSharp\obj\Debug\01.DescribeStringsInCSharp.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\01.DescribeStringsInCSharp\obj\Debug\01.DescribeStringsInCSharp.pdb

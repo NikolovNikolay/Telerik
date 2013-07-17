@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\13.ReverseWordsInSentance\bin\Debug\13.ReverseWordsInSentance.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\13.ReverseWordsInSentance\bin\Debug\13.ReverseWordsInSentance.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\13.ReverseWordsInSentance\bin\Debug\13.ReverseWordsInSentance.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\13.ReverseWordsInSentance\obj\Debug\13.ReverseWordsInSentance.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\13.ReverseWordsInSentance\obj\Debug\13.ReverseWordsInSentance.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\13.ReverseWordsInSentance\obj\Debug\13.ReverseWordsInSentance.pdb

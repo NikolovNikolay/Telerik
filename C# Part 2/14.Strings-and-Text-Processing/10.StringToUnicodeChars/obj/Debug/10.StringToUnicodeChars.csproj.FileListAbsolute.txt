@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\10.StringToUnicodeChars\bin\Debug\10.StringToUnicodeChars.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\10.StringToUnicodeChars\obj\Debug\10.StringToUnicodeChars.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\10.StringToUnicodeChars\bin\Debug\10.StringToUnicodeChars.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\10.StringToUnicodeChars\bin\Debug\10.StringToUnicodeChars.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\10.StringToUnicodeChars\obj\Debug\10.StringToUnicodeChars.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\10.StringToUnicodeChars\obj\Debug\10.StringToUnicodeChars.pdb

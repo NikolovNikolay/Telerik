@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*Write a program that finds how many
+ * times a substring is contained in a
+ * given text (perform case insensitive search).
+*/
+
+using System;
 
 class ContainedSubstring
 {
