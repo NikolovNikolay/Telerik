@@ -190,15 +190,14 @@ class FillAndPrintMatrix
                 bool par = Int32.TryParse(input, out n);
 
                 if (!par || n == 0)
-                    throw new ArgumentException();
+                    throw new Exception();
                 else
                 {
                     InitializeArgumentsAndContainingLogic(n);
-                    Console.ReadKey();
                     break;
                 }
             }
-            catch (ArgumentException)
+            catch
             {
                 Console.WriteLine("Please enter some valid int!");
             }
