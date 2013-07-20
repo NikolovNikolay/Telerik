@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\16.DaysBetweenDates\bin\Debug\16.DaysBetweenDates.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\16.DaysBetweenDates\bin\Debug\16.DaysBetweenDates.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\16.DaysBetweenDates\bin\Debug\16.DaysBetweenDates.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\16.DaysBetweenDates\obj\Debug\16.DaysBetweenDates.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\16.DaysBetweenDates\obj\Debug\16.DaysBetweenDates.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\16.DaysBetweenDates\obj\Debug\16.DaysBetweenDates.csprojResolveAssemblyReference.cache

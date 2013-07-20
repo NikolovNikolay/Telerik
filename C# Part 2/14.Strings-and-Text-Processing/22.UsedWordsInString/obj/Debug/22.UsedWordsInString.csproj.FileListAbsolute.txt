@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\22.UsedWordsInString\bin\Debug\22.UsedWordsInString.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\22.UsedWordsInString\bin\Debug\22.UsedWordsInString.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\22.UsedWordsInString\bin\Debug\22.UsedWordsInString.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\22.UsedWordsInString\obj\Debug\22.UsedWordsInString.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\22.UsedWordsInString\obj\Debug\22.UsedWordsInString.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\22.UsedWordsInString\obj\Debug\22.UsedWordsInString.csprojResolveAssemblyReference.cache

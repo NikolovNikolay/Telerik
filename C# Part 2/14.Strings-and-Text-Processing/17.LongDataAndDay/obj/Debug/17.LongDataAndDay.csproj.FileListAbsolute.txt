@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\17.LongDataAndDay\bin\Debug\17.LongDataAndDay.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\17.LongDataAndDay\bin\Debug\17.LongDataAndDay.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\17.LongDataAndDay\bin\Debug\17.LongDataAndDay.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\17.LongDataAndDay\obj\Debug\17.LongDataAndDay.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\17.LongDataAndDay\obj\Debug\17.LongDataAndDay.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\17.LongDataAndDay\obj\Debug\17.LongDataAndDay.pdb

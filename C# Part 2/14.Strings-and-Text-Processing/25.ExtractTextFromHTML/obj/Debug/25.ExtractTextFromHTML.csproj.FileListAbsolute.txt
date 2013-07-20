@@ -1,0 +1,3 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\25.ExtractTextFromHTML\bin\Debug\25.ExtractTextFromHTML.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\25.ExtractTextFromHTML\obj\Debug\25.ExtractTextFromHTML.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\25.ExtractTextFromHTML\obj\Debug\25.ExtractTextFromHTML.pdb

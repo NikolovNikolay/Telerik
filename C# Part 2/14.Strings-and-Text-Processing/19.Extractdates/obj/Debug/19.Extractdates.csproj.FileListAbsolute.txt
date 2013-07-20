@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\19.Extractdates\bin\Debug\19.Extractdates.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\19.Extractdates\bin\Debug\19.Extractdates.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\19.Extractdates\bin\Debug\19.Extractdates.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\19.Extractdates\obj\Debug\19.Extractdates.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\19.Extractdates\obj\Debug\19.Extractdates.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\19.Extractdates\obj\Debug\19.Extractdates.csprojResolveAssemblyReference.cache

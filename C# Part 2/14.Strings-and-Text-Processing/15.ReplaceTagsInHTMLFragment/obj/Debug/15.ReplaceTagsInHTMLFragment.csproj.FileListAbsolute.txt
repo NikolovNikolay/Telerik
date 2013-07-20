@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\15.ReplaceTagsInHTMLFragment\bin\Debug\15.ReplaceTagsInHTMLFragment.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\15.ReplaceTagsInHTMLFragment\bin\Debug\15.ReplaceTagsInHTMLFragment.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\15.ReplaceTagsInHTMLFragment\bin\Debug\15.ReplaceTagsInHTMLFragment.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\15.ReplaceTagsInHTMLFragment\obj\Debug\15.ReplaceTagsInHTMLFragment.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\15.ReplaceTagsInHTMLFragment\obj\Debug\15.ReplaceTagsInHTMLFragment.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\15.ReplaceTagsInHTMLFragment\obj\Debug\15.ReplaceTagsInHTMLFragment.csprojResolveAssemblyReference.cache

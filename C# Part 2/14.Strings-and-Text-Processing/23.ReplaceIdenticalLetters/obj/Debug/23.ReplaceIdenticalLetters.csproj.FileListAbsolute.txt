@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\23.ReplaceIdenticalLetters\bin\Debug\23.ReplaceIdenticalLetters.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\23.ReplaceIdenticalLetters\bin\Debug\23.ReplaceIdenticalLetters.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\23.ReplaceIdenticalLetters\bin\Debug\23.ReplaceIdenticalLetters.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\23.ReplaceIdenticalLetters\obj\Debug\23.ReplaceIdenticalLetters.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\23.ReplaceIdenticalLetters\obj\Debug\23.ReplaceIdenticalLetters.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\23.ReplaceIdenticalLetters\obj\Debug\23.ReplaceIdenticalLetters.pdb
