@@ -30,8 +30,6 @@ class SortStringArray
         Console.WriteLine();
     }
 
-
-
     static void SortArray(string[] arr)
     {
         for (int i = 0; i < arr.Length; i++)

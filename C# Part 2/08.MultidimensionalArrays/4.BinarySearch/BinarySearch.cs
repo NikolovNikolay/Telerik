@@ -19,13 +19,16 @@ class BinarySearch
         int[] arrayOfIntegers = new int[N];
         Random randomGenerator = new Random();
 
+        // fiiling the array
         for (int i = 0; i < N; i++)
         {
             arrayOfIntegers[i] = randomGenerator.Next(1, 101);
         }
 
+        // sorting 
         Array.Sort(arrayOfIntegers);
 
+        // print array
         for (int i = 0; i < N; i++)
         {
             Console.Write("{0} ",arrayOfIntegers[i]);
@@ -33,6 +36,7 @@ class BinarySearch
         Console.WriteLine();
 
         int myIndex = Array.BinarySearch(arrayOfIntegers, K);
+
         if (myIndex < 0)
         {
             if (~myIndex > 0)
@@ -48,8 +52,6 @@ class BinarySearch
         }
         else
             Console.WriteLine( "The object to search for ({0}) is at index {1}.", K, myIndex );
-        
-
     }
 }
 

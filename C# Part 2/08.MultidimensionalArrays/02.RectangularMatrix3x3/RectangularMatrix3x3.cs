@@ -15,6 +15,12 @@ class RectangularMatrix3x3
         Console.Write(@"Enter ""M >= 3"": ");
         int M = int.Parse(Console.ReadLine());
 
+        PrintMatrix(FillMatrix(N, M),N, M);
+        FindAndPrintBiggestSum(FillMatrix(N, M), N, M);
+    }
+
+    static int[,] FillMatrix(int N, int M)
+    {
         int[,] matrix = new int[N, M];
         Random randomGenerator = new Random();
 
@@ -26,15 +32,23 @@ class RectangularMatrix3x3
             }
         }
 
+        return matrix;
+    }
+
+    static void PrintMatrix(int[,] matrix, int N, int M)
+    {
         for (int row = 0; row < N; row++)
         {
             for (int col = 0; col < M; col++)
             {
-                Console.Write("{0,3}",matrix[row, col]);
+                Console.Write("{0,3}", matrix[row, col]);
             }
             Console.WriteLine();
         }
+    }
 
+    static void FindAndPrintBiggestSum(int[,] matrix, int N, int M)
+    {
         int sum = 0;
         int maximalSum = 0;
         string sequence = "";
@@ -53,7 +67,7 @@ class RectangularMatrix3x3
                         for (int j = col; j < col + 3; j++)
                         {
                             sum = sum + matrix[i, j];
-                            sequence = sequence +matrix[i, j];
+                            sequence = sequence + matrix[i, j];
                         }
                     }
 
@@ -74,21 +88,19 @@ class RectangularMatrix3x3
         }
         int element = 0;
 
-        Console.WriteLine("The maximal sum is: {0}",maximalSum);
+        Console.WriteLine("The maximal sum is: {0}", maximalSum);
         Console.WriteLine("With elements: ");
-        
+
         for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 3; j++)
             {
-                
+
                 bestSequenceMatrix[i, j] = digitsArray[element];
                 element++;
-                Console.Write("{0,3}",bestSequenceMatrix[i,j]);
+                Console.Write("{0,3}", bestSequenceMatrix[i, j]);
             }
             Console.WriteLine();
         }
-        
-        //Console.WriteLine(bestSequence);
     }
 }
