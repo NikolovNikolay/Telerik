@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\13.CountAndPrintWords\bin\Debug\13.CountAndPrintWords.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\13.CountAndPrintWords\obj\Debug\13.CountAndPrintWords.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\13.CountAndPrintWords\bin\Debug\13.CountAndPrintWords.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\13.CountAndPrintWords\bin\Debug\13.CountAndPrintWords.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\13.CountAndPrintWords\obj\Debug\13.CountAndPrintWords.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\13.CountAndPrintWords\obj\Debug\13.CountAndPrintWords.pdb

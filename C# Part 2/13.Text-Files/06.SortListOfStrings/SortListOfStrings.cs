@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*Write a program that reads a text
+ * file containing a list of strings,
+ * sorts them and saves them to another text file. */
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;

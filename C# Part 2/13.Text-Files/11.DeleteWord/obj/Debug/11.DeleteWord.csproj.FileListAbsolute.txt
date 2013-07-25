@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\11.DeleteWord\bin\Debug\11.DeleteWord.exe.config
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\11.DeleteWord\bin\Debug\11.DeleteWord.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\11.DeleteWord\bin\Debug\11.DeleteWord.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\11.DeleteWord\obj\Debug\11.DeleteWord.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\11.DeleteWord\obj\Debug\11.DeleteWord.exe
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\11.DeleteWord\obj\Debug\11.DeleteWord.pdb
