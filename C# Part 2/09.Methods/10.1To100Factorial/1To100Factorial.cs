@@ -21,15 +21,20 @@ class Factorial
         return result;
     }
 
-    static void Main()
+    static void PrintResult(int number)
     {
-        Console.Write("Calculate to: ");
-        int number = int.Parse(Console.ReadLine());
-
         for (int i = 1; i <= number; i++)
         {
             Console.WriteLine("Factorial to {0}: {1}", i, CalculateFactorial(i));
         }
+    }
+
+    static void Main()
+    {
+        Console.Write("Calculate to: ");
+        int number = int.Parse(Console.ReadLine());
+        PrintResult(number);
+
     }
 }
 

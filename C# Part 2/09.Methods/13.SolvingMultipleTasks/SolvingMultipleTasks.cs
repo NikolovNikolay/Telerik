@@ -64,8 +64,11 @@ class SolvingMultipleTasks
                 result = result + numberToString[i];
             }
 
-            result = result.TrimStart('0');
-            result = result.TrimStart('.');
+            if (result != "0")
+            {
+                result = result.TrimStart('0');
+                result = result.TrimStart('.'); 
+            }
             Console.WriteLine(result);
         }
         Console.WriteLine("Press button to continue ...");

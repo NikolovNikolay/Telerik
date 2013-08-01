@@ -23,11 +23,7 @@ class ReturnMaxElementInAPortionOfArray
         array = SortArray(array, ascending);
 
         Console.WriteLine("New array is: ");
-        for (int i = 0; i < array.Length; i++)
-        {
-            Console.Write(array[i] + " ");
-        }
-        Console.WriteLine();
+        PrintArray(array);
     }
 
     static int FindMaxInAPortion(int[] array, int index)
@@ -77,5 +73,14 @@ class ReturnMaxElementInAPortionOfArray
             Array.Reverse(array);
         }
         return array;
+    }
+
+    static void PrintArray(int[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            Console.Write(array[i] + " ");
+        }
+        Console.WriteLine();
     }
 }

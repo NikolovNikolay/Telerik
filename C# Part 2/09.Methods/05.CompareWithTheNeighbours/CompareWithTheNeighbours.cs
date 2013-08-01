@@ -28,11 +28,11 @@ class CompareWithTheNeighbours
         {
             if (CompareWithNeighbours(array, index))
             {
-                Console.WriteLine("Number ({0}) is bigger than its neighbour/s", array[index]);
+                Console.WriteLine("Number ({0}) is bigger than its both neighbour/s", array[index]);
             }
             else
             {
-                Console.WriteLine("Number ({0}) is not bigger than its neighbour/s", array[index]);
+                Console.WriteLine("Number ({0}) is not bigger than its both neighbour/s", array[index]);
             }
         }
         else

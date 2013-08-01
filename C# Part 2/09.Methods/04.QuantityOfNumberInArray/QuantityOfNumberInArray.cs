@@ -25,14 +25,18 @@ class QuantityOfNumberInArray
     {
         int[] array = new int[] {1,5,6,9,8,7,4,5,2,3,6,5,2,1,7,8,9,6,5,2};
 
+        PrintArray(array);
+
+        Console.Write("Pick a digit to check for its quantity: ");
+        Console.WriteLine(CheckNumberInArray(array, int.Parse(Console.ReadLine())));
+    }
+
+    static void PrintArray(int[] array)
+    {
         for (int i = 0; i < array.Length; i++)
         {
-            Console.Write(array[i]+ " ");
+            Console.Write("{0} ", array[i]);
         }
         Console.WriteLine();
-        Console.Write("Pick a digit to check for its quantity: ");
-        int number = int.Parse(Console.ReadLine());
-
-        Console.WriteLine(CheckNumberInArray(array, number));
     }
 }

@@ -30,7 +30,6 @@ class LastDigitToString
     static void Main()
     {
         Console.Write("Input number: ");
-        int number = int.Parse(Console.ReadLine());
-        PrintLastDigit(number);
+        PrintLastDigit(int.Parse(Console.ReadLine()));
     }
 }

@@ -14,8 +14,11 @@ class ReverseDigitsOfADecimalNumber
             result = result + decimalToString[i];
         }
 
-        result = result.TrimStart(' ');
-        result = result.TrimStart('0');
+        if (result != "0")
+        {
+            result = result.TrimStart(' ');
+            result = result.TrimStart('0'); 
+        }
         return result;
     }
 

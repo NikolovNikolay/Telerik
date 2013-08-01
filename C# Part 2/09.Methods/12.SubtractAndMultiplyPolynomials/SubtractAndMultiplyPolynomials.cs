@@ -53,13 +53,8 @@ class SubtractAndMultiplyPolynomials
                 }
             }
         }
-
-
-        for (int i = 0; i < result.Length; i++)
-        {
-            Console.Write(result[i] + " ");
-        }
-        Console.WriteLine();
+        Console.WriteLine("Multiplied polinomials:");
+        PrintResult(result);
     }
 
     static void SubtractPolynomials(int[] firstArray, int[] secondArray)
@@ -101,11 +96,15 @@ class SubtractAndMultiplyPolynomials
                 }
             }
         }
+        Console.WriteLine("Subtracted polinomials:");
+        PrintResult(result);
+    }
 
-
-        for (int i = 0; i < result.Length; i++)
+    static void PrintResult(int[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
         {
-            Console.Write(result[i] + " ");
+            Console.Write(array[i] + " ");
         }
         Console.WriteLine();
     }

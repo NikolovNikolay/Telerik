@@ -13,9 +13,8 @@ class GetMaxFromTwoIntegers
     {
        int bigger = a;
        if (a < b)
-       {
            bigger = b;
-       }
+
        return bigger;
     }
 

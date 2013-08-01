@@ -13,7 +13,7 @@ class AddingTwoPositiveIntegers
     static void Main()
     {
         int[] firstArray = { 3, 4, 5, 7, 8, 9 , 8, 4, 7 };
-        int[] secondArray = { 1, 7, 9, 0, 2, 5, 4 };
+        int[] secondArray ={ 1, 7, 9, 0, 2, 5, 4 };
         AddingDigits(firstArray, secondArray);
     }
 

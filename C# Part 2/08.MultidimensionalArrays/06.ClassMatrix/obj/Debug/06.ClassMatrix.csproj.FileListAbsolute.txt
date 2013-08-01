@@ -4,6 +4,3 @@ E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.Multidimension
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\06.ClassMatrix\obj\Debug\06.ClassMatrix.csprojResolveAssemblyReference.cache
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\06.ClassMatrix\obj\Debug\06.ClassMatrix.exe
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\06.ClassMatrix\obj\Debug\06.ClassMatrix.pdb
-E:\Git\Telerik-Homeworks\C# Part 2\08.MultidimensionalArrays\06.ClassMatrix\bin\Debug\06.ClassMatrix.exe.config
-E:\Git\Telerik-Homeworks\C# Part 2\08.MultidimensionalArrays\06.ClassMatrix\obj\Debug\06.ClassMatrix.exe
-E:\Git\Telerik-Homeworks\C# Part 2\08.MultidimensionalArrays\06.ClassMatrix\obj\Debug\06.ClassMatrix.pdb
