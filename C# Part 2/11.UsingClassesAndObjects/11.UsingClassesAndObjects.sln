@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.WorkingDays", "05.Workin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SumOfStringElements", "06.SumOfStringElements\06.SumOfStringElements.csproj", "{4A7ABE9A-52CF-4107-8D34-AD1F65B19982}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ArithmeticalExpression", "07.ArithmeticalExpression\07.ArithmeticalExpression.csproj", "{D8D54BB9-3D42-4216-9365-DF63FB7890E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{4A7ABE9A-52CF-4107-8D34-AD1F65B19982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A7ABE9A-52CF-4107-8D34-AD1F65B19982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A7ABE9A-52CF-4107-8D34-AD1F65B19982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D54BB9-3D42-4216-9365-DF63FB7890E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D54BB9-3D42-4216-9365-DF63FB7890E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D54BB9-3D42-4216-9365-DF63FB7890E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D54BB9-3D42-4216-9365-DF63FB7890E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
