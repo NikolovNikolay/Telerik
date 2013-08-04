@@ -3,3 +3,4 @@ E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAn
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\02.RandomlyGeneratedValues\bin\Debug\02.RandomlyGeneratedValues.pdb
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\02.RandomlyGeneratedValues\obj\Debug\02.RandomlyGeneratedValues.exe
 E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\02.RandomlyGeneratedValues\obj\Debug\02.RandomlyGeneratedValues.pdb
+E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\02.RandomlyGeneratedValues\obj\Debug\02.RandomlyGeneratedValues.csprojResolveAssemblyReference.cache
