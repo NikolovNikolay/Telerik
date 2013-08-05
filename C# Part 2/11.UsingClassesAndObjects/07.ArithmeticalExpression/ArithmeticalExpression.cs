@@ -1,30 +1,60 @@
-﻿using System;
+﻿/*Write a program that calculates the value of given arithmetical 
+expression. The expression can contain the following elements only:
+Real numbers, e.g. 5, 18.33, 3.14159, 12.6
+Arithmetic operators: +, -, *, / (standard priorities)
+Mathematical functions: ln(x), sqrt(x), pow(x,y)
+Brackets (for changing the default priorities)
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 class ArithmeticalExpression
 {
-    //there are still bugs to be fixed
-
     static List<string> operators = new List<string>() { "+", "-", "*", "/" };
     static List<string> functions = new List<string>() { "ln", "pow", "sqrt" };
 
     static void Main()
     {
         Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
-
-        string input = Console.ReadLine();
-        Console.WriteLine(ReversedPolish(ReadTokens(TrimInput(input))));
-
+        string input = "";
+        Calculate(input);
     }
+
+    static void Calculate(string str)
+    {
+        while (true)
+        {
+            try
+            {
+                str = Console.ReadLine().ToLower();
+                if (str == "end")
+                {
+                    break;
+                }
+
+                Console.WriteLine(ReversedPolish(ReadTokens(TrimInput(str))));
+                Console.WriteLine(new string('-', 15));
+            }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(new string('-', 15));
+
+            }
+        }
+    }
+
     static string ReversedPolish(Queue<string> readTokens)
     {
         Stack<string> stack = new Stack<string>();
         double value;
+
         while (readTokens.Count > 0)
         {
             string element = readTokens.Peek();
@@ -118,6 +148,7 @@ class ArithmeticalExpression
         }
 
         string atEnd = "";
+
         if (stack.Count == 1)
         {
             atEnd = stack.Peek();
@@ -135,7 +166,7 @@ class ArithmeticalExpression
         Queue<string> queue = new Queue<string>();
         Stack<string> stack = new Stack<string>();
         var number = new StringBuilder();
-        // (-1.5) +   (-0.6 + 6) + pow(-1,-5) + ln(1)
+        
         for (int i = 0; i < str.Length; i++)
         {
             char token = str[i];
@@ -161,6 +192,7 @@ class ArithmeticalExpression
                 queue.Enqueue(number.ToString());
                 number.Clear();
             }
+
             // if token is '('
             if (token == '(')
             {
@@ -170,26 +202,19 @@ class ArithmeticalExpression
             // if token is ')'
             if (token == ')')
             {
+                if (stack.Count == 0 || !stack.Contains("("))
+                {
+                    throw new ArgumentException("Misplased seperator or mismatched parenthense");
+                }
                 while (stack.Peek() != "(")
                 {
                     queue.Enqueue(stack.Pop());
                 }
-                
-                if (stack.Count != 0)
-                {
-                    if (functions.Contains(stack.Peek().ToString()))
-                    {
-
-                        queue.Enqueue(stack.Pop());
-
-                    }
-                }
-
-                if (stack.Count == 1 && stack.Peek() != "(")
-                {
-                    throw new ArgumentException("Misplased seperator or mismatched parenthense");
-                }
                 stack.Pop();
+                if (stack.Count != 0 && functions.Contains(stack.Peek().ToString()))
+                {
+                    queue.Enqueue(stack.Pop());
+                }
             }
 
             // if token is a function
@@ -208,30 +233,24 @@ class ArithmeticalExpression
             // if token is argument separator - ,
             if (token == ',')
             {
+                if (stack.Count == 0 || !stack.Contains("("))
+                {
+                    throw new ArgumentException("Misplased seperator or mismatched parenthense");
+                }
                 while (stack.Peek() != "(")
                 {
                     queue.Enqueue(stack.Pop());
-                    if (stack.Count == 1 && stack.Peek() != "(")
-                    {
-                        throw new ArgumentException("Misplased seperator or mismatched parenthense");
-                    }
                 }
             }
 
             // if token is operator
             if (operators.Contains(token.ToString()))
             {
-                if (operators.Contains(token.ToString()) && stack.Count!= 0)
+                while (stack.Count != 0 && operators.Contains(stack.Peek().ToString()) && OperatorPrecedence(token) <= OperatorPrecedence(stack.Peek()[0]))
                 {
-                    if (OperatorPrecedence(token) <= OperatorPrecedence(stack.Peek()[0]))
-                         queue.Enqueue(stack.Pop());
+                    queue.Enqueue(stack.Pop());
                 }
-
-                if (functions.Contains(token.ToString()) && stack.Count != 0)
-                {
-                    if (OperatorPrecedence(token) <= OperatorPrecedence(stack.Peek()[0]))
-                        queue.Enqueue(stack.Pop());
-                }
+               
                 if ( i > 0)
                 {
                     if (str[i - 1] != ',' && str[i - 1] != '(')
@@ -242,9 +261,9 @@ class ArithmeticalExpression
             }
         }
 
+        // Pop the remaining operators off the stack (if avilable)
         if (stack.Count > 0)
         {
-            
             while (stack.Count!= 0)
             {
                 if (stack.Peek() == "(" || stack.Peek() == ")")
@@ -274,18 +293,11 @@ class ArithmeticalExpression
         {
             return 1;
         }
-        if (op == '*' || op == '/')
+        else if (op == '*' || op == '/')
         {
             return 2;
         }
-        if (op == 's' || op =='l')
-        {
-            return 3;
-        }
-        if (op == 'p')
-        {
-            return 3;
-        }
+        
         return 0;
     }
 }
