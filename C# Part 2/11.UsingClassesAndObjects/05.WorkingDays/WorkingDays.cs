@@ -1,7 +1,8 @@
-﻿/*Write a method that calculates the number of workdays
- * between today and given date, passed as parameter. 
- * Consider that workdays are all days from Monday to
- * Friday except a fixed list of public holidays specified
+﻿/*Write a method that calculates the number
+ * of workdays between today and given date, 
+ * passed as parameter. Consider that workdays
+ * are all days from Monday to Friday except a
+ * fixed list of public holidays specified 
  * preliminary as array.
 */
 
@@ -16,14 +17,22 @@ static class WorkingDays
                                 new DateTime(2014, 1, 1), new DateTime (2014, 1,2),    new DateTime (2014,3,3),     new DateTime (2014,5,6), 
                                 new DateTime(2014, 9, 6), new DateTime (2014, 12, 24), new DateTime(2014, 12,24),   new DateTime(2014, 9,22), 
                                 new DateTime(2014, 11, 1), new DateTime (2014, 12,26), new DateTime (2014, 12, 31) };
-        
-        DateTime today = DateTime.Now;
-        Console.WriteLine("Input dd/mm/yyyy, as follows:");
-        int date = int.Parse(Console.ReadLine());
-        int month = int.Parse(Console.ReadLine());
-        int year = int.Parse(Console.ReadLine());
-        DateTime endDate = new DateTime(year, month, date);
-        Console.WriteLine("There are {0} working days in the period.", CalculateBusinessDays(today, endDate, holidays));
+
+        try
+        {
+            DateTime today = DateTime.Now;
+            Console.WriteLine("Input dd/mm/yyyy, as follows (the date must be following the current one):");
+            string[] input = Console.ReadLine().Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
+            int date = int.Parse(input[0]);
+            int month = int.Parse(input[1]);
+            int year = int.Parse(input[2]);
+            DateTime endDate = new DateTime(year, month, date);
+            Console.WriteLine("There are {0} working days in the period.", CalculateBusinessDays(today, endDate, holidays));
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
     }
 
     static int CalculateBusinessDays(DateTime startDate, DateTime endDate, params DateTime[] holidays)
@@ -31,7 +40,7 @@ static class WorkingDays
         int startDay = startDate.DayOfYear;
         int endDay = endDate.DayOfYear;
         if (endDate.Year < startDate.Year || (endDate.Year == startDate.Year && endDate.DayOfYear < startDate.DayOfYear))
-            throw new ArgumentException("Incorrect day or year " + endDay);
+            throw new ArgumentException("Incorrect data");
         int businessDays = endDay - startDay + 1;
 
         if (endDate.Year > startDate.Year)

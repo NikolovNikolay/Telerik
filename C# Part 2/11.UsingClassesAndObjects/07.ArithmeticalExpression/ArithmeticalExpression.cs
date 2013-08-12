@@ -113,7 +113,7 @@ class ArithmeticalExpression
                         {
                             double first = double.Parse(stack.Pop());
                             double second = double.Parse(stack.Pop());
-                            double result = Math.Pow(second,first);
+                            double result = Math.Pow(second, first);
                             stack.Push(result.ToString());
                         }
                     }
@@ -166,7 +166,7 @@ class ArithmeticalExpression
         Queue<string> queue = new Queue<string>();
         Stack<string> stack = new Stack<string>();
         var number = new StringBuilder();
-        
+
         for (int i = 0; i < str.Length; i++)
         {
             char token = str[i];
@@ -175,13 +175,13 @@ class ArithmeticalExpression
                  (token == '-' && str[i - 1] == '(') || (token == '-' && str[i - 1] == ','))
             {
                 number.Append(token);
-                if (i + 1< str.Length)
+                if (i + 1 < str.Length)
                 {
                     if (!(str[i + 1] >= '0' && str[i + 1] <= '9') && str[i + 1] != '.')
                     {
                         queue.Enqueue(number.ToString());
                         number.Clear();
-                    } 
+                    }
                 }
             }
 
@@ -225,11 +225,11 @@ class ArithmeticalExpression
             if (i + 2 < str.Length)
                 if (functions.Contains(str.Substring(i, 3)))
                     stack.Push(str.Substring(i, 3));
-                
+
             if (i + 3 < str.Length)
                 if (functions.Contains(str.Substring(i, 4)))
                     stack.Push(str.Substring(i, 4));
-            
+
             // if token is argument separator - ,
             if (token == ',')
             {
@@ -250,8 +250,8 @@ class ArithmeticalExpression
                 {
                     queue.Enqueue(stack.Pop());
                 }
-               
-                if ( i > 0)
+
+                if (i > 0)
                 {
                     if (str[i - 1] != ',' && str[i - 1] != '(')
                     {
@@ -264,7 +264,7 @@ class ArithmeticalExpression
         // Pop the remaining operators off the stack (if avilable)
         if (stack.Count > 0)
         {
-            while (stack.Count!= 0)
+            while (stack.Count != 0)
             {
                 if (stack.Peek() == "(" || stack.Peek() == ")")
                 {
@@ -272,7 +272,7 @@ class ArithmeticalExpression
                 }
                 queue.Enqueue(stack.Pop());
             }
-            
+
         }
 
         return queue;
@@ -297,7 +297,7 @@ class ArithmeticalExpression
         {
             return 2;
         }
-        
+
         return 0;
     }
 }
