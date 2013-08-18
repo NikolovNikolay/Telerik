@@ -13,7 +13,6 @@ class SortListOfStrings
 {
     static void Main()
     {
-        string[] words;
         using (StreamReader reader = new StreamReader(@"../../input.txt"))
         {
             string line = reader.ReadLine();
@@ -26,8 +25,8 @@ class SortListOfStrings
                 lineNumber++;
                 line = reader.ReadLine();
             }
-            char[] splitter = new char[] { ' ' };
-            words = sb.ToString().Split(splitter, StringSplitOptions.RemoveEmptyEntries);
+            
+            string[] words = sb.ToString().Split(new char[] { ' '}, StringSplitOptions.RemoveEmptyEntries);
             Array.Sort(words);
 
             using (StreamWriter writer = new StreamWriter(@"../../result.txt"))

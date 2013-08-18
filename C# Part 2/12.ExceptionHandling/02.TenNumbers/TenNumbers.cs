@@ -20,13 +20,13 @@ class TenNumbers
         {
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("Enter number from {0} to {1}", start, end);
+                Console.WriteLine("Enter number bigger than {0} to {1}", start, end);
                 start = ReadNumber(start, end);
             }
         }
         catch (ArgumentOutOfRangeException aoe)
         {
-            Console.WriteLine(aoe.Message);
+            Console.WriteLine("Invalid number!");
         }
         catch (ArgumentException ae)
         {
@@ -34,7 +34,7 @@ class TenNumbers
         }
         catch (FormatException fe)
         {
-            Console.WriteLine(fe.Message);
+            Console.WriteLine("You must enter a number or digit in the interval given!");
         }
     }
 

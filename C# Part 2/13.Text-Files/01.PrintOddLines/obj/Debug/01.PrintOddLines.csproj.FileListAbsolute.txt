@@ -1,6 +1,1 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\01.PrintOddLines\bin\Debug\01.PrintOddLines.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\01.PrintOddLines\bin\Debug\01.PrintOddLines.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\01.PrintOddLines\bin\Debug\01.PrintOddLines.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\01.PrintOddLines\obj\Debug\01.PrintOddLines.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\01.PrintOddLines\obj\Debug\01.PrintOddLines.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\01.PrintOddLines\obj\Debug\01.PrintOddLines.pdb
+C:\Users\Nikolov\Desktop\13.Text-Files\01.PrintOddLines\bin\Debug\01.PrintOddLines.exe.config

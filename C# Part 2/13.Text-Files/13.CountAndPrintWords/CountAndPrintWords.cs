@@ -18,29 +18,36 @@ class CountAndPrintWords
 {
     static void Main()
     {
-        string[] words = File.ReadAllLines(@"../../words.txt");
-        int[] matches = new int[words.Length];
-
-        using(StreamReader reader = new StreamReader(@"../../test.txt"))
+        try
         {
-            string line = reader.ReadToEnd();
-           
-            for (int i = 0; i < words.Length; i++)
+            string[] words = File.ReadAllLines(@"../../words.txt");
+            int[] matches = new int[words.Length];
+
+            using (StreamReader reader = new StreamReader(@"../../test.txt"))
             {
-                matches[i] = Regex.Matches(line, @"\b" + words[i] + @"\b").Count;
+                string line = reader.ReadToEnd();
+
+                for (int i = 0; i < words.Length; i++)
+                {
+                    matches[i] = Regex.Matches(line, @"\b" + words[i] + @"\b").Count;
+                }
             }
+
+            Array.Sort(matches, words);
+
+            using (StreamWriter writer = new StreamWriter(@"../../result.txt"))
+            {
+                for (int i = words.Length - 1; i >= 0; i--)
+                {
+                    writer.WriteLine("{0} {1}", words[i], matches[i]);
+                }
+            }
+
+            Console.WriteLine("result.txt created");
         }
-
-        Array.Sort(matches, words);
-
-        using (StreamWriter writer = new StreamWriter(@"../../result.txt"))
+        catch (Exception exc)
         {
-            for (int i = words.Length - 1; i >= 0; i--)
-            {
-                writer.WriteLine("{0} {1}", words[i], matches[i]);
-            }
+            Console.WriteLine("Something went wrong!" + exc.Message);
         }
-
-        Console.WriteLine("result.txt created");
     }
 }

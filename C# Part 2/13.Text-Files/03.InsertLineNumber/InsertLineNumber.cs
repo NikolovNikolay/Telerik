@@ -20,7 +20,7 @@ class InsertLineNumber
             int lineNumber = 1;
             while (line != null)
             {
-                line = lineNumber + ". " + line;
+                line = lineNumber+ " " + line;
                 writer.WriteLine(line);
                 lineNumber++;
                 line = reader.ReadLine();
@@ -28,6 +28,7 @@ class InsertLineNumber
             writer.Close();
         }
 
+        // printing result, which is saved in another file, on the console
         reader = new StreamReader(@"../../result.txt");
         using (reader)
         {

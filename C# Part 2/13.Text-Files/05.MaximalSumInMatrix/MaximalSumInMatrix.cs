@@ -16,7 +16,9 @@ class MaximalSumInMatrix
 {
     static void Main()
     {
-        SaveBiggestSumInOutputFile(CheckForHighestSum(ReadMatrix()));
+        int[,] matrix = ReadMatrix();
+        int biggestSum = CheckForHighestSum(matrix);
+        SaveBiggestSumInOutputFile(biggestSum);
     }
 
     static int[,] ReadMatrix()

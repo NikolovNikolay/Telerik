@@ -12,6 +12,24 @@ class RemoveOddLines
 {
     static void Main()
     {
+        List<string> list = ReadFile();
+
+        WriteToFile(list);
+    }
+
+    private static void WriteToFile(List<string> list)
+    {
+        using (StreamWriter writer = new StreamWriter(@"../../text.txt"))
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                writer.WriteLine(list[i]);
+            }
+        }
+    }
+
+    private static List<string> ReadFile()
+    {
         var list = new List<string>();
         using (StreamReader reader = new StreamReader(@"../../text.txt"))
         {
@@ -29,14 +47,6 @@ class RemoveOddLines
             }
         }
 
-        using (StreamWriter writer = new StreamWriter(@"../../text.txt"))
-        {
-            int lines = list.Count;
-
-            for (int i = 0; i < lines; i++)
-            {
-                writer.WriteLine(list[i]);
-            }
-        }
+        return list;
     }
 }

@@ -12,28 +12,34 @@ class TryCalculateSquareRoot
 {
     static void Main()
     {
-        string number = Console.ReadLine();
-
-        try
+        // root can be calculated if entered number is positive or equal to 0
+        // exception will be thrown if entered number is negative or NaN
+        bool correctInput = false;
+        while (!correctInput)
         {
-            double stringToNumber = double.Parse(number);
-            if (stringToNumber < 0 || stringToNumber == 0)
+            string number = Console.ReadLine();
+            try
             {
-                throw new ArgumentException();
+                double stringToNumber = double.Parse(number);
+                if (stringToNumber < 0 || number == "")
+                {
+                    throw new ArgumentException();
+                }
+                Console.WriteLine(Math.Sqrt(stringToNumber));
+                correctInput = true;
             }
-            Console.WriteLine(Math.Sqrt(stringToNumber));
-        }
-        catch (FormatException an)
-        {
-            Console.WriteLine("Invalid number!");
-        }
-        catch (ArgumentException ae)
-        {
-            Console.WriteLine("Invalid number!");
-        }
-        finally
-        {
-            Console.WriteLine("Good bye");
+            catch (FormatException an)
+            {
+                Console.WriteLine("Invalid number!");
+            }
+            catch (ArgumentException ae)
+            {
+                Console.WriteLine("Invalid number!");
+            }
+            finally
+            {
+                Console.WriteLine("Good bye");
+            } 
         }
     }
 }

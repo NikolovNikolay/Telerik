@@ -15,52 +15,66 @@ class RemoveWordsListed
 {
     static void Main()
     {
-        using (StreamReader readerOne = new StreamReader(@"../../text.txt"))
+        try
         {
-            string line = readerOne.ReadLine();
-            List<string> words = new List<string>();
-
-            using (StreamReader readerTwo = new StreamReader(@"../../list.txt"))
+            string text = "";
+            using (StreamReader reader = new StreamReader(@"../../text.txt"))
             {
-                string word = readerTwo.ReadLine();
-                while (word != null)
-                {
-                    words.Add(word);
-                    word = readerTwo.ReadLine();
-                }
+                text = reader.ReadToEnd();
             }
 
-            StringBuilder sb = new StringBuilder();
-            sb.Append(@"\b");
-            for (int i = 0; i < words.Count; i++)
-            {
-                if (i != words.Count - 1)
-                {
-                    sb.Append(words[i]);
-                    sb.Append('|');
-                }
-                else
-                {
-                    sb.Append(words[i]);
-                }
-            }
-            sb.Append(@"\b");
-            string regexExpression = sb.ToString();
+            var wordsToExclude = AddExcludeWords();
 
-            while (line != null)
-            {
-                for (int i = 0; i < words.Count; i++)
-                {
-                    line = Regex.Replace(line, regexExpression, string.Empty, RegexOptions.IgnoreCase);
-                    using (StreamWriter writer = new StreamWriter(@"../../result.txt"))
-                    {
-                        writer.WriteLine(line);
-                    }
-                }
+            text = ExcludeWordsFromText(text, wordsToExclude);
+            Console.WriteLine(text);
 
-                line = readerOne.ReadLine();
+            using (StreamWriter writer = new StreamWriter(@"../../result.txt"))
+            {
+                writer.WriteLine(text);
             }
         }
-        Console.WriteLine("result.txt created");
+        catch (Exception exc)
+        {
+            Console.WriteLine("Something went wrong!" + exc.Message);
+        }
+        
+    }
+
+    private static string ExcludeWordsFromText(string text, List<string> list)
+    {
+
+        string expression = FormRegex(list);
+        text = Regex.Replace(text, expression, "");
+
+        return text;
+    }
+
+    private static string FormRegex(List<string> list)
+    {
+        var regex = new StringBuilder();
+        for (int i = 0; i < list.Count; i++)
+        {
+            regex.Append(@"\b");
+            regex.Append(list[i]);
+            regex.Append(@"\b|");
+        }
+
+        return regex.ToString().TrimEnd('|');
+    }
+
+    private static List<string> AddExcludeWords()
+    {
+        var wordsToExclude = new List<string>();
+        using (StreamReader reader = new StreamReader(@"../../list.txt"))
+        {
+            string word = reader.ReadLine();
+            while (word != null)
+            {
+                wordsToExclude.Add(word);
+                word = reader.ReadLine();
+            }
+        }
+
+        return wordsToExclude;
     }
 }
