@@ -23,7 +23,7 @@ class ReverseString
 
     static void Main()
     {
-        string str = "This is some sample text here";
+        string str = "sample";
         StringBuilder sb = new StringBuilder(str.Length);
 
         Console.WriteLine(ReversingString(sb, str));

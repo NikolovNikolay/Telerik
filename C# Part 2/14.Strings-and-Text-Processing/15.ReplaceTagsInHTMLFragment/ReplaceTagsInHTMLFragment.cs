@@ -14,7 +14,7 @@ class ReplaceTagsInHTMLFragment
 
         fragment = fragment.Replace("<a href=\"", "[URL=");
         fragment = fragment.Replace("\">","]");
-        fragment = fragment.Replace("</a>", "[/URL]");
+        fragment = fragment.Replace("</a>", "/URL]");
         Console.WriteLine(fragment);
     }
 }

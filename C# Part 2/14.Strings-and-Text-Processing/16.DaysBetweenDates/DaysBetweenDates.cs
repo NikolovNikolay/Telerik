@@ -8,7 +8,6 @@ class DaysBetweenDates
 {
     static void Main()
     {
-
         Console.Write("Enter first date: ");
         string firstDate = Console.ReadLine();
         DateTime fDate = DateTime.ParseExact(firstDate, "dd.MM.yyyy", CultureInfo.InvariantCulture);

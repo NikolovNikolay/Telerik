@@ -21,7 +21,7 @@ Ut enim ad minim <upcase>veniam</upcase>, quis nostrud exercitation ullamco labo
 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
 reprehenderit in <upcase>voluptate velit esse cillum dolore</upcase> eu fugiat nulla
 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui officia deserunt mollit anim id est laborum.";
+qui officia deserunt mollit anim id est <upcase>laborum</upcase>.";
 
         int start = 0;
         int end = 0;
@@ -31,7 +31,6 @@ qui officia deserunt mollit anim id est laborum.";
             if (text.Substring(i, 8) == "<upcase>")
             {
                 start = i + 8;
-               
             }
 
             if (text.Substring(i, 9) == "</upcase>")
@@ -51,10 +50,8 @@ qui officia deserunt mollit anim id est laborum.";
                 text = text.Remove(end, 9);
                 // removing the first upper tag
                 text = text.Remove(start - 8, 8);
-            
             }
         }
-
         Console.WriteLine(text);
     }
 }

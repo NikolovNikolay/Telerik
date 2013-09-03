@@ -14,31 +14,32 @@ class Brackets
         //string expression = "))a+b( -c)";
         string expression = Console.ReadLine();
 
-        int leftBracket = 0;
-        int rightBracket = 0;
+        int brackets = 0;
 
         for (int i = 0; i < expression.Length; i++)
         {
             if (expression[i] == '(')
             {
-                leftBracket++;
+                brackets++;
             }
-
-            else if (expression[i] == ')')
+            if (expression[i] == ')')
             {
-                rightBracket++;
+                brackets--;
+            }
+            if (brackets < 0)
+            {
+                Console.WriteLine("Error in expression!");
+                return;
             }
         }
 
-        if (expression.IndexOf('(', 0) > expression.IndexOf(')') || expression.IndexOf('(') == -1 || leftBracket != rightBracket)
+        if (brackets != 0)
         {
             Console.WriteLine("Error in expression!");
         }
         else
         {
-            Console.WriteLine("Expression is correct");
+            Console.WriteLine("Expression is correct!");
         }
-        
-       
     }
 }
