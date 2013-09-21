@@ -39,11 +39,11 @@ include 'includes/header.php'
         }
         ?>
     </select>
-        <input type="submit" value="Филтрирай">
+        <input id="submitbutton" type="submit" value="Филтър">
     </form>
 </div>
-<table border="1" cellpadding ="3" cellspacing="0" width="650px">
-    <tr>
+<table id="main_table" border ="1">
+    <tr id="main_row">
         <td width="100" align="center">Дата</td>
         <td width ="350" align="center">Име</td>
         <td width="80" align="center">Сума</td>

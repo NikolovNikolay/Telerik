@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-I\MobileDevice\bin\Debug\MobileDevice.exe.config
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-I\MobileDevice\bin\Debug\MobileDevice.exe
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-I\MobileDevice\bin\Debug\MobileDevice.pdb
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-I\MobileDevice\obj\Debug\MobileDevice.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-I\MobileDevice\obj\Debug\MobileDevice.exe
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-I\MobileDevice\obj\Debug\MobileDevice.pdb

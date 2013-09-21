@@ -1,0 +1,44 @@
+
+#main_row{
+background-color: orangered;
+font-size: 20px;
+font-weight: bold;
+}
+
+#main_table{
+    border-radius: 10px;
+    width: 650px;
+    border-collapse: collapse;
+}
+
+.center{
+    text-align: center;
+    background:  cornsilk;
+}
+
+.table_font{
+    font-family:  serif;
+    font-size: 16px;
+    background:  cornsilk;
+}
+
+.font{
+    margin-left: 4px;
+    font-size: 16px;
+}
+
+#costs_row{
+    background-color: darkorange;
+}
+#cost_field{
+    margin-left: 363px;
+    font-weight: bold;
+}
+
+a{
+    font-size: 20px
+}
+a:visited{
+    color: blue;
+}
+
