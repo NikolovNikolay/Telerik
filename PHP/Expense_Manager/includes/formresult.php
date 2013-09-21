@@ -36,7 +36,7 @@ if ($_POST) {
     //using a for loop, we check every char in the given sum
     //if the char is a letter, we break and throw an exception, also when more than 1 '.' are available
 
-    if (!ereg('^[0-9]+.{0,1}[0-9]{0,2}$', $sum)) {
+    if (!ereg('^[0-9]+.{0,1}[0-9]{0,2}$', $sum) || $sum<=0) {
         $error = true;
         echo '<p>Въведете правилна сума!</p>';
     }
