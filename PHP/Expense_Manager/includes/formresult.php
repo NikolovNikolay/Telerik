@@ -2,13 +2,14 @@
 if ($_POST) {
     $date = trim($_POST['date']);
     $name = trim($_POST['name']);
+	
     // we check if the string, which represents the name of the expense contains '!'
-    // if it does, we replase it with ''
+    // if it does, we replace it with ''
     if (strpos($name, '!')) {
         $name = str_replace('!', '', $name);
     }
 
-    $sum = trim(($_POST['sum']));
+    $sum = str_replace(',','.',trim(($_POST['sum'])));
     $selectedType = (int) $_POST['kind'];
     $error = false;
 
@@ -36,7 +37,7 @@ if ($_POST) {
     //using a for loop, we check every char in the given sum
     //if the char is a letter, we break and throw an exception, also when more than 1 '.' are available
 
-    if (!ereg('^[0-9]+.{0,1}[0-9]{0,2}$', $sum) || $sum<=0) {
+    if (!preg_match('/^[-+]?[0-9]*\.?[0-9]+$||[-+]?[0-9]*\.?[0-9]+$/', $sum) || $sum<=0) {
         $error = true;
         echo '<p>Въведете правилна сума!</p>';
     }

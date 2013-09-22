@@ -31,7 +31,7 @@ include 'includes/header.php'
         </select>
         <label for="expense_type" >Вид:</label>
     <select id="expense_type" name="expense_type">
-        <option value="all">Всички</option>
+        <option value="all">Избери</option>
         <?php
         foreach ($types as $key => $value)
         {
@@ -39,17 +39,20 @@ include 'includes/header.php'
         }
         ?>
     </select>
-        <input id="submitbutton" type="submit" value="Филтър">
+        <input id="submitbutton" type="submit" value="Филтър / Всички">
     </form>
 </div>
 <table id="main_table" border ="1">
     <tr id="main_row">
-        <td width="100" align="center">Дата</td>
+        <td width="50" align="center">Номер</td>
+        <td width="120" align="center">Дата</td>
         <td width ="350" align="center">Име</td>
         <td width="80" align="center">Сума</td>
         <td width="120" align="center">Вид</td>
+        <td width="120" align="center">Опции</td>
     </tr>
     <?php
+    $counter = 1;
     include 'includes/filldatathroughfilter.php'
     ?>
     

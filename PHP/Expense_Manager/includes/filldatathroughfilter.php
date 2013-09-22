@@ -7,8 +7,10 @@ if ($_POST) {
     $month = $_POST['month'];
     $year = $_POST['year'];
     $totalCosts = 0.0;
+	
     if (file_exists('infodata.txt')) {
         $res = file('infodata.txt');
+        $countRes = count($res);
        
         foreach ($res as $value) {
             $columns = explode('!', $value);
