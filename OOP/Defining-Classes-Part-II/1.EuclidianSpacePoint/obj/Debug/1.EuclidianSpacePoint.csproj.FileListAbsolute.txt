@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\1.EuclidianSpacePoint\bin\Debug\1.EuclidianSpacePoint.exe.config
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\1.EuclidianSpacePoint\bin\Debug\1.EuclidianSpacePoint.exe
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\1.EuclidianSpacePoint\bin\Debug\1.EuclidianSpacePoint.pdb
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\1.EuclidianSpacePoint\obj\Debug\1.EuclidianSpacePoint.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\1.EuclidianSpacePoint\obj\Debug\1.EuclidianSpacePoint.exe
+E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\1.EuclidianSpacePoint\obj\Debug\1.EuclidianSpacePoint.pdb
