@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\5.OrderDescendingNames\bin\Debug\5.OrderDescendingNames.exe.config
+E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\5.OrderDescendingNames\bin\Debug\5.OrderDescendingNames.exe
+E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\5.OrderDescendingNames\bin\Debug\5.OrderDescendingNames.pdb
+E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\5.OrderDescendingNames\obj\Debug\5.OrderDescendingNames.exe
+E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\5.OrderDescendingNames\obj\Debug\5.OrderDescendingNames.pdb
+E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\5.OrderDescendingNames\obj\Debug\5.OrderDescendingNames.csprojResolveAssemblyReference.cache

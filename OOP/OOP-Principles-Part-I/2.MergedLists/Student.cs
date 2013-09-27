@@ -1,0 +1,30 @@
+﻿using System;
+using System.Linq;
+using System.Text;
+
+namespace _2.MergedLists
+{
+    public class Student : Human
+    {
+        public float grade;
+
+        public Student(string firstName, string lastName, float grade) 
+            :base(firstName,lastName)
+        {
+            this.grade = grade;
+        }
+
+        public float Grade
+        {
+            get { return this.grade; }
+            set { this.grade = value; }
+        }
+
+        public override string ToString()
+        {
+            var builder = new StringBuilder();
+            builder.AppendFormat("{0} {1} {2,3:F2}", this.FirstName, this.LastName, this.grade);
+            return builder.ToString();
+        }
+    }
+}
