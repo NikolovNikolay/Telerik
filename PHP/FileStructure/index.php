@@ -4,16 +4,12 @@ include 'includes/header.php';
 mb_internal_encoding('UTF-8');
 ?>
 
-
-
-
-<form method="post">
+<form method="post" action="index.php">
     <div>
         
         <input type="text" id="name" name="username" placeholder=" Input username"/>
     </div>
     <div>
-        
         <input type="password" id="pass" name="pass" placeholder=" Input password"/>
     </div>
     <div>
@@ -47,6 +43,8 @@ else
     while (($line = fgets($handle, 4096)) !== false)
     {
         $components = explode('!', $line);
+        echo $components[0];
+        echo trim($components[1]);
         if($components[0] == $logUser && trim($components[1]) == $logPass)
         {
             $_SESSION['isLogged'] = true;
