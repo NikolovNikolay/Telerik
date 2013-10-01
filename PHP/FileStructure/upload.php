@@ -1,4 +1,5 @@
 <?php
+session_start();
 $pageTitle = 'Upload file';
 include 'includes/header.php';
 mb_internal_encoding('UTF-8');
@@ -8,7 +9,6 @@ if($_SESSION['isLogged'] != true)
     header('Location: index.php');
 }
 ?>
-
 <form enctype="multipart/form-data" method="POST">
 <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
 Choose a file to upload: <input name="uploadedfile" type="file" /><br />
@@ -22,7 +22,6 @@ Choose a file to upload: <input name="uploadedfile" type="file" /><br />
 <br>
 <div>Logged as <strong><?= $_SESSION['loggedUser']?></strong>&nbsp;&nbsp;<a href="myfiles.php">Files</a>&nbsp;&nbsp;<a href="includes/destroy.php">Log Out</a></div>
 <div>
-    
 <?php
 if($_POST)
 {
@@ -57,15 +56,12 @@ if($_POST)
             //echo 'File uploaded successfully!';
             echo "<script type=\"text/javascript\">
             { alert('File uploaded successfully!'); };
-            </script>";
-             
+            </script>"; 
         }
     }
 }
 ?>
 </div>
-
-
 <?php
 include 'includes/footer.php';
 ?>

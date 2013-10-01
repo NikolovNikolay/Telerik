@@ -1,9 +1,9 @@
 <?php
+session_start();
 $pageTitle = 'Register';
 include 'includes/header.php';
 mb_internal_encoding('UTF-8');
 ?>
-
 <form method="post">
     <div>
         <input type="text" placeholder="Choose username" id="name" name="username"/>
@@ -20,16 +20,9 @@ mb_internal_encoding('UTF-8');
         <input type="submit" value="Register" />&nbsp;&nbsp;<a href="index.php">To Login form</a>
     </div>
 </form>
-
 <?php
 if($_POST)
 {
-    /*if((!isset($_POST['username']) || !isset($_POST['passMain']) || !isset($_POST['passConfirm'])))
-    {
-        echo 'Username, pass and confirmation fields are required!';
-        exit;
-    }*/
-
     $error = false;
     $user = str_replace('!','',trim($_POST['username']));
     if(!(strlen($user) >= 4 && strlen($user) <= 10))
@@ -84,10 +77,8 @@ if($_POST)
         echo "Click <a href=\"index.php\">here</a> to log in.";
         mkdir(realpath('users').DIRECTORY_SEPARATOR.$user);
     }
-    
 }
 ?>
-
 <?
-include 'include/footer.php';
+include 'includes/footer.php';
 ?>

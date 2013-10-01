@@ -1,4 +1,5 @@
 <?php
+session_start();
 $pageTitle = 'Files';
 include 'includes/header.php';
 mb_internal_encoding('UTF-8');
@@ -8,12 +9,11 @@ if($_SESSION['isLogged'] != true)
     header('Location: index.php');
 }
 ?>
-
 <?php
 echo "<div><a href='upload.php'>Upload new file</a>&nbsp;&nbsp;<a href='includes/destroy.php'>Log Out</a></div>";
 $realPath = 'users'.DIRECTORY_SEPARATOR.$_SESSION['loggedUser'].DIRECTORY_SEPARATOR;
 if(is_dir($realPath)){
-    $filesInDir = scandir($realPath,SCANDIR_SORT_ASCENDING);
+    $filesInDir = scandir($realPath);
     $fileCounter = 1;
     echo '<table border = "0" width ="700px" cellpadding="0" cellspacing="0">
             <tr>
@@ -40,10 +40,7 @@ if(is_dir($realPath)){
         $fileCounter++;
     }
 }
-
-
 ?>
-
 <?php
 include 'includes/footer.php';
 ?>

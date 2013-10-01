@@ -1,9 +1,10 @@
 <?php
+ob_start();
+session_start();
 $pageTitle = 'Login';
 include 'includes/header.php';
 mb_internal_encoding('UTF-8');
 ?>
-
 <form method="post" action="index.php">
     <div>
         
@@ -16,8 +17,6 @@ mb_internal_encoding('UTF-8');
         <input type="submit" value="Login" />&nbsp;&nbsp;<a href="register.php">Register</a>
     </div>
 </form>
-
-
 <?php
 if(isset($_SESSION['isLogged']))
 {
@@ -27,12 +26,6 @@ else
 {
     if($_POST)
 {
-    /*if(isset($_POST['username']) || isset($_POST['pass']))
-    {
-        echo 'Both username and password are mandatory fields!';
-        exit;
-    }*/
-    
     $logUser = trim($_POST['username']);
     $logPass = trim($_POST['pass']);
     
@@ -43,8 +36,6 @@ else
     while (($line = fgets($handle, 4096)) !== false)
     {
         $components = explode('!', $line);
-        echo $components[0];
-        echo trim($components[1]);
         if($components[0] == $logUser && trim($components[1]) == $logPass)
         {
             $_SESSION['isLogged'] = true;
@@ -58,7 +49,6 @@ else
         echo "Error: unexpected fgets() fail"."<br>";
         $error = true;
     }
-    
     fclose($handle);
     }
     
