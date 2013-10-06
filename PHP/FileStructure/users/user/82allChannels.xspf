@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Плейлист</title>
+	<trackList>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8010</location>
+			<title>BNT 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8011</location>
+			<title>BNT Sat</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8002</location>
+			<title>bTV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8007</location>
+			<title>bTV Comedy</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8014</location>
+			<title>DSTV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8003</location>
+			<title>EvropaTV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8005</location>
+			<title>Fox Crime BG</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8006</location>
+			<title>Fox Life BG</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8008</location>
+			<title>MAD TV BULGARIA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8009</location>
+			<title>Nat Geographic</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8001</location>
+			<title>PRO BG</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8012</location>
+			<title>RING BG</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8013</location>
+			<title>RTVi Europe</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8015</location>
+			<title>The Voice</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://iptv.megalan.bg/iptvrand.php?id=8016</location>
+			<title>TV7</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+				<vlc:option>deinterlace=1</vlc:option>
+				<vlc:option>vout-filter=deinterlace</vlc:option>
+				<vlc:option>deinterlace-mode=bob</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://pulsar.atlantis.bg:8000/starfm</location>
+			<title>Radio STAR FM</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
+			<vlc:item tid="7"/>
+			<vlc:item tid="8"/>
+			<vlc:item tid="9"/>
+			<vlc:item tid="10"/>
+			<vlc:item tid="11"/>
+			<vlc:item tid="12"/>
+			<vlc:item tid="13"/>
+			<vlc:item tid="14"/>
+			<vlc:item tid="15"/>
+	</extension>
+</playlist>

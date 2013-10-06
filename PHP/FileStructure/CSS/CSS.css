@@ -1,0 +1,37 @@
+#main{
+    margin-top: 100px;
+    alignment-adjust: central;
+    height: 150px;
+}
+
+#wrapper{
+    border: solid appworkspace;
+    margin-left: 38%;
+    margin-top: 100px;
+    alignment-adjust: central;
+    text-align: center;
+    background-color: buttonface;
+    height: 120px;
+    width: 300px;
+}
+
+#wrapper2{
+    border: solid appworkspace;
+    margin-left: 38%;
+    margin-top: 100px;
+    /*alignment-adjust: central;*/
+    text-align: center;
+    background-color: buttonface;
+    height: 250px;
+    width: 300px;
+}
+
+form{
+    font: 100% "Calibri" ,sans-serif;
+    margin-top: 10px;
+}
+
+.texter{
+    margin-top: 15px;
+}
+

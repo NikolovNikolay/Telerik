@@ -9,18 +9,36 @@ if($_SESSION['isLogged'] != true)
     header('Location: index.php');
 }
 ?>
-<form enctype="multipart/form-data" method="POST">
-<input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
-Choose a file to upload: <input name="uploadedfile" type="file" /><br />
-<input type="submit" value="Upload File" />
-</form>
-<ul>
-    <li>Maximum file size is limited to 10Mb</li>
-    <li>*.rar and *.exe files are not supported</li>
-    <li>Cyrillic fonts are not supported</li>
-</ul>
+<script type="text/javascript">
+<!--
+function redirect_out() {
+	window.location = "includes/destroy.php";      
+}
+function redirect_files() {
+	window.location = "myfiles.php";
+}
+//-->
+</script>
+<div id="main">
+    <div id="wrapper2">
+        <form enctype="multipart/form-data" method="POST">
+            <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+            Choose a file to upload: <input name="uploadedfile" type="file" /><br />
+            <input type="submit" value="Upload File" />
+        </form>
+        <hr>
+        <ul>
+            <li>Maximum file size is limited to 10Mb</li>
+            <li>*.rar and *.exe files are not supported</li>
+            <li>Cyrillic fonts are not supported</li>
+        </ul>
+        <hr>
+        <div>Logged as <strong><i><?= $_SESSION['loggedUser']?></strong></i>&nbsp;&nbsp;<input type="button" onclick="redirect_files()" value="Files">&nbsp;&nbsp;<input type="button" onclick="redirect_out()" value="Log Out"></div>
+    </div>
+</div>
+
 <br>
-<div>Logged as <strong><?= $_SESSION['loggedUser']?></strong>&nbsp;&nbsp;<a href="myfiles.php">Files</a>&nbsp;&nbsp;<a href="includes/destroy.php">Log Out</a></div>
+
 <div>
 <?php
 if($_POST)
