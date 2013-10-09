@@ -64,7 +64,6 @@ namespace _03.BitArray64
             return bits;
         }
 
-
         // implementing the IEnumerable<int> 
         public IEnumerator<int> GetEnumerator()
         {
