@@ -3,6 +3,7 @@ using System.Linq;
 
 namespace Delegate
 {
+    public delegate void Greet(string greeting);
     public class Timer
     {
         public void PrintGreeting(string greeting)

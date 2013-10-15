@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.SubstringExtension", "1.SubstringExtension\1.SubstringExtension.csproj", "{881FD951-B16D-48B3-9D4E-C7058CE74353}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.IEnumerableExtensions", "2.IEnumerableExtensions\2.IEnumerableExtensions.csproj", "{7C6E641F-5F72-4464-AF2F-ADBE87E24FEA}"

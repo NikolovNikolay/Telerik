@@ -19,8 +19,10 @@ namespace OrderDescendingNames
                                      new { FirstName = "Petyr", LastName = "Stoichev", Age = 17},
                                      new { FirstName = "Stoicho", LastName = "Aleksandrov", Age = 25}
                                  };
-
+            // using lambda expressions
             var orderedByExtension = students.OrderByDescending(first => first.FirstName).ThenByDescending(last => last.LastName);
+
+            // using LINQ
             var orderByLinq =
                 from student in students
                 orderby student.FirstName descending, student.LastName descending

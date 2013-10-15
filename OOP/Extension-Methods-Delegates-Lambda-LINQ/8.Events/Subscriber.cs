@@ -8,13 +8,13 @@ namespace Events
         private string id;
         public Subscriber(string ID, Publisher pub)
         {
-            id = ID;
+            this.id = ID;
             pub.RaiseCustomEvent += HandleCustomEvent;
         }
 
         void HandleCustomEvent(object sender, CustomEvent e)
         {
-            Console.WriteLine(id + " received this message: {0}", e.Message);
+            Console.WriteLine(id + " received: {0}", e.Message);
         }
     }
 }

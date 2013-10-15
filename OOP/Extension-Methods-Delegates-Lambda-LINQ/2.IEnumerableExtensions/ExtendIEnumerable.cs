@@ -6,7 +6,8 @@ namespace IEnumerableExtensions
 {
     public static class ExtendIEnumerable
     {
-        public static T Sum<T>(this IEnumerable<T> element) where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T> // constrain to work only with digits and their types
+        public static T Sum<T>(this IEnumerable<T> element) where T : struct, IComparable,
+            IFormattable, IConvertible, IComparable<T>, IEquatable<T> // constrain to work only with digits and their types
         {
             dynamic result = 0;
 

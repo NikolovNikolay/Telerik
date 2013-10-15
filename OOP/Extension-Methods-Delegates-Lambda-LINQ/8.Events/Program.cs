@@ -14,12 +14,12 @@ namespace Events
         {
             Console.Write("Input seconds between publishing: ");
             int t = int.Parse(Console.ReadLine());
-            Publisher pub = new Publisher();
-            Subscriber sub = new Subscriber("sub", pub);
+            Publisher publisher = new Publisher();
+            Subscriber subscriber = new Subscriber("subscriber", publisher);
 
             while (true)
             {
-                pub.DoSomething();
+                publisher.Greet();
                 Thread.Sleep(t * 1000);
             }
 

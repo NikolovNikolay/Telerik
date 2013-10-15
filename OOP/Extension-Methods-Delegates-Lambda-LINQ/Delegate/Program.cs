@@ -9,8 +9,6 @@ namespace Delegate
 {
     class Program
     {
-        public delegate void Greet(string greeting);
-
         static void Main()
         {
             Console.Write("Input t (seconds): ");
@@ -21,7 +19,7 @@ namespace Delegate
 
             while (true)
             {
-                greeting("Hello");
+                greeting("\'Hello\'");
                 Thread.Sleep(t * 1000);
             }
         }

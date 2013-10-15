@@ -9,13 +9,13 @@ namespace Events
 
         public CustomEvent(string s)
         {
-            message = s;
+            this.message = s;
         }
 
         public string Message
         {
-            get { return message; }
-            set { message = value; }
+            get { return this.message; }
+            set { this.message = value; }
         }
     }
 }

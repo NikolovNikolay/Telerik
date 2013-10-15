@@ -7,9 +7,9 @@ namespace Events
     {
         public event EventHandler<CustomEvent> RaiseCustomEvent;
 
-        public void DoSomething()
+        public void Greet()
         {
-            OnRaiseCustomEvent(new CustomEvent("Hello there, stranger!"));
+            OnRaiseCustomEvent(new CustomEvent("\'Hello there, stranger!\'"));
         }
 
         protected virtual void OnRaiseCustomEvent(CustomEvent e)
