@@ -16,7 +16,7 @@ namespace SubstringExtension
 
             sb.Append("ala bala portokala");
             
-            Console.WriteLine(sb.Substring(5, 10));
+            Console.WriteLine(sb.Substring(5, 1000));
         }
     }
 }

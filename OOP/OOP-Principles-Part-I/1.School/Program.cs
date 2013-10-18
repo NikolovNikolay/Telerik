@@ -25,10 +25,15 @@ namespace _1.School
             SchoolClass simpleClass = new SchoolClass("10 \'A\'", teachers, studentsInClass);
             AddTechersToList();
             AddStudents();
+            Console.WriteLine(simpleClass.ToString());
+
             simpleClass.Teachers.Add(new Teacher("Koceto", new List<Discipline>() 
                                         { new Discipline(DisciplineName.Chemistry,20,20)}));
             simpleClass.Students.Add(new Student("Dimcho", 3));
             Console.WriteLine(simpleClass.ToString());
+            
+
+           
         }
 
         private static void AddTechersToList()

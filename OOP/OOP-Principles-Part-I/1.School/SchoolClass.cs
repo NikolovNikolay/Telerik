@@ -7,10 +7,12 @@ namespace _1.School
 {
     class SchoolClass
     {
+        // fields
         private IList<Teacher> teachers;
         private readonly string uniqueIdentificator;
         private IList<Student> students;
 
+        // constructor
         public SchoolClass(string uniqueID, IList<Teacher> teachers, IList<Student> students)
         {
             this.uniqueIdentificator = uniqueID;
@@ -18,6 +20,8 @@ namespace _1.School
             this.students = students;
         }
 
+
+        // properties
         public IList<Teacher> Teachers
         {
             get { return this.teachers; }
@@ -35,6 +39,7 @@ namespace _1.School
             get { return this.uniqueIdentificator; }
         }
 
+        // overriding the ToString method
         public override string ToString()
         {
             var result = new StringBuilder();

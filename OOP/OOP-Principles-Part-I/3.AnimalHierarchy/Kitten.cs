@@ -5,24 +5,10 @@ namespace _3.AnimalHierarchy
 {
     public class Kitten : Cat, ISound
     {
-        private readonly SexEnum gender;
-
-        public Kitten(string name, byte age, SexEnum gender)
-            :base(name,age,gender)
+        public Kitten(string name, byte age)
+            :base(name,age,SexEnum.female)
         {
-            if (gender == SexEnum.female)
-            {
-                this.gender = gender;
-            }
-            else
-            {
-                throw new ArgumentException("Kittens are female only");
-            }
-        }
-
-        public SexEnum Gender
-        {
-            get { return this.gender; }
+            
         }
 
         public override void MakeSomeNoise()

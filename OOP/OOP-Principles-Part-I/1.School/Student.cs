@@ -5,8 +5,10 @@ namespace _1.School
 {
     class Student : Human
     {
+        // field
         private readonly int classNumber;
 
+        // constructor
         public Student(string name, int classNumber)
             : base(name)
         {
@@ -16,6 +18,7 @@ namespace _1.School
                 throw new ArgumentException("Unappropriate classnumber");
         }
 
+        // property
         public int ClassNumber
         {
             get { return this.classNumber; }

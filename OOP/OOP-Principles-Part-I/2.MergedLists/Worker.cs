@@ -6,9 +6,11 @@ namespace _2.MergedLists
 {
     public class Worker : Human
     {
+        // fields
         private float weekSalary;
         private int workHoursPerDay;
 
+        // constructor
         public Worker(string firstName, string lastName, float weekSalary, int workHoursPerDay)
             : base(firstName, lastName)
         {
@@ -16,6 +18,7 @@ namespace _2.MergedLists
             this.workHoursPerDay = workHoursPerDay;
         }
 
+        // properties
         public float WeekSalary
         {
             get { return this.weekSalary; }
@@ -28,6 +31,7 @@ namespace _2.MergedLists
             set { this.workHoursPerDay = value; }
         }
 
+
         public float MoneyPerHour()
         {
             float result = this.weekSalary / this.workHoursPerDay;
@@ -38,7 +42,7 @@ namespace _2.MergedLists
         public override string ToString()
         {
             var builder = new StringBuilder();
-            builder.AppendFormat("{0} {1} {2} {3}", FirstName, LastName, weekSalary, workHoursPerDay);
+            builder.AppendFormat("{0}  {1}  {2} | {3} | {4}", FirstName, LastName, weekSalary, workHoursPerDay, this.MoneyPerHour());
 
             return builder.ToString();
 

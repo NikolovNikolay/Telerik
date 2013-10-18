@@ -17,8 +17,8 @@ namespace _3.AnimalHierarchy
     {
         static void Main()
         {
-            Kitten kitty = new Kitten("kjfl", 1, SexEnum.female);
-            Tomcat tomas = new Tomcat("fgfv", 2, SexEnum.male);
+            Kitten kitty = new Kitten("kjfl", 1);
+            Tomcat tomas = new Tomcat("fgfv", 2);
             Dog sharo = new Dog("fvdv", 3, SexEnum.male);
             Frog squeek = new Frog("vfdv", 1, SexEnum.female);
             kitty.MakeSomeNoise();
@@ -26,18 +26,21 @@ namespace _3.AnimalHierarchy
             sharo.MakeSomeNoise();
             squeek.MakeSomeNoise();
 
+            Console.WriteLine(tomas.Gender);
+            Console.WriteLine(kitty.Gender);
+
             Animal[] animals = 
             {
-                new Kitten("fgvgfg",2,SexEnum.female),
-                new Tomcat("vfvfdv",4,SexEnum.male),
+                new Kitten("fgvgfg",2),
+                new Tomcat("vfvfdv",4),
                 new Dog("vfdfv",5,SexEnum.female),
                 new Frog("vfvfv",2,SexEnum.female),
-                new Kitten("fgvgfg",6,SexEnum.female),
-                new Tomcat("vfvfdv",2,SexEnum.male),
+                new Kitten("fgvgfg",6),
+                new Tomcat("vfvfdv",2),
                 new Dog("vfdfv",7,SexEnum.female),
                 new Frog("vfvfv",10,SexEnum.female),
-                 new Kitten("fgvgfg",8,SexEnum.female),
-                new Tomcat("vfvfdv",8,SexEnum.male),
+                 new Kitten("fgvgfg",8),
+                new Tomcat("vfvfdv",8),
                 new Dog("vfdfv",9,SexEnum.female),
                 new Frog("vfvfv",5,SexEnum.female),
             };

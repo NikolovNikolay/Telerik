@@ -40,6 +40,7 @@ namespace _2.MergedLists
             {
                 Console.WriteLine(student.ToString());
             }
+            Console.WriteLine();
 
             List<Worker> workers = new List<Worker>();
             workers.Add(new Worker("sfsdfdfdsf", "Geordfgiev", 123,7));
@@ -59,6 +60,7 @@ namespace _2.MergedLists
             {
                 Console.WriteLine(worker.ToString());
             }
+            Console.WriteLine();
 
             List<Human> mergedList = new List<Human>();
             mergedList.AddRange(orderedStuds);
