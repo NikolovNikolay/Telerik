@@ -24,10 +24,10 @@ namespace _1.School
         {
             get { return this.name; }
             set 
-            { 
-                if(value.Length > 4)
-                    this.name = value
-                else 
+            {
+                if (value.Length > 4)
+                    this.name = value;
+                else
                     throw new ArgumentException("Name too short");
             }
         }

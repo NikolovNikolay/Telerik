@@ -31,9 +31,6 @@ namespace _1.School
                                         { new Discipline(DisciplineName.Chemistry,20,20)}));
             simpleClass.Students.Add(new Student("Dimcho", 3));
             Console.WriteLine(simpleClass.ToString());
-            
-
-           
         }
 
         private static void AddTechersToList()

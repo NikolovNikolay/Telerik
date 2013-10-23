@@ -34,7 +34,7 @@ namespace _2.MergedLists
 
         public float MoneyPerHour()
         {
-            float result = this.weekSalary / this.workHoursPerDay;
+            float result = this.weekSalary /(5* this.workHoursPerDay);
 
             return result;
         }
