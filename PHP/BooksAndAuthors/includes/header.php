@@ -13,7 +13,7 @@ mysqli_query($connection, 'SET NAMES utf8');
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title><?= $pageTitle ?></title>
-        <SCRIPT LANGUAGE="JavaScript" SRC="JavaScript/js.js"></SCRIPT>
+        <script LANGUAGE="JavaScript" SRC="JavaScript/js.js"></script>
         <link rel="stylesheet" type="text/css" href="CSS/css.css">
     </head>
     <body>
