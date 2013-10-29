@@ -12,7 +12,7 @@ namespace _2.BankAccounts
             {
                 throw new ArgumentException("Balance and interest rate must be greater than zero.");
             }
-        }
+        }      
 
         public override decimal GetInterestAmount(int months)
         {
