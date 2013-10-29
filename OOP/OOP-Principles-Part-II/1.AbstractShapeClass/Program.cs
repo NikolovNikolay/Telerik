@@ -35,6 +35,8 @@ namespace _1.AbstractShapeClass
                 Console.WriteLine(shape.CalculateSurface());
                 Console.WriteLine();
             }
+            
+            
         }
     }
 }

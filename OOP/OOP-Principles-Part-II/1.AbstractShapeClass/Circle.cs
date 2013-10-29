@@ -14,6 +14,7 @@ namespace _1.AbstractShapeClass
 
         public override double CalculateSurface()
         {
+            Console.WriteLine("Circle:");
             return (double)(Pi * this.height * this.width);
         }
     }

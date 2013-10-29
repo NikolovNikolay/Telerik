@@ -5,16 +5,13 @@ namespace _1.AbstractShapeClass
 {
     public abstract class Shape
     {
-        public double? width;
-        public double? height;
+        // fields of the abstract class
+        protected double? width;
+        protected double? height;
 
+        // constructors
         public Shape()
             : this(null, null)
-        {
-        }
-
-        public Shape(double width)
-            : this(width, null)
         {
         }
 
@@ -24,6 +21,7 @@ namespace _1.AbstractShapeClass
             this.height = height;
         }
 
+        // properties
         public double? Width
         {
             get { return this.width; }
@@ -35,8 +33,8 @@ namespace _1.AbstractShapeClass
             get { return this.height; }
             set { this.height = value; }
         }
-       
 
+        
         public abstract double CalculateSurface();
     }
 }

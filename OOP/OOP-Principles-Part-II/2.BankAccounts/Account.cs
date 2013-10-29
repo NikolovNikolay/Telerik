@@ -3,13 +3,13 @@ using System.Linq;
 
 namespace _2.BankAccounts
 {
-    public abstract class Account : IDepositable,IWithdrawable
+    public abstract class Account : IDepositable, IWithdrawable
     {
-        private Customer customer;
+        private CustomerType customer;
         private decimal balance;
         private decimal interestRate;
 
-        public Account(Customer customer, decimal balance, decimal interestRate)
+        public Account(CustomerType customer, decimal balance, decimal interestRate)
         {
             this.customer = customer;
             if (this.balance >= 0 && this.interestRate >= 0)
@@ -23,7 +23,7 @@ namespace _2.BankAccounts
             }
         }
 
-        public Customer Customer
+        public CustomerType Customer
         {
             get { return this.customer; }
             set { this.customer = value; }
@@ -55,13 +55,12 @@ namespace _2.BankAccounts
 
         public abstract decimal GetInterestAmount(int months);
 
-        public virtual void WithdrawMoney(decimal sum)
-        {
-            Console.WriteLine();
-        }
         public virtual void DepositMoney(decimal sum)
         {
-            Console.WriteLine();
+        }
+
+        public virtual void WithdrawMoney(decimal sum)
+        {
         }
     }
 }

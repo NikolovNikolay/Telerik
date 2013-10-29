@@ -5,28 +5,14 @@ namespace _2.BankAccounts
 {
     public class Deposit : Account,IWithdrawable,IDepositable
     {
-        public Deposit(Customer customer, decimal balance, decimal interestRate)
+        public Deposit(CustomerType customer, decimal balance, decimal interestRate)
             : base(customer, balance, interestRate)
         {
-        }
-
-        public override void DepositMoney(decimal sum)
-        {
-            this.Balance += sum;
-        }
-
-        public override void WithdrawMoney(decimal sum)
-        {
-            try
+            if (this.InterestRate <= 0 || this.Balance <= 0)
             {
-                this.Balance -= sum;
+                throw new ArgumentException("Balance and interest rate must be greater than zero.");
             }
-            catch (Exception exc)
-            {
-                Console.WriteLine(" Insuficient funds." +" "+exc.Message);
-            }
-            
-        }
+        }        
 
         public override decimal GetInterestAmount(int months)
         {
@@ -36,8 +22,32 @@ namespace _2.BankAccounts
             }
             else
             {
-                return (this.Balance*((this.InterestRate / 100) * months));
+                return (this.Balance*(this.InterestRate / 100) * months);
             }
+        }
+
+        public override void WithdrawMoney(decimal sum)
+        {
+            try
+            {
+                if (this.Balance >= sum)
+                {
+                    this.Balance -= sum;
+                }
+                else
+                {
+                    throw new ArgumentException(" Insuficient funds.");
+                }
+            }
+            catch (ArgumentException exc)
+            {
+                Console.WriteLine(exc.Message);
+            }
+        }
+
+        public override void DepositMoney(decimal sum)
+        {
+            this.Balance += sum;
         }
     }
 }

@@ -22,15 +22,31 @@ namespace _2.BankAccounts
     {
         static void Main()
         {
-            Account companyDeposit = new Deposit(Customer.Company, 10000m, 6.7m);
-            companyDeposit.DepositMoney(10000m);
-            companyDeposit.WithdrawMoney(7578m);
-            Console.WriteLine(companyDeposit.GetInterestAmount(48));
+            try
+            {
+                Account companyDeposit = new Deposit(CustomerType.Company, 1000m, 0.67m);
+                companyDeposit.DepositMoney(10000m);
+                companyDeposit.WithdrawMoney(7578m);
+                Console.WriteLine(companyDeposit.GetInterestAmount(48));
+                companyDeposit.WithdrawMoney(20000000m);
+            }
+            catch (ArgumentException exc)
+            {
+                Console.WriteLine(exc.Message);
+            }
 
-            Console.WriteLine("--------------------");
+                Console.WriteLine("--------------------");
 
-            Account individualsMortage = new Mortage(Customer.Individual, 780000m, 4.7m);
-            Console.WriteLine(individualsMortage.GetInterestAmount(240));
+            try 
+	        {	        
+		        Account individualsMortage = new Mortage(CustomerType.Individual, 780000m, 0.47m);
+                Console.WriteLine(individualsMortage.GetInterestAmount(240));
+
+	        }
+            catch (ArgumentException exc)
+            {
+                Console.WriteLine(exc.Message);                
+            }
         }
     }
 }
