@@ -24,8 +24,11 @@ namespace _03.BitArray64
 
             BitArray64 bitss = new BitArray64(ulong.Parse(Console.ReadLine()));
 
-            Console.WriteLine(bits==bitss);
+            Console.WriteLine(bits.Equals(bitss));
             Console.WriteLine(bitss.GetHashCode());
+            Console.WriteLine(bits.GetHashCode());
+
+
         }
     }
 }

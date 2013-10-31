@@ -224,7 +224,7 @@ namespace _04.BinarySearchTree
 
             while (firstTree.MoveNext() && secondTree.MoveNext())
             {
-                if (firstTree.Current != secondTree.Current)
+                if (!firstTree.Current.Equals(secondTree.Current))
                 {
                     return false;
                 }

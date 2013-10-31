@@ -26,30 +26,58 @@ namespace _01.Student
         private string pAddress;
         private string mobilePhone;
         private string email;
-        private string course;
+        private Course? course;
         private Faculty? faculty;
         private Specialty? specialty;
         private University? university;
 
         //constructors
         public Student(string firstName, string middleName, string lastName, string ssn,string pAddress,
-            string mobilePhone, string email, string course, Faculty? faculty, Specialty? specialty, University? university)
+            string mobilePhone, string email, Course? course, Faculty? faculty, Specialty? specialty, University? university)
         {
-            this.firstName = firstName;
-            this.middleName = middleName;
-            this.lastName = lastName;
-            this.ssn = ssn;
-            this.pAddress = pAddress;
-            this.mobilePhone = mobilePhone;
-            this.email = email;
-            this.course = course;
-            this.faculty = faculty;
-            this.specialty = specialty;
-            this.university = university;
+            try
+            {
+                this.firstName = firstName;
+                this.middleName = middleName;
+                this.lastName = lastName;
+
+                if (ssn.Length == 10)
+                {
+                    this.ssn = ssn;
+                }
+                else
+                    throw new ArgumentException("Invalid social security number");
+
+                this.pAddress = pAddress;
+                this.mobilePhone = mobilePhone;
+
+                if (email != null)
+                {
+                    if (email.Contains("@"))
+                    {
+                        this.email = email;
+                    }
+                    else
+                        throw new ArgumentException("Invalid e-mail"); 
+                }
+
+                this.course = course;
+                this.faculty = faculty;
+                this.specialty = specialty;
+                this.university = university;
+            }
+            catch (ArgumentException ae)
+            {
+                Console.WriteLine(ae.Message);
+            }
         }
 
         public Student(string firstName, string middleName, string lastName, string ssn) :
             this(firstName, middleName, lastName, ssn, null, null, null, null, null, null, null)
+        {
+        }
+
+        public Student()
         {
         }
 
@@ -75,7 +103,22 @@ namespace _01.Student
         public string SSN
         {
             get { return this.ssn; }
-            set { this.ssn = value; }
+            set 
+            {
+                try
+                {
+                    if (value.Length == 10)
+                    {
+                        this.ssn = value;
+                    }
+                    else
+                        throw new ArgumentException("Invalid social security number");
+                }
+                catch (ArgumentException ae)
+                {
+                    Console.WriteLine(ae.Message);
+                }
+            }
         }
 
         public string PermanentAddress
@@ -93,13 +136,28 @@ namespace _01.Student
         public string Email
         {
             get { return this.email; }
-            set { this.email = value; }
+            set 
+            {
+                try
+                {
+                    if (value.Contains("@"))
+                    {
+                        this.email = value;
+                    }
+                    else
+                        throw new ArgumentException("Invalid e-mail");
+                }
+                catch (ArgumentException ae)
+                {
+                    Console.WriteLine(ae.Message);
+                }
+            }
         }
 
-        public string Course
+        public Course? Course
         {
-            get { return this.email; }
-            set { this.email = value; }
+            get { return this.course; }
+            set { this.course = value; }
         }
 
         public Faculty? Faculty
@@ -129,7 +187,7 @@ namespace _01.Student
 
         public override int GetHashCode()
         {
-            return this.ssn.GetHashCode();
+            return (this.ssn.GetHashCode() + this.firstName.GetHashCode()/2 + this.lastName.GetHashCode()/2);
         }
 
         public override string ToString()
@@ -145,7 +203,7 @@ namespace _01.Student
                 result.AppendFormat("Mobile Phone: {0}\n\r", this.mobilePhone);
             if(!string.IsNullOrWhiteSpace(this.email))
                 result.AppendFormat("Email: {0}\n\r", this.email);
-            if(!string.IsNullOrWhiteSpace(this.course))
+            if(this.course != null)
                 result.AppendFormat("Course: {0}\n\r", this.course);
             if(this.faculty != null)
                 result.AppendFormat("Faculty: {0}\n\r", this.faculty);
@@ -159,9 +217,13 @@ namespace _01.Student
 
         public object Clone()
         {
+            Student newStud = new Student();
+
+            //newStud = this.MemberwiseClone() as Student;
+            //return newStud;
+
             return new Student(this.firstName, this.middleName, this.lastName, this.ssn, this.pAddress, this.mobilePhone,
                 this.email, this.course, this.faculty, this.specialty, this.university);
-                
         }
 
         public int CompareTo(Student other)

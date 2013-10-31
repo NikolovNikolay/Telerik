@@ -17,8 +17,25 @@ namespace _02.Person
 
         public Person(string name, byte? age)
         {
-            this.name = name;
-            this.age = age;
+            try
+            {
+                this.name = name;
+                if (age != null)
+                {
+                    if (age > 0 && age < 115) // the oldest person, still living is 115 years old
+                    {
+                        this.age = age;
+                    }
+                    else
+                    {
+                        throw new ArgumentException("Age entered is not valid.");
+                    }
+                }
+            }
+            catch (ArgumentException ae)
+            {
+                Console.WriteLine(ae.Message);
+            }
         }
 
         public Person(string name)
@@ -35,7 +52,24 @@ namespace _02.Person
         public byte? Age
         {
             get { return this.age; }
-            set { this.age = value; }
+            set 
+            {
+                try
+                {
+                    if (value > 0 && value < 115)
+                    {
+                        this.age = value;
+                    }
+                    else
+                    {
+                        throw new ArgumentException("Age entered is not valid.");
+                    }
+                }
+                catch (ArgumentException ae)
+                {
+                    Console.WriteLine(ae.Message);
+                }
+            }
         }
 
         public override string ToString()
@@ -48,7 +82,7 @@ namespace _02.Person
             {
                 result.AppendFormat("Age: {0}\n\r", this.age);
             }
-            else
+            else if(this.age == null)
             {
                 result.AppendFormat("Age: Not Specified\n\r");
             }

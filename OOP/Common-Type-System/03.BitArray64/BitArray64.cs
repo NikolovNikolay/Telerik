@@ -44,21 +44,21 @@ namespace _03.BitArray64
         private int[] GetBits()
         {
             ulong num = this.number;
-            int bitIndex = 63;
+            int bitPosition = 63;
 
             int[] bits = new int[64];
 
             while (num!=0)
             {
-                bits[bitIndex] = (int)(num % 2);
+                bits[bitPosition] = (int)(num % 2);
                 num /= 2;
-                bitIndex--;
+                bitPosition--;
             }
 
-            while (bitIndex >= 0)
+            while (bitPosition >= 0)
             {
-                bits[bitIndex] = 0;
-                bitIndex--;
+                bits[bitPosition] = 0;
+                bitPosition--;
             }
 
             return bits;
@@ -85,33 +85,28 @@ namespace _03.BitArray64
         // Equals
         public override bool Equals(object obj)
         {
-            if (obj == null) return false;
-
-            return Enumerable.SequenceEqual(this, obj as BitArray64);
+            BitArray64 tempNumber = obj as BitArray64;
+            
+            if(tempNumber.number == this.number)
+            {
+                return true;
+            }
+                return false;
         }
 
         // Get hashcode
         public override int GetHashCode()
         {
             int[] bitz = this.GetBits();
-            byte[] bits = new byte[64];
-            for (int i = 0; i < 64; i++)
-            {
-                bits[i] = (byte)bitz[i];
-            }
-            return BitConverter.ToInt32(new MD5CryptoServiceProvider().ComputeHash(bits), 0);
+            //byte[] bits = new byte[64];
+            //for (int i = 0; i < 64; i++)
+            //{
+            //    bits[i] = (byte)bitz[i];
+            //}
+            //return BitConverter.ToInt32(new MD5CryptoServiceProvider().ComputeHash(bits), 0);
+
+            return this.number.GetHashCode();
         }
-
-        //public override int GetHashCode()
-        //{
-        //    int hash = 17;
-
-        //    unchecked
-        //    {
-        //        hash = hash * 23 + this.number.GetHashCode();
-        //        return hash;
-        //    }
-        //}
 
         //overriding operators
 
