@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\01.Student\bin\Debug\01.Student.exe.config
+E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\01.Student\bin\Debug\01.Student.exe
+E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\01.Student\bin\Debug\01.Student.pdb
+E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\01.Student\obj\Debug\01.Student.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\01.Student\obj\Debug\01.Student.exe
+E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\01.Student\obj\Debug\01.Student.pdb

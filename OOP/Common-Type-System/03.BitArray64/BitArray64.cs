@@ -9,7 +9,7 @@ namespace _03.BitArray64
     class BitArray64 : IEnumerable<int>
     {
         private readonly ulong number;
-        
+
         // constructor
         public BitArray64(ulong number = 0)
         {
@@ -23,13 +23,14 @@ namespace _03.BitArray64
             {
                 if (index < 0 || index > 63)
                 {
-                    throw new ArgumentOutOfRangeException();
+                    throw new ArgumentOutOfRangeException("Index out of range.");
                 }
                 else
                 {
                     int[] bits = this.GetBits();
-                    return bits[index];
+                    return bits[63 - index]; // intentionally returning the [63-index] bit, so the original bit counting could be kept
                 }
+
             }
         }
 
@@ -48,7 +49,7 @@ namespace _03.BitArray64
 
             int[] bits = new int[64];
 
-            while (num!=0)
+            while (num != 0)
             {
                 bits[bitPosition] = (int)(num % 2);
                 num /= 2;
@@ -86,12 +87,12 @@ namespace _03.BitArray64
         public override bool Equals(object obj)
         {
             BitArray64 tempNumber = obj as BitArray64;
-            
-            if(tempNumber.number == this.number)
+
+            if (tempNumber.number == this.number)
             {
                 return true;
             }
-                return false;
+            return false;
         }
 
         // Get hashcode

@@ -14,8 +14,8 @@ namespace _03.BitArray64
         {
             BitArray64 bits = new BitArray64(ulong.Parse(Console.ReadLine()));
             var bitz = bits.Bits;
-            Console.WriteLine(bits[63]);
-
+            Console.WriteLine(bits[4]);
+          
             foreach (var bit in bitz)
             {
                 Console.Write(bit);
@@ -27,8 +27,6 @@ namespace _03.BitArray64
             Console.WriteLine(bits.Equals(bitss));
             Console.WriteLine(bitss.GetHashCode());
             Console.WriteLine(bits.GetHashCode());
-
-
         }
     }
 }

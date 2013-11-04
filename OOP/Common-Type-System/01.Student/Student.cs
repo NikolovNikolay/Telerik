@@ -1,16 +1,4 @@
-﻿/* 1.Define a class Student, which contains data about a student – first,
- *   middle and last name, SSN, permanent address, mobile phone e-mail, course,
- *   specialty, university, faculty. Use an enumeration for the specialties,
- *   universities and faculties. Override the standard methods, inherited by 
- *   System.Object: Equals(), ToString(), GetHashCode() and operators == and !=.
- * 2.Add implementations of the ICloneable interface. The Clone() method should
- *   deeply copy all object's fields into a new object of type Student.
- * 3.Implement the  IComparable<Student> interface to compare students by names
- *   (as first criteria, in lexicographic order) and by social security number 
- *   (as second criteria, in increasing order).
-*/
-
-using System;
+﻿using System;
 using System.Linq;
 using System.Text;
 
@@ -228,10 +216,12 @@ namespace _01.Student
 
         public int CompareTo(Student other)
         {
+            // comparing two students
+            // if they are equal 0 is returned, else their three names and ssn are compared, after which -1 or 1 is returned
             if (Student.Equals(this, other))
                 return 0;
 
-            return Student.Equals(new Student[] { this, other }.OrderBy(stud => stud.firstName).ThenBy(stud => stud.ssn).First(), this) ? -1 : 1;
+            return Student.Equals(new Student[] { this, other }.OrderBy(stud => stud.firstName).ThenBy(stud => stud.middleName).ThenBy(stud => stud.lastName).ThenBy(stud => stud.ssn).First(), this) ? -1 : 1;
         }
 
         //Overriding operators
@@ -244,9 +234,5 @@ namespace _01.Student
         {
             return main.ssn != other.ssn;
         }
-
-
-
-       
     }
 }
