@@ -1,0 +1,5 @@
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\09.FirstFiftyMembersOfSequence\bin\Debug\09.FirstFiftyMembersOfSequence.exe.config
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\09.FirstFiftyMembersOfSequence\bin\Debug\09.FirstFiftyMembersOfSequence.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\09.FirstFiftyMembersOfSequence\bin\Debug\09.FirstFiftyMembersOfSequence.pdb
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\09.FirstFiftyMembersOfSequence\obj\Debug\09.FirstFiftyMembersOfSequence.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\09.FirstFiftyMembersOfSequence\obj\Debug\09.FirstFiftyMembersOfSequence.pdb

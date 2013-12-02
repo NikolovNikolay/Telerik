@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\05.RemoveNegativeNumbers\bin\Debug\05.RemoveNegativeNumbers.exe.config
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\05.RemoveNegativeNumbers\bin\Debug\05.RemoveNegativeNumbers.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\05.RemoveNegativeNumbers\bin\Debug\05.RemoveNegativeNumbers.pdb
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\05.RemoveNegativeNumbers\obj\Debug\05.RemoveNegativeNumbers.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\05.RemoveNegativeNumbers\obj\Debug\05.RemoveNegativeNumbers.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\05.RemoveNegativeNumbers\obj\Debug\05.RemoveNegativeNumbers.pdb

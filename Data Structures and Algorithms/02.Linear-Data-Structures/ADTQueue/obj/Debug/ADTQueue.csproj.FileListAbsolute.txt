@@ -1,0 +1,1 @@
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\ADTQueue\bin\Debug\ADTQueue.exe.config

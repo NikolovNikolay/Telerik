@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\07.AllOccurences\bin\Debug\07.AllOccurences.exe.config
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\07.AllOccurences\bin\Debug\07.AllOccurences.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\07.AllOccurences\bin\Debug\07.AllOccurences.pdb
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\07.AllOccurences\obj\Debug\07.AllOccurences.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\07.AllOccurences\obj\Debug\07.AllOccurences.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\07.AllOccurences\obj\Debug\07.AllOccurences.pdb

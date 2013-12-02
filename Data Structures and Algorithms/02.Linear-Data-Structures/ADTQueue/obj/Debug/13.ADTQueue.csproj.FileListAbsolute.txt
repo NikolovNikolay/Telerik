@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\ADTQueue\bin\Debug\ADTQueue.exe.config
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\ADTQueue\obj\Debug\13.ADTQueue.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\ADTQueue\bin\Debug\ADTQueue.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\ADTQueue\bin\Debug\ADTQueue.pdb
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\ADTQueue\obj\Debug\ADTQueue.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\ADTQueue\obj\Debug\ADTQueue.pdb
