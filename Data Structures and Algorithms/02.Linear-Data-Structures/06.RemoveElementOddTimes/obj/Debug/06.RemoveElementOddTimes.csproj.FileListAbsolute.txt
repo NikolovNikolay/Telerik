@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\06.RemoveElementOddTimes\bin\Debug\06.RemoveElementOddTimes.exe.config
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\06.RemoveElementOddTimes\obj\Debug\06.RemoveElementOddTimes.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\06.RemoveElementOddTimes\bin\Debug\06.RemoveElementOddTimes.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\06.RemoveElementOddTimes\bin\Debug\06.RemoveElementOddTimes.pdb
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\06.RemoveElementOddTimes\obj\Debug\06.RemoveElementOddTimes.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\06.RemoveElementOddTimes\obj\Debug\06.RemoveElementOddTimes.pdb

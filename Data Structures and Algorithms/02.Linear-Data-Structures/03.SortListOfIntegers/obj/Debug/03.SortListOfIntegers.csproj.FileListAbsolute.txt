@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\03.SortListOfIntegers\bin\Debug\03.SortListOfIntegers.exe.config
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\03.SortListOfIntegers\obj\Debug\03.SortListOfIntegers.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\03.SortListOfIntegers\bin\Debug\03.SortListOfIntegers.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\03.SortListOfIntegers\bin\Debug\03.SortListOfIntegers.pdb
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\03.SortListOfIntegers\obj\Debug\03.SortListOfIntegers.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\03.SortListOfIntegers\obj\Debug\03.SortListOfIntegers.pdb

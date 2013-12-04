@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\02.ReverseOrderWithStack\bin\Debug\02.ReverseOrderWithStack.exe.config
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\02.ReverseOrderWithStack\bin\Debug\02.ReverseOrderWithStack.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\02.ReverseOrderWithStack\bin\Debug\02.ReverseOrderWithStack.pdb
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\02.ReverseOrderWithStack\obj\Debug\02.ReverseOrderWithStack.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\02.ReverseOrderWithStack\obj\Debug\02.ReverseOrderWithStack.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\02.ReverseOrderWithStack\obj\Debug\02.ReverseOrderWithStack.pdb

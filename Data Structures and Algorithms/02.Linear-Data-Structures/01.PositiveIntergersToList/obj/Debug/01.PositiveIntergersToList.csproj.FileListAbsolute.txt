@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\01.PositiveIntergersToList\bin\Debug\01.PositiveIntergersToList.exe.config
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\01.PositiveIntergersToList\obj\Debug\01.PositiveIntergersToList.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\01.PositiveIntergersToList\bin\Debug\01.PositiveIntergersToList.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\01.PositiveIntergersToList\bin\Debug\01.PositiveIntergersToList.pdb
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\01.PositiveIntergersToList\obj\Debug\01.PositiveIntergersToList.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\01.PositiveIntergersToList\obj\Debug\01.PositiveIntergersToList.pdb

@@ -1,9 +1,0 @@
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\Trees-and-Traversals\02.TraverseDirectory\obj\Debug\02.TraverseDirectory.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\Trees-and-Traversals\02.TraverseDirectory\bin\Debug\02.TraverseDirectory.exe.config
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\Trees-and-Traversals\02.TraverseDirectory\bin\Debug\02.TraverseDirectory.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\Trees-and-Traversals\02.TraverseDirectory\bin\Debug\02.TraverseDirectory.pdb
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\Trees-and-Traversals\02.TraverseDirectory\obj\Debug\02.TraverseDirectory.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\Trees-and-Traversals\02.TraverseDirectory\obj\Debug\02.TraverseDirectory.pdb
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\03.Trees-and-Traversals\02.TraverseDirectory\bin\Debug\02.TraverseDirectory.exe.config
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\03.Trees-and-Traversals\02.TraverseDirectory\obj\Debug\02.TraverseDirectory.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\03.Trees-and-Traversals\02.TraverseDirectory\obj\Debug\02.TraverseDirectory.pdb

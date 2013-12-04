@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\08.Majourant\bin\Debug\08.Majourant.exe.config
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\08.Majourant\bin\Debug\08.Majourant.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\08.Majourant\bin\Debug\08.Majourant.pdb
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\08.Majourant\obj\Debug\08.Majourant.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\08.Majourant\obj\Debug\08.Majourant.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\08.Majourant\obj\Debug\08.Majourant.pdb

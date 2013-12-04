@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\10.ShortestSequenceOfElements\bin\Debug\10.ShortestSequenceOfElements.exe.config
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\10.ShortestSequenceOfElements\bin\Debug\10.ShortestSequenceOfElements.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\10.ShortestSequenceOfElements\bin\Debug\10.ShortestSequenceOfElements.pdb
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\10.ShortestSequenceOfElements\obj\Debug\10.ShortestSequenceOfElements.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\10.ShortestSequenceOfElements\obj\Debug\10.ShortestSequenceOfElements.exe
-E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\02.Linear-Data-Structures\10.ShortestSequenceOfElements\obj\Debug\10.ShortestSequenceOfElements.pdb
