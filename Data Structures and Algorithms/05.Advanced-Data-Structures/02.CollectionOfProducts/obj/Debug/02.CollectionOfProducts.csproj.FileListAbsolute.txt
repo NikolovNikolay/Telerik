@@ -1,0 +1,8 @@
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\02.CollectionOfProducts\bin\Debug\02.CollectionOfProducts.exe.config
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\02.CollectionOfProducts\bin\Debug\02.CollectionOfProducts.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\02.CollectionOfProducts\bin\Debug\02.CollectionOfProducts.pdb
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\02.CollectionOfProducts\bin\Debug\PowerCollections.dll
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\02.CollectionOfProducts\bin\Debug\PowerCollections.xml
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\02.CollectionOfProducts\obj\Debug\02.CollectionOfProducts.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\02.CollectionOfProducts\obj\Debug\02.CollectionOfProducts.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\02.CollectionOfProducts\obj\Debug\02.CollectionOfProducts.pdb

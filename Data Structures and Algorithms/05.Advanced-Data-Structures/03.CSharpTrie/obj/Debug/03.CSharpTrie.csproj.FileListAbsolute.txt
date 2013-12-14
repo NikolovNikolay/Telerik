@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\03.CSharpTrie\bin\Debug\03.CSharpTrie.exe.config
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\03.CSharpTrie\bin\Debug\03.CSharpTrie.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\03.CSharpTrie\bin\Debug\03.CSharpTrie.pdb
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\03.CSharpTrie\obj\Debug\03.CSharpTrie.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\03.CSharpTrie\obj\Debug\03.CSharpTrie.exe
+E:\Dropbox\Telerik Projects\DataStructuresAndAlgorithms\05.Advanced-Data-Structures\03.CSharpTrie\obj\Debug\03.CSharpTrie.pdb
