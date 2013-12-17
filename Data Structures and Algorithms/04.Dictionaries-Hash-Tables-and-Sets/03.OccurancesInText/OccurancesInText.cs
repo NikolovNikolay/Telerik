@@ -21,7 +21,7 @@ namespace OccurancesInText
         }
 
         private static void PrintOccurances(IDictionary<string, int> occurances)
-        {
+        {            
             foreach (var item in occurances)
             {
                 Console.WriteLine("\"{0}\" -> {1}", item.Key, item.Value);

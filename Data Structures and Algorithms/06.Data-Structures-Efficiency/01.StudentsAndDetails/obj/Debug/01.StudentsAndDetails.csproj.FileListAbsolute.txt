@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\Homeworks\CSharp\DataStructuresAndAlgorithms\06.Data-Structures-Efficiency\01.StudentsAndDetails\bin\Debug\01.StudentsAndDetails.exe.config
-E:\Dropbox\Telerik Projects\Homeworks\CSharp\DataStructuresAndAlgorithms\06.Data-Structures-Efficiency\01.StudentsAndDetails\obj\Debug\01.StudentsAndDetails.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\Homeworks\CSharp\DataStructuresAndAlgorithms\06.Data-Structures-Efficiency\01.StudentsAndDetails\bin\Debug\01.StudentsAndDetails.exe
-E:\Dropbox\Telerik Projects\Homeworks\CSharp\DataStructuresAndAlgorithms\06.Data-Structures-Efficiency\01.StudentsAndDetails\bin\Debug\01.StudentsAndDetails.pdb
-E:\Dropbox\Telerik Projects\Homeworks\CSharp\DataStructuresAndAlgorithms\06.Data-Structures-Efficiency\01.StudentsAndDetails\obj\Debug\01.StudentsAndDetails.exe
-E:\Dropbox\Telerik Projects\Homeworks\CSharp\DataStructuresAndAlgorithms\06.Data-Structures-Efficiency\01.StudentsAndDetails\obj\Debug\01.StudentsAndDetails.pdb
