@@ -1,0 +1,15 @@
+﻿body {
+    font-size: 18px;
+    font-family: Consolas;
+    color: rgb(0, 148, 255);
+}
+
+p:first-letter {
+    font-size: 38px;
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    font-style:italic;
+}
+
+p:first-line {
+    font-weight:bold;
+}

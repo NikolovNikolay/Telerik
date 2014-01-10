@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Web Form</title>
+    <style>
+        table, td {
+            border-collapse: collapse;
+            padding: 5px;
+            margin: 0;
+            border: 1px solid black;
+        }
+
+        tr td:nth-child(1) {
+            text-align: right;
+        }
+
+        #specified_col {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <colgroup>
+            <col width="150px" />
+            <col width="325px" />
+        </colgroup>
+        <tr>
+            <td><label for="last_name"><strong>Last Name</strong></label></td>
+            <td><input type="text" id="last_name" placeholder="Nakov" /></td>
+        </tr>
+        <tr>
+            <td><label for="first_name"><strong>First Name</strong></label></td>
+            <td><input type="text" id="first_name" placeholder="Svetlin" /></td>
+        </tr>
+        <tr>
+            <td><label for="address"><strong>Address</strong></label></td>
+            <td><textarea id="address" rows="4" placeholder="17 Hr. Botev street"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="city"><strong>City</strong></label></td>
+            <td><input type="text" id="city" placeholder="Kaspichan" /> <label for="state"><strong>State </strong><input type="text" id="state" maxlength="10" size="5" /></label></td>
+        </tr>
+        <tr>
+            <td><label for="zip"><strong>Zip/Postal Code</strong></label></td>
+            <td><input type="text" id="zip" placeholder="9325" /></td>
+        </tr>
+        <tr>
+            <td><label for="country"><strong>Country</strong></label></td>
+            <td>
+                <select id="country">
+                    <option selected>Bulgaria</option>
+                    <option>Greece</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="phone"><strong>Phone(country code, area code, number)</strong></label></td>
+            <td>(+ <input type="text" id="phone" maxlength="3" size="3" /> ) <input type="text" size="3" maxlength="2"> - <input type="text" size="8" maxlength="7"></td>
+        </tr>
+        <tr>
+            <td><label for="email"><strong>Email</strong></label></td>
+            <td><input type="text" id="email" placeholder="nakov@alabala.bg" pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/" /></td>
+        </tr>
+        <tr>
+            <td><label for="birth"><strong>Birth Date</strong></label></td>
+            <td>Month: <input type="text" id="birth" size="2" maxlength="2" /> Day: <input type="text" id="birth" size="2" maxlength="2" /> Year (4 digits) <input type="text" id="birth" size="5" maxlength="4" /></td>
+        </tr>
+        <tr>
+            <td><label for="gender"><strong>Gender</strong></label></td>
+            <td>
+                <select id="gender">
+                    <option selected>Male</option>
+                    <option>Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="start"><strong>Starting Date</strong></label></td>
+            <td><input type="radio" id="start" name="2006" /><label for="start">Spring 2006</label> <input type="radio" id="start" name="2006" /><label for="start">Summer 2006</label></td>
+        </tr>
+        <tr>
+            <td><label for="comments"><strong>Comments/Questions</strong></label></td>
+            <td><textarea rows="6" maxlength="255" placeholder="Please send me more info about ala balata"></textarea></td>
+        </tr>
+        <tr>
+            <td id="specified_col" align="center" colspan="2"><input type="submit" value="Submit" /><input type="button" value="Clear the form" /></td>
+        </tr>
+    </table>
+    <!-- Optional TODO: validate data via regex -->
+</body>
+</html>

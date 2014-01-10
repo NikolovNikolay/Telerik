@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body
+{
+	font-family: Arial;
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+
+	ul{
+	list-style-type: none;
+	padding: 0;
+
+	*[id^="thumb"]{
+	border: 2px solid black;
+	display: block;
+	width: 120px;
+	height: 75px;
+	opacity: 0.5;
+	}
+
+	#thumb1{
+	background: url(../images/one_th.jpg);
+	}
+
+	#thumb2{
+	background: url(../images/two_th.jpg);
+	}
+
+	#thumb3{
+	background: url(../images/three_th.jpg);
+	}
+
+	#thumb4{
+	background: url(../images/four_th.jpg);
+	}
+
+	#thumb5{
+	background: url(../images/five_th.jpg);
+	}
+
+	#thumb6{
+	background: url(../images/six_th.jpg);
+	}
+	
+		li{
+			display: inline-block;
+			padding: 0;
+
+			span{
+			display: block;
+				img{
+					width: 120px;
+				}
+
+			}
+
+			a:hover{
+			cursor: pointer;
+			border: 2px solid white;
+			opacity: 1;
+			}
+
+			span:active img{
+			display: block;
+			position: absolute;
+				width: 860px;
+				top: 100px;
+				left: 250px;
+			}
+			
+
+		
+		}
+	}
+}

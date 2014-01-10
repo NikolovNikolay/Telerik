@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    font: 14px Arial;
+}
+
+    body .container {
+        background: #ddd;
+        margin: 20px auto;
+        padding: 20px;
+        position: relative;
+        width: 780px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 1px 1px 5px #111;
+        -moz-box-shadow: 1px 1px 5px #111;
+        -webkit-box-shadow: 1px 1px 5px #111;
+    }
+
+        body .container .gallery {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+            body .container .gallery a {
+                display: inline-block;
+                height: 150px;
+                position: relative;
+                width: 256px;
+            }
+
+                body .container .gallery a:focus:nth-child(3n+1) img {
+                    left: 150px;
+                }
+
+                body .container .gallery a:focus:nth-child(3n+2) img {
+                    left: -50px;
+                }
+
+                body .container .gallery a:focus:nth-child(3n+3) img {
+                    left: -250px;
+                }
+
+                body .container .gallery a:focus:nth-child(n+7) img {
+                    left: -150px;
+                }
+
+                body .container .gallery a:focus:nth-child(n+10) img {
+                    left: -295px;
+                }
+
+                body .container .gallery a:focus img {
+                    border: 15px solid white;
+                    cursor: default;
+                    height: 300%;
+                    position: absolute;
+                    width: 300%;
+                    z-index: 25;
+                    box-shadow: 1px 1px 5px #888;
+                    -moz-box-shadow: 1px 1px 5px #888;
+                    -webkit-box-shadow: 1px 1px 5px #888;
+                    -webkit-transition-property: width, height, top, bottom, left, right, z-index, border;
+                    -webkit-transition-duration: 0.5s;
+                    -moz-transition-property: width, height, top, bottom, left, right, z-index, border;
+                    -moz-transition-duration: 0.5s;
+                    -o-transition-property: width, height, top, bottom, left, right, z-index, border;
+                    -o-transition-duration: 0.5s;
+                    transition-property: width, height, top, bottom, left, right, z-index, border;
+                    transition-duration: 0.5s;
+                }
+
+                body .container .gallery a:focus ~ .close {
+                    display: block;
+                }
+
+                body .container .gallery a img {
+                    border: 5px solid white;
+                    cursor: pointer;
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    top: -5px;
+                    left: 0;
+                    position: absolute;
+                    z-index: 1;
+                    -moz-user-select: none;
+                    -khtml-user-select: none;
+                    user-select: none;
+                    -moz-box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    -webkit-transition-property: width, height, top, bottom, left, right, z-index, border;
+                    -webkit-transition-duration: 0.5s;
+                    -moz-transition-property: width, height, top, bottom, left, right, z-index, border;
+                    -moz-transition-duration: 0.5s;
+                    -o-transition-property: width, height, top, bottom, left, right, z-index, border;
+                    -o-transition-duration: 0.5s;
+                    transition-property: width, height, top, bottom, left, right, z-index, border;
+                    transition-duration: 0.5s;
+                }
+
+            body .container .gallery .close {
+                background: transparent;
+                cursor: pointer;
+                display: none;
+                height: 500px;
+                left: 100px;
+                position: absolute;
+                top: 120px;
+                width: 850px;
+                z-index: 30;
+            }

@@ -1,0 +1,7 @@
+﻿body p {
+    margin: 0;
+}
+
+body li:before {
+    content: "- ";
+}

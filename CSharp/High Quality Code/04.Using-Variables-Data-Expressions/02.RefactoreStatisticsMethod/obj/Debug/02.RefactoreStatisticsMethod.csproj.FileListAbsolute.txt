@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\02.RefactoreStatisticsMethod\bin\Debug\02.RefactoreStatisticsMethod.exe.config
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\02.RefactoreStatisticsMethod\bin\Debug\02.RefactoreStatisticsMethod.exe
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\02.RefactoreStatisticsMethod\bin\Debug\02.RefactoreStatisticsMethod.pdb
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\02.RefactoreStatisticsMethod\obj\Debug\02.RefactoreStatisticsMethod.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\02.RefactoreStatisticsMethod\obj\Debug\02.RefactoreStatisticsMethod.exe
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\02.RefactoreStatisticsMethod\obj\Debug\02.RefactoreStatisticsMethod.pdb

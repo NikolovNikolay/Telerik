@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\02.TestOperationsWithNumericTypes\bin\Debug\02.TestOperationsWithNumericTypes.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\02.TestOperationsWithNumericTypes\bin\Debug\02.TestOperationsWithNumericTypes.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\02.TestOperationsWithNumericTypes\bin\Debug\02.TestOperationsWithNumericTypes.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\02.TestOperationsWithNumericTypes\obj\Debug\02.TestOperationsWithNumericTypes.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\02.TestOperationsWithNumericTypes\obj\Debug\02.TestOperationsWithNumericTypes.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\02.TestOperationsWithNumericTypes\obj\Debug\02.TestOperationsWithNumericTypes.pdb

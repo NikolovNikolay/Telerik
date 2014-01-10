@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\02.RefactoreStatements\bin\Debug\02.RefactoreStatements.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\02.RefactoreStatements\bin\Debug\02.RefactoreStatements.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\02.RefactoreStatements\bin\Debug\02.RefactoreStatements.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\02.RefactoreStatements\obj\Debug\02.RefactoreStatements.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\02.RefactoreStatements\obj\Debug\02.RefactoreStatements.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\02.RefactoreStatements\obj\Debug\02.RefactoreStatements.csprojResolveAssemblyReference.cache

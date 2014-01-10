@@ -1,0 +1,5 @@
+beep
+sheep
+green
+store
+power

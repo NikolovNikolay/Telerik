@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\02.Naming-Identifiers\03.RefactorMinwsweeperCode\bin\Debug\03.RefactorMinwsweeperCode.exe.config
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\02.Naming-Identifiers\03.RefactorMinwsweeperCode\bin\Debug\03.RefactorMinwsweeperCode.exe
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\02.Naming-Identifiers\03.RefactorMinwsweeperCode\bin\Debug\03.RefactorMinwsweeperCode.pdb
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\02.Naming-Identifiers\03.RefactorMinwsweeperCode\obj\Debug\03.RefactorMinwsweeperCode.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\02.Naming-Identifiers\03.RefactorMinwsweeperCode\obj\Debug\03.RefactorMinwsweeperCode.exe
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\02.Naming-Identifiers\03.RefactorMinwsweeperCode\obj\Debug\03.RefactorMinwsweeperCode.pdb

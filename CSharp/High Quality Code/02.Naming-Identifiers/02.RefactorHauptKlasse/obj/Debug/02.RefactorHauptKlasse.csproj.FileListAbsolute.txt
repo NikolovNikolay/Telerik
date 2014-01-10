@@ -1,0 +1,2 @@
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\02.Naming-Identifiers\02.RefactorHauptKlasse\obj\Debug\02.RefactorHauptKlasse.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\02.Naming-Identifiers\02.RefactorHauptKlasse\bin\Debug\02.RefactorHauptKlasse.exe.config

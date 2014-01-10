@@ -1,0 +1,8 @@
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\01.Code-Formatting\01.Event-Code-Formatting\bin\Debug\01.Event-Code-Formatting.exe.config
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\01.Code-Formatting\01.Event-Code-Formatting\bin\Debug\01.Event-Code-Formatting.exe
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\01.Code-Formatting\01.Event-Code-Formatting\bin\Debug\01.Event-Code-Formatting.pdb
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\01.Code-Formatting\01.Event-Code-Formatting\bin\Debug\PowerCollections.dll
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\01.Code-Formatting\01.Event-Code-Formatting\bin\Debug\PowerCollections.xml
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\01.Code-Formatting\01.Event-Code-Formatting\obj\Debug\01.Event-Code-Formatting.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\01.Code-Formatting\01.Event-Code-Formatting\obj\Debug\01.Event-Code-Formatting.exe
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\01.Code-Formatting\01.Event-Code-Formatting\obj\Debug\01.Event-Code-Formatting.pdb

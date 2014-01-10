@@ -1,0 +1,35 @@
+﻿body {
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn {
+    color: darkblue;
+    background-color: aqua;
+    width: 30px;
+    font-size: 10px;
+}
+
+.wide_btn {
+    color: darkblue;
+    background-color: aqua;
+    width: 65px;
+    font-size: 10px;
+}
+
+.tall_btn {
+    height: 47px;
+    font-size: 10px;
+}
+
+#number_field {
+    background-color: azure;
+    width: 95%;
+    text-align: end;
+}
+
+table {
+    border-radius: 5px;
+    background-color: lightblue;
+    border: 1px solid black;
+}

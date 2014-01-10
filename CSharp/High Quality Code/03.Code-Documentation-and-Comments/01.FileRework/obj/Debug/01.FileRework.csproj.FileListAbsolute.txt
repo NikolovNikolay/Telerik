@@ -1,0 +1,7 @@
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\03.Code-Documentation-and-Comments\01.FileRework\bin\Debug\01.FileRework.exe.config
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\03.Code-Documentation-and-Comments\01.FileRework\bin\Debug\01.FileRework.exe
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\03.Code-Documentation-and-Comments\01.FileRework\bin\Debug\01.FileRework.pdb
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\03.Code-Documentation-and-Comments\01.FileRework\obj\Debug\01.FileRework.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\03.Code-Documentation-and-Comments\01.FileRework\obj\Debug\01.FileRework.exe
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\03.Code-Documentation-and-Comments\01.FileRework\obj\Debug\01.FileRework.pdb
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\03.Code-Documentation-and-Comments\01.FileRework\bin\Debug\01.FileRework.XML

@@ -1,0 +1,47 @@
+﻿* {
+    padding: 5px;
+    margin: 0px;
+    font-family: Calibri,Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif, 'Times New Roman';
+    font-weight: bold;
+}
+
+li {
+    width: 150px;
+}
+
+nav > ul > li {
+    font-size: 14px;
+    list-style-type: none;
+    background-color: blue;
+}
+
+    nav > ul > li > a:hover {
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+body nav ul > li > ul {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background-color: red;
+    border: 3px solid black;
+}
+
+ul > li:hover > ul {
+    display: inline-block;
+}
+
+ul > li > a:hover {
+    text-decoration: underline;
+}
+
+ul > li > ul > li {
+    display: block;
+}

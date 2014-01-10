@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\TestComplexMathOperations\bin\Debug\TestComplexMathOperations.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\TestComplexMathOperations\bin\Debug\TestComplexMathOperations.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\TestComplexMathOperations\bin\Debug\TestComplexMathOperations.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\TestComplexMathOperations\obj\Debug\03.TestComplexMathOperations.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\TestComplexMathOperations\obj\Debug\TestComplexMathOperations.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\TestComplexMathOperations\obj\Debug\TestComplexMathOperations.pdb

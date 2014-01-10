@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\03.RefactoreLoop\bin\Debug\03.RefactoreLoop.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\03.RefactoreLoop\bin\Debug\03.RefactoreLoop.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\03.RefactoreLoop\bin\Debug\03.RefactoreLoop.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\03.RefactoreLoop\obj\Debug\03.RefactoreLoop.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\03.RefactoreLoop\obj\Debug\03.RefactoreLoop.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\03.RefactoreLoop\obj\Debug\03.RefactoreLoop.pdb

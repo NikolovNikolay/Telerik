@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\01.RefactoreCook\bin\Debug\01.RefactoreCook.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\01.RefactoreCook\obj\Debug\01.RefactoreCook.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\01.RefactoreCook\bin\Debug\01.RefactoreCook.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\01.RefactoreCook\bin\Debug\01.RefactoreCook.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\01.RefactoreCook\obj\Debug\01.RefactoreCook.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\KPK\05.Using-Control-Structures-and-more\01.RefactoreCook\obj\Debug\01.RefactoreCook.pdb

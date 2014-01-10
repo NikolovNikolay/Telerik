@@ -1,0 +1,52 @@
+﻿body {
+    background-color: rgb(169,169,169);
+    padding: 10px;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+}
+
+header a {
+    color: white;
+    font-size: large;
+}
+
+header nav span {
+    border-bottom: 1px solid white;
+}
+
+header h1, ul {
+    text-align: center;
+}
+
+section header h1 {
+    text-align: left;
+    font-size: x-large;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+section footer {
+    text-align: left;
+}
+
+.current {
+    background-color: rgb(211,211,211);
+}

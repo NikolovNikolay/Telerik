@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My calculator</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <section>
+        <div id="menu-holder">
+            <ul id="menu">
+                <li><a href="#">View</a></li>
+                <li><a href="">Edit</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+        <div id="main-wrapper">
+            <input type="text" class="big-digit-viewer" value="12345678" disabled />
+            <div class="binary-representation-box">
+                <ul class="one-row-bits">
+                    <li class="visible">0000</li>
+                    <li class="visible">0000</li>
+                    <li class="visible">0000</li>
+                    <li class="visible">0000</li>
+                    <li class="visible">0000</li>
+                    <li class="visible">0000</li>
+                    <li class="visible">0000</li>
+                    <li id="visible last-bin">0000</li>
+                </ul>
+                <ul class="one-row_bits_half-visible">
+                    <li class="bit-counter">63</li>
+                    <li class="bit-counter">47</li>
+                    <li class="bit-counter">32</li>
+                </ul>
+                <ul class="one-row-bits">
+                    <li class="visible">0000</li>
+                    <li class="visible">0000</li>
+                    <li class="visible">1011</li>
+                    <li class="visible">1100</li>
+                    <li class="visible">0110</li>
+                    <li class="visible">0001</li>
+                    <li class="visible">0100</li>
+                    <li class="visible last-bin">1110</li>
+                </ul>
+                <ul class="one-row_bits_half-visible">
+                    <li class="bit-counter">32</li>
+                    <li id="second-center">15</li>
+                    <li class="bit-counter last-bin">0</li>
+                </ul>
+            </div>
+
+            <div id="csystem">
+                <input type="radio" name="csystem" id="hex" />
+                <label for="hex">Hex</label><br />
+                <input type="radio" checked name="csystem" id="dec" />
+                <label for="dec">Dec</label><br />
+                <input type="radio" name="csystem" id="oct" />
+                <label for="oct">Oct</label><br />
+                <input type="radio" name="csystem" id="bin" />
+                <label for="bin">Bin</label>
+            </div>
+
+            <div id="word-type">
+                <input type="radio" checked name="word-type" id="qword" />
+                <label for="qword">Qword</label><br />
+                <input type="radio" name="word-type" id="dword" />
+                <label for="dword">Dword</label><br />
+                <input type="radio" name="word-type" id="word" />
+                <label for="word">Word</label><br />
+                <input type="radio" name="word-type" id="byte" />
+                <label for="byte">Byte</label>
+            </div>
+        </div>
+        <div id="button-container">
+            <ul id="first-row">
+                <li><button class="ordinary-button muted">&nbsp;</button></li>
+                <li><button class="ordinary-button">Mod</button></li>
+                <li><button class="ordinary-button muted">A</button></li>
+                <li><button class="ordinary-button m">MC</button></li>
+                <li><button class="ordinary-button m">MR</button></li>
+                <li><button class="ordinary-button m">MS</button></li>
+                <li><button class="ordinary-button m">M+</button></li>
+                <li><button class="ordinary-button m">M-</button></li>
+            </ul>
+            <ul id="second-row">
+                <li><button class="ordinary-button">(</button></li>
+                <li><button class="ordinary-button">)</button></li>
+                <li><button class="ordinary-button muted">B</button></li>
+                <li><button class="ordinary-button">&larr;</button></li>
+                <li><button class="ordinary-button">CE</button></li>
+                <li><button class="ordinary-button">C</button></li>
+                <li><button class="ordinary-button">&plusmn;</button></li>
+                <li><button class="ordinary-button muted">&radic;</button></li>
+            </ul>
+            <ul id="third-row">
+                <li><button class="ordinary-button">RoL</button></li>
+                <li><button class="ordinary-button">RoR</button></li>
+                <li><button class="ordinary-button muted">C</button></li>
+                <li><button class="ordinary-button">7</button></li>
+                <li><button class="ordinary-button">8</button></li>
+                <li><button class="ordinary-button">9</button></li>
+                <li><button class="ordinary-button">/</button></li>
+                <li><button class="ordinary-button muted">%</button></li>
+            </ul>
+            <ul id="fourth-row">
+                <li><button class="ordinary-button">Or</button></li>
+                <li><button class="ordinary-button">XoR</button></li>
+                <li><button class="ordinary-button muted">D</button></li>
+                <li><button class="ordinary-button">4</button></li>
+                <li><button class="ordinary-button">5</button></li>
+                <li><button class="ordinary-button">6</button></li>
+                <li><button class="ordinary-button">*</button></li>
+                <li><button class="ordinary-button muted">1/x</button></li>
+            </ul>
+            <ul id="fifth-row">
+                <li><button class="ordinary-button">Lsh</button></li>
+                <li><button class="ordinary-button">Rsh</button></li>
+                <li><button class="ordinary-button muted">E</button></li>
+                <li><button class="ordinary-button">1</button></li>
+                <li><button class="ordinary-button">2</button></li>
+                <li><button class="ordinary-button">3</button></li>
+                <li><button class="ordinary-button">-</button></li>
+            </ul>
+            <ul id="sixth-row">
+                <li><button class="ordinary-button">Not</button></li>
+                <li><button class="ordinary-button">And</button></li>
+                <li><button class="ordinary-button muted">F</button></li>
+                <li><button class="ordinary-button zero">0</button></li>
+                <li><button class="ordinary-button muted">.</button></li>
+                <li><button class="ordinary-button">+</button></li>
+            </ul>
+
+            <button class="ordinary-button equals">=</button>
+        </div>
+    </section>
+</body>
+</html>

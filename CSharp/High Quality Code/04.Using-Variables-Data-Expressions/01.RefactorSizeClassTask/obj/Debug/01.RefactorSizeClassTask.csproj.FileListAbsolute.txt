@@ -1,0 +1,6 @@
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\01.RefactorSizeClassTask\bin\Debug\01.RefactorSizeClassTask.exe.config
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\01.RefactorSizeClassTask\bin\Debug\01.RefactorSizeClassTask.exe
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\01.RefactorSizeClassTask\bin\Debug\01.RefactorSizeClassTask.pdb
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\01.RefactorSizeClassTask\obj\Debug\01.RefactorSizeClassTask.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\01.RefactorSizeClassTask\obj\Debug\01.RefactorSizeClassTask.exe
+E:\Dropbox\Telerik Projects\Homeworks\CSharp\KPK\04.Using-Variables-Data-Expressions\01.RefactorSizeClassTask\obj\Debug\01.RefactorSizeClassTask.pdb

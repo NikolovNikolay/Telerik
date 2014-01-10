@@ -1,0 +1,29 @@
+﻿body {
+    font-family: Calibri;
+
+    nav {
+        ol {
+            list-style-type: upper-roman;
+            text-indent: 13px;
+
+            li {
+                ol {
+                    list-style-type: decimal;
+                    text-indent: 0;
+                    margin-left: -5px;
+                }
+
+                &:first-of-type {
+                    ol {
+                        list-style-type: lower-alpha;
+                    }
+                }
+
+                ul {
+                    text-indent: 0;
+                    margin-left: -5px;
+                }
+            }
+        }
+    }
+}

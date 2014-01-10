@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center; }
+  body ul {
+    list-style-type: none;
+    padding: 0; }
+    body ul *[id^="thumb"] {
+      border: 2px solid black;
+      display: block;
+      width: 120px;
+      height: 75px;
+      opacity: 0.5; }
+    body ul #thumb1 {
+      background: url(../images/one_th.jpg); }
+    body ul #thumb2 {
+      background: url(../images/two_th.jpg); }
+    body ul #thumb3 {
+      background: url(../images/three_th.jpg); }
+    body ul #thumb4 {
+      background: url(../images/four_th.jpg); }
+    body ul #thumb5 {
+      background: url(../images/five_th.jpg); }
+    body ul #thumb6 {
+      background: url(../images/six_th.jpg); }
+    body ul li {
+      display: inline-block;
+      padding: 0; }
+      body ul li span {
+        display: block; }
+        body ul li span img {
+          width: 120px; }
+      body ul li a:hover {
+        cursor: pointer;
+        border: 2px solid white;
+        opacity: 1; }
+      body ul li span:active img {
+        display: block;
+        position: absolute;
+        width: 860px;
+        top: 100px;
+        left: 250px; }
+

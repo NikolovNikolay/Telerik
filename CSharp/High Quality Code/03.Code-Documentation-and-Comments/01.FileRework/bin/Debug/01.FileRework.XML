@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>01.FileRework</name>
+    </assembly>
+    <members>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+            Generates a MD5 hash and returns it as string
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            Checks if provided input contains some of pre-listed true-values
+            and returns true or false
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)">
+            <summary>
+            Tries to parse the given input to short.
+            Returns 0 if false. 
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)">
+            <summary>
+            Tries to parse the given input to integer.
+            Returns 0 if false.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)">
+            <summary>
+            Tries to parse the given input to long.
+            Returns 0 if false.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)">
+            <summary>
+            Tries to parse the given input to DateTime format.
+            Returns DateTime.MinValue if false.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            Turns the first letter of the input to capita, if the input itself 
+            is not empty or not null.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Searches for some startString and returns substring between its position and endString's position.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            Converts the cyrillic letters to latin letters.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            Converts the latin letters to cyrillic letters.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            Validates the input and turns it to a valid username.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            Validates the file name and turns it to a valid file name.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            Returns the first charsCount-quantity characters of the string input.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            Splits the file name by '.' and returns the lowercase string following the '.',
+            which represents the file name.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)">
+            <summary>
+            Returns the file's content type, depending to the file extension.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            Returns a byte array, which represents the parsed to byte values of the input's chars.
+            </summary>
+        </member>
+    </members>
+</doc>

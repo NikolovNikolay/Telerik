@@ -1,0 +1,1 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\09. Code-Tuning-and-Optimization\TestComplexMathOperations\bin\Debug\TestComplexMathOperations.exe.config
