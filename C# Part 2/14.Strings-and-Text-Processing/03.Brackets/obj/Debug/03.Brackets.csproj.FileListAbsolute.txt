@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\03.Brackets\bin\Debug\03.Brackets.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\03.Brackets\bin\Debug\03.Brackets.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\03.Brackets\bin\Debug\03.Brackets.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\03.Brackets\obj\Debug\03.Brackets.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\03.Brackets\obj\Debug\03.Brackets.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\03.Brackets\obj\Debug\03.Brackets.csprojResolveAssemblyReference.cache

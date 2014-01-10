@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\11.FallingRocks\bin\Debug\11.FallingRocks.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\11.FallingRocks\obj\Debug\11.FallingRocks.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\11.FallingRocks\bin\Debug\11.FallingRocks.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\11.FallingRocks\bin\Debug\11.FallingRocks.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\11.FallingRocks\obj\Debug\11.FallingRocks.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\11.FallingRocks\obj\Debug\11.FallingRocks.pdb

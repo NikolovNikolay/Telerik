@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\07.ArithmeticalExpression\bin\Debug\07.ArithmeticalExpression.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\07.ArithmeticalExpression\bin\Debug\07.ArithmeticalExpression.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\07.ArithmeticalExpression\bin\Debug\07.ArithmeticalExpression.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\07.ArithmeticalExpression\obj\Debug\07.ArithmeticalExpression.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\07.ArithmeticalExpression\obj\Debug\07.ArithmeticalExpression.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\11.UsingClassesAndObjects\07.ArithmeticalExpression\obj\Debug\07.ArithmeticalExpression.pdb

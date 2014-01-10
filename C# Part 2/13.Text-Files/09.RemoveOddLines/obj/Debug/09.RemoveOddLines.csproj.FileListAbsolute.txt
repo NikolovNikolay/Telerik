@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\09.RemoveOddLines\bin\Debug\09.RemoveOddLines.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\09.RemoveOddLines\bin\Debug\09.RemoveOddLines.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\09.RemoveOddLines\bin\Debug\09.RemoveOddLines.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\09.RemoveOddLines\obj\Debug\09.RemoveOddLines.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\09.RemoveOddLines\obj\Debug\09.RemoveOddLines.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\09.RemoveOddLines\obj\Debug\09.RemoveOddLines.pdb

@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\18.ExtractEmails\bin\Debug\18.ExtractEmails.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\18.ExtractEmails\bin\Debug\18.ExtractEmails.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\18.ExtractEmails\bin\Debug\18.ExtractEmails.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\18.ExtractEmails\obj\Debug\18.ExtractEmails.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\18.ExtractEmails\obj\Debug\18.ExtractEmails.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\18.ExtractEmails\obj\Debug\18.ExtractEmails.csprojResolveAssemblyReference.cache

@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\07.ReverseDigitsOfADecimalNumber\bin\Debug\07.ReverseDigitsOfADecimalNumber.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\07.ReverseDigitsOfADecimalNumber\bin\Debug\07.ReverseDigitsOfADecimalNumber.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\07.ReverseDigitsOfADecimalNumber\bin\Debug\07.ReverseDigitsOfADecimalNumber.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\07.ReverseDigitsOfADecimalNumber\obj\Debug\07.ReverseDigitsOfADecimalNumber.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\07.ReverseDigitsOfADecimalNumber\obj\Debug\07.ReverseDigitsOfADecimalNumber.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\07.ReverseDigitsOfADecimalNumber\obj\Debug\07.ReverseDigitsOfADecimalNumber.csprojResolveAssemblyReference.cache

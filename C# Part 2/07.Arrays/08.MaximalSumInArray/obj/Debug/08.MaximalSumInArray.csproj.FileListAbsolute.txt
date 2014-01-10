@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\08.MaximalSumInArray\bin\Debug\08.MaximalSumInArray.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\08.MaximalSumInArray\obj\Debug\08.MaximalSumInArray.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\08.MaximalSumInArray\bin\Debug\08.MaximalSumInArray.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\08.MaximalSumInArray\bin\Debug\08.MaximalSumInArray.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\08.MaximalSumInArray\obj\Debug\08.MaximalSumInArray.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\08.MaximalSumInArray\obj\Debug\08.MaximalSumInArray.pdb

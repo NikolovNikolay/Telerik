@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\05.HexadecimalToBinary\bin\Debug\05.HexadecimalToBinary.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\05.HexadecimalToBinary\bin\Debug\05.HexadecimalToBinary.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\05.HexadecimalToBinary\bin\Debug\05.HexadecimalToBinary.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\05.HexadecimalToBinary\obj\Debug\05.HexadecimalToBinary.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\05.HexadecimalToBinary\obj\Debug\05.HexadecimalToBinary.pdb

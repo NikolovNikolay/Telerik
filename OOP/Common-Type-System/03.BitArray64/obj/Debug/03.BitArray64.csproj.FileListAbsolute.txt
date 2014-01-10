@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\03.BitArray64\bin\Debug\03.BitArray64.exe.config
-E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\03.BitArray64\bin\Debug\03.BitArray64.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\03.BitArray64\bin\Debug\03.BitArray64.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\03.BitArray64\obj\Debug\03.BitArray64.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\03.BitArray64\obj\Debug\03.BitArray64.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Common-Type-System\03.BitArray64\obj\Debug\03.BitArray64.pdb

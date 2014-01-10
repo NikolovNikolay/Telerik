@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\14.SetOfIntegersCalculations\bin\Debug\14.SetOfIntegersCalculations.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\14.SetOfIntegersCalculations\bin\Debug\14.SetOfIntegersCalculations.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\14.SetOfIntegersCalculations\bin\Debug\14.SetOfIntegersCalculations.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\14.SetOfIntegersCalculations\obj\Debug\14.SetOfIntegersCalculations.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\14.SetOfIntegersCalculations\obj\Debug\14.SetOfIntegersCalculations.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\14.SetOfIntegersCalculations\obj\Debug\14.SetOfIntegersCalculations.csprojResolveAssemblyReference.cache

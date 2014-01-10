@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\06.PrintStringWithLength20\bin\Debug\06.PrintStringWithLength20.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\06.PrintStringWithLength20\bin\Debug\06.PrintStringWithLength20.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\06.PrintStringWithLength20\bin\Debug\06.PrintStringWithLength20.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\06.PrintStringWithLength20\obj\Debug\06.PrintStringWithLength20.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\06.PrintStringWithLength20\obj\Debug\06.PrintStringWithLength20.pdb

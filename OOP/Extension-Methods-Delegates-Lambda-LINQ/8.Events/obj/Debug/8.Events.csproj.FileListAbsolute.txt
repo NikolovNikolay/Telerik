@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\8.Events\bin\Debug\8.Events.exe.config
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\8.Events\bin\Debug\8.Events.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\8.Events\bin\Debug\8.Events.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\8.Events\obj\Debug\8.Events.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\8.Events\obj\Debug\8.Events.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\8.Events\obj\Debug\8.Events.pdb

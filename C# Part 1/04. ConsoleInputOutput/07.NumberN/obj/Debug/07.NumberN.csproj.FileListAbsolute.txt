@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\07.NumberN\bin\Debug\07.NumberN.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\07.NumberN\bin\Debug\07.NumberN.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\07.NumberN\bin\Debug\07.NumberN.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\07.NumberN\obj\Debug\07.NumberN.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\07.NumberN\obj\Debug\07.NumberN.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\07.NumberN\obj\Debug\07.NumberN.csprojResolveAssemblyReference.cache

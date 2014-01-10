@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\3.AnimalHierarchy\bin\Debug\3.AnimalHierarchy.exe.config
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\3.AnimalHierarchy\bin\Debug\3.AnimalHierarchy.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\3.AnimalHierarchy\bin\Debug\3.AnimalHierarchy.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\3.AnimalHierarchy\obj\Debug\3.AnimalHierarchy.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\3.AnimalHierarchy\obj\Debug\3.AnimalHierarchy.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\3.AnimalHierarchy\obj\Debug\3.AnimalHierarchy.pdb

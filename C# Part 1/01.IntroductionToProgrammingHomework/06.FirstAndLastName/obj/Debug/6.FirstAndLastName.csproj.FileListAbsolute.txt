@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\6.FirstAndLastName\bin\Debug\6.FirstAndLastName.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\6.FirstAndLastName\bin\Debug\6.FirstAndLastName.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\6.FirstAndLastName\bin\Debug\6.FirstAndLastName.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\6.FirstAndLastName\obj\Debug\6.FirstAndLastName.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\6.FirstAndLastName\obj\Debug\6.FirstAndLastName.pdb

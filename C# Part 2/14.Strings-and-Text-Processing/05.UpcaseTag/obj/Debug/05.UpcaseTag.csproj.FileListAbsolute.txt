@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\05.UpcaseTag\bin\Debug\05.UpcaseTag.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\05.UpcaseTag\bin\Debug\05.UpcaseTag.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\05.UpcaseTag\bin\Debug\05.UpcaseTag.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\05.UpcaseTag\obj\Debug\05.UpcaseTag.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\05.UpcaseTag\obj\Debug\05.UpcaseTag.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\05.UpcaseTag\obj\Debug\05.UpcaseTag.csprojResolveAssemblyReference.cache

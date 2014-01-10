@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\11.ExtractBitInPositionN\bin\Debug\11.ExtractBitInPositionN.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\11.ExtractBitInPositionN\bin\Debug\11.ExtractBitInPositionN.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\11.ExtractBitInPositionN\bin\Debug\11.ExtractBitInPositionN.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\11.ExtractBitInPositionN\obj\Debug\11.ExtractBitInPositionN.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\11.ExtractBitInPositionN\obj\Debug\11.ExtractBitInPositionN.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\11.ExtractBitInPositionN\obj\Debug\11.ExtractBitInPositionN.csprojResolveAssemblyReference.cache

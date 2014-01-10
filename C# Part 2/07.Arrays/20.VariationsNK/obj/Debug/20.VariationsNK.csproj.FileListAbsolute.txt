@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\20.VariationsNK\bin\Debug\20.VariationsNK.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\20.VariationsNK\bin\Debug\20.VariationsNK.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\20.VariationsNK\bin\Debug\20.VariationsNK.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\20.VariationsNK\obj\Debug\20.VariationsNK.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\20.VariationsNK\obj\Debug\20.VariationsNK.pdb

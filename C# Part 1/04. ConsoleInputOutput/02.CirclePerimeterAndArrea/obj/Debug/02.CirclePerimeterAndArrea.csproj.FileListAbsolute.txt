@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\02.CirclePerimeterAndArrea\bin\Debug\02.CirclePerimeterAndArrea.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\02.CirclePerimeterAndArrea\bin\Debug\02.CirclePerimeterAndArrea.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\02.CirclePerimeterAndArrea\bin\Debug\02.CirclePerimeterAndArrea.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\02.CirclePerimeterAndArrea\obj\Debug\02.CirclePerimeterAndArrea.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\4. ConsoleInputOutput\02.CirclePerimeterAndArrea\obj\Debug\02.CirclePerimeterAndArrea.pdb

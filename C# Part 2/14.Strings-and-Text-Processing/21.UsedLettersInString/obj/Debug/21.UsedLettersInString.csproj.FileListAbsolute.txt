@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\21.UsedLettersInString\bin\Debug\21.UsedLettersInString.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\21.UsedLettersInString\obj\Debug\21.UsedLettersInString.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\21.UsedLettersInString\bin\Debug\21.UsedLettersInString.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\21.UsedLettersInString\bin\Debug\21.UsedLettersInString.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\21.UsedLettersInString\obj\Debug\21.UsedLettersInString.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\21.UsedLettersInString\obj\Debug\21.UsedLettersInString.pdb

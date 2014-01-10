@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\07.UniversalConverterNumericalSystems\bin\Debug\07.UniversalConverterNumericalSystems.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\07.UniversalConverterNumericalSystems\bin\Debug\07.UniversalConverterNumericalSystems.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\07.UniversalConverterNumericalSystems\bin\Debug\07.UniversalConverterNumericalSystems.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\07.UniversalConverterNumericalSystems\obj\Debug\07.UniversalConverterNumericalSystems.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\07.UniversalConverterNumericalSystems\obj\Debug\07.UniversalConverterNumericalSystems.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\10.NumeralSystems\07.UniversalConverterNumericalSystems\obj\Debug\07.UniversalConverterNumericalSystems.csprojResolveAssemblyReference.cache

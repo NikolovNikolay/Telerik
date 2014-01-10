@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\18.RemainingSortedArray\bin\Debug\18.RemainingSortedArray.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\18.RemainingSortedArray\bin\Debug\18.RemainingSortedArray.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\18.RemainingSortedArray\bin\Debug\18.RemainingSortedArray.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\18.RemainingSortedArray\obj\Debug\18.RemainingSortedArray.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\18.RemainingSortedArray\obj\Debug\18.RemainingSortedArray.pdb

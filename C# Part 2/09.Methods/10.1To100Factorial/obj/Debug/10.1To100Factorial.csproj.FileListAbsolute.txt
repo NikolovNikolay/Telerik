@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\10.1To100Factorial\bin\Debug\10.1To100Factorial.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\10.1To100Factorial\bin\Debug\10.1To100Factorial.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\10.1To100Factorial\bin\Debug\10.1To100Factorial.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\10.1To100Factorial\obj\Debug\10.1To100Factorial.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\10.1To100Factorial\obj\Debug\10.1To100Factorial.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\10.1To100Factorial\obj\Debug\10.1To100Factorial.pdb

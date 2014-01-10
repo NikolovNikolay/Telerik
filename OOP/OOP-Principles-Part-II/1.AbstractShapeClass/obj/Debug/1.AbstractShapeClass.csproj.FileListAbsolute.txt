@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\1.AbstractShapeClass\bin\Debug\1.AbstractShapeClass.exe.config
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\1.AbstractShapeClass\obj\Debug\1.AbstractShapeClass.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\1.AbstractShapeClass\bin\Debug\1.AbstractShapeClass.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\1.AbstractShapeClass\bin\Debug\1.AbstractShapeClass.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\1.AbstractShapeClass\obj\Debug\1.AbstractShapeClass.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\1.AbstractShapeClass\obj\Debug\1.AbstractShapeClass.pdb

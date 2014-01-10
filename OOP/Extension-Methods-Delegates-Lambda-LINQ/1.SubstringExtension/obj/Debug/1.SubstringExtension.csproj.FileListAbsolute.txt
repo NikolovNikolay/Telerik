@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\1.SubstringExtension\bin\Debug\1.SubstringExtension.exe.config
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\1.SubstringExtension\bin\Debug\1.SubstringExtension.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\1.SubstringExtension\bin\Debug\1.SubstringExtension.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\1.SubstringExtension\obj\Debug\1.SubstringExtension.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\1.SubstringExtension\obj\Debug\1.SubstringExtension.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\1.SubstringExtension\obj\Debug\1.SubstringExtension.pdb

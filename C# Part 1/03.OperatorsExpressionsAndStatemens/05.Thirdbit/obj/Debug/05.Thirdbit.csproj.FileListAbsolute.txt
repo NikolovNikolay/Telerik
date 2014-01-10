@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\05.Thirdbit\bin\Debug\05.Thirdbit.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\05.Thirdbit\bin\Debug\05.Thirdbit.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\05.Thirdbit\bin\Debug\05.Thirdbit.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\05.Thirdbit\obj\Debug\05.Thirdbit.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\05.Thirdbit\obj\Debug\05.Thirdbit.pdb

@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\10.BitInPositionPIsOne\bin\Debug\10.BitInPositionPIsOne.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\10.BitInPositionPIsOne\bin\Debug\10.BitInPositionPIsOne.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\10.BitInPositionPIsOne\bin\Debug\10.BitInPositionPIsOne.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\10.BitInPositionPIsOne\obj\Debug\10.BitInPositionPIsOne.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\10.BitInPositionPIsOne\obj\Debug\10.BitInPositionPIsOne.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\10.BitInPositionPIsOne\obj\Debug\10.BitInPositionPIsOne.csprojResolveAssemblyReference.cache

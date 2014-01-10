@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\12.SubtractAndMultiplyPolynomials\bin\Debug\12.SubtractAndMultiplyPolynomials.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\12.SubtractAndMultiplyPolynomials\bin\Debug\12.SubtractAndMultiplyPolynomials.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\12.SubtractAndMultiplyPolynomials\bin\Debug\12.SubtractAndMultiplyPolynomials.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\12.SubtractAndMultiplyPolynomials\obj\Debug\12.SubtractAndMultiplyPolynomials.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\12.SubtractAndMultiplyPolynomials\obj\Debug\12.SubtractAndMultiplyPolynomials.pdb

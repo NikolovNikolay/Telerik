@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\16.SubsetSum\bin\Debug\16.SubsetSum.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\16.SubsetSum\bin\Debug\16.SubsetSum.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\16.SubsetSum\bin\Debug\16.SubsetSum.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\16.SubsetSum\obj\Debug\16.SubsetSum.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\16.SubsetSum\obj\Debug\16.SubsetSum.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\16.SubsetSum\obj\Debug\16.SubsetSum.csprojResolveAssemblyReference.cache

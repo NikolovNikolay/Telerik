@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\2.MergedLists\bin\Debug\2.MergedLists.exe.config
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\2.MergedLists\bin\Debug\2.MergedLists.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\2.MergedLists\bin\Debug\2.MergedLists.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\2.MergedLists\obj\Debug\2.MergedLists.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\2.MergedLists\obj\Debug\2.MergedLists.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-I\2.MergedLists\obj\Debug\2.MergedLists.pdb

@@ -1,5 +1,0 @@
-beep 6
-sheep 5
-green 4
-store 3
-power 2

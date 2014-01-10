@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\2.BankAccounts\obj\Debug\2.BankAccounts.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\2.BankAccounts\bin\Debug\2.BankAccounts.exe.config
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\2.BankAccounts\bin\Debug\2.BankAccounts.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\2.BankAccounts\bin\Debug\2.BankAccounts.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\2.BankAccounts\obj\Debug\2.BankAccounts.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\OOP-Principles-Part-II\2.BankAccounts\obj\Debug\2.BankAccounts.pdb

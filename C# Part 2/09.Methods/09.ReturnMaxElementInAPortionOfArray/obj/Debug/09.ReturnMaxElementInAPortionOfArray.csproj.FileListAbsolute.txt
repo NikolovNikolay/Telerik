@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\09.ReturnMaxElementInAPortionOfArray\bin\Debug\09.ReturnMaxElementInAPortionOfArray.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\09.ReturnMaxElementInAPortionOfArray\bin\Debug\09.ReturnMaxElementInAPortionOfArray.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\09.ReturnMaxElementInAPortionOfArray\bin\Debug\09.ReturnMaxElementInAPortionOfArray.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\09.ReturnMaxElementInAPortionOfArray\obj\Debug\09.ReturnMaxElementInAPortionOfArray.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\09.ReturnMaxElementInAPortionOfArray\obj\Debug\09.ReturnMaxElementInAPortionOfArray.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\09.ReturnMaxElementInAPortionOfArray\obj\Debug\09.ReturnMaxElementInAPortionOfArray.pdb

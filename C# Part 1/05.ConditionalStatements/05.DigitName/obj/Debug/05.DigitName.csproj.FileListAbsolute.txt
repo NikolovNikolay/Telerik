@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\05.DigitName\bin\Debug\05.DigitName.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\05.DigitName\bin\Debug\05.DigitName.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\05.DigitName\bin\Debug\05.DigitName.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\05.DigitName\obj\Debug\05.DigitName.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\05.DigitName\obj\Debug\05.DigitName.pdb

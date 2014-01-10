@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\7.CurrentDateTime\bin\Debug\7.CurrentDateTime.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\7.CurrentDateTime\bin\Debug\7.CurrentDateTime.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\7.CurrentDateTime\bin\Debug\7.CurrentDateTime.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\7.CurrentDateTime\obj\Debug\7.CurrentDateTime.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\1. Introduction to programming\1.IntroductionToProgramming\7.CurrentDateTime\obj\Debug\7.CurrentDateTime.pdb

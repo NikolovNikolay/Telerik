@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\24.AlphabeticalOrderOfWords\bin\Debug\24.AlphabeticalOrderOfWords.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\24.AlphabeticalOrderOfWords\bin\Debug\24.AlphabeticalOrderOfWords.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\24.AlphabeticalOrderOfWords\bin\Debug\24.AlphabeticalOrderOfWords.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\24.AlphabeticalOrderOfWords\obj\Debug\24.AlphabeticalOrderOfWords.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\14.Strings-and-Text-Processing\24.AlphabeticalOrderOfWords\obj\Debug\24.AlphabeticalOrderOfWords.pdb

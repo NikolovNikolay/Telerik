@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\06.FirstDigitBiggerThanNeighbours\bin\Debug\06.FirstDigitBiggerThanNeighbours.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\06.FirstDigitBiggerThanNeighbours\bin\Debug\06.FirstDigitBiggerThanNeighbours.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\06.FirstDigitBiggerThanNeighbours\bin\Debug\06.FirstDigitBiggerThanNeighbours.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\06.FirstDigitBiggerThanNeighbours\obj\Debug\06.FirstDigitBiggerThanNeighbours.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\06.FirstDigitBiggerThanNeighbours\obj\Debug\06.FirstDigitBiggerThanNeighbours.pdb

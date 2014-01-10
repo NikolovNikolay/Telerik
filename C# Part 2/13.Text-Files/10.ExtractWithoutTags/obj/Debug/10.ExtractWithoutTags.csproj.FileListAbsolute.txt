@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\10.ExtractWithoutTags\bin\Debug\10.ExtractWithoutTags.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\10.ExtractWithoutTags\obj\Debug\10.ExtractWithoutTags.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\10.ExtractWithoutTags\bin\Debug\10.ExtractWithoutTags.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\10.ExtractWithoutTags\bin\Debug\10.ExtractWithoutTags.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\10.ExtractWithoutTags\obj\Debug\10.ExtractWithoutTags.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\10.ExtractWithoutTags\obj\Debug\10.ExtractWithoutTags.pdb

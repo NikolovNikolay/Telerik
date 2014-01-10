@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\12.ModifiyTheValueOfTheBit\bin\Debug\12.ModifiyTheValueOfTheBit.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\12.ModifiyTheValueOfTheBit\bin\Debug\12.ModifiyTheValueOfTheBit.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\12.ModifiyTheValueOfTheBit\bin\Debug\12.ModifiyTheValueOfTheBit.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\12.ModifiyTheValueOfTheBit\obj\Debug\12.ModifiyTheValueOfTheBit.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\12.ModifiyTheValueOfTheBit\obj\Debug\12.ModifiyTheValueOfTheBit.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\12.ModifiyTheValueOfTheBit\obj\Debug\12.ModifiyTheValueOfTheBit.csprojResolveAssemblyReference.cache

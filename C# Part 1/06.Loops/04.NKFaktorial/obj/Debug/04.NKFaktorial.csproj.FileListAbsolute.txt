@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\04.NKFaktorial\bin\Debug\04.NKFaktorial.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\04.NKFaktorial\bin\Debug\04.NKFaktorial.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\04.NKFaktorial\bin\Debug\04.NKFaktorial.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\04.NKFaktorial\obj\Debug\04.NKFaktorial.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\04.NKFaktorial\obj\Debug\04.NKFaktorial.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\04.NKFaktorial\obj\Debug\04.NKFaktorial.csprojResolveAssemblyReference.cache

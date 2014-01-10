@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\4.BinarySearch\bin\Debug\4.BinarySearch.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\4.BinarySearch\obj\Debug\4.BinarySearch.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\4.BinarySearch\obj\Debug\4.BinarySearch.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\4.BinarySearch\bin\Debug\4.BinarySearch.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\4.BinarySearch\bin\Debug\4.BinarySearch.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\08.MultidimensionalArrays\4.BinarySearch\obj\Debug\04.BinarySearch.csprojResolveAssemblyReference.cache

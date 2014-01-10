@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\09.MostFrequent\bin\Debug\09.MostFrequent.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\09.MostFrequent\bin\Debug\09.MostFrequent.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\09.MostFrequent\bin\Debug\09.MostFrequent.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\09.MostFrequent\obj\Debug\09.MostFrequent.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\09.MostFrequent\obj\Debug\09.MostFrequent.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\09.MostFrequent\obj\Debug\09.MostFrequent.csprojResolveAssemblyReference.cache

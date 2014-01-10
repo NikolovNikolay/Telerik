@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\02.OneToNNotDivisableBy3And7\bin\Debug\02.OneToNNotDivisableBy3And7.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\02.OneToNNotDivisableBy3And7\bin\Debug\02.OneToNNotDivisableBy3And7.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\02.OneToNNotDivisableBy3And7\bin\Debug\02.OneToNNotDivisableBy3And7.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\02.OneToNNotDivisableBy3And7\obj\Debug\02.OneToNNotDivisableBy3And7.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\02.OneToNNotDivisableBy3And7\obj\Debug\02.OneToNNotDivisableBy3And7.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\6.Loops\02.OneToNNotDivisableBy3And7\obj\Debug\02.OneToNNotDivisableBy3And7.csprojResolveAssemblyReference.cache

@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\03.InsertLineNumber\bin\Debug\03.InsertLineNumber.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\03.InsertLineNumber\bin\Debug\03.InsertLineNumber.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\03.InsertLineNumber\bin\Debug\03.InsertLineNumber.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\03.InsertLineNumber\obj\Debug\03.InsertLineNumber.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\03.InsertLineNumber\obj\Debug\03.InsertLineNumber.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\03.InsertLineNumber\obj\Debug\03.InsertLineNumber.csprojResolveAssemblyReference.cache

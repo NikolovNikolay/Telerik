@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\10.MultiplyScore\bin\Debug\10.MultiplyScore.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\10.MultiplyScore\bin\Debug\10.MultiplyScore.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\10.MultiplyScore\bin\Debug\10.MultiplyScore.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\10.MultiplyScore\obj\Debug\10.MultiplyScore.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\10.MultiplyScore\obj\Debug\10.MultiplyScore.pdb

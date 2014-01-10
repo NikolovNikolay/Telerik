@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\2.ProductOfThreeRealNumbers\bin\Debug\2.ProductOfThreeRealNumbers.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\2.ProductOfThreeRealNumbers\bin\Debug\2.ProductOfThreeRealNumbers.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\2.ProductOfThreeRealNumbers\bin\Debug\2.ProductOfThreeRealNumbers.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\2.ProductOfThreeRealNumbers\obj\Debug\2.ProductOfThreeRealNumbers.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\2.ProductOfThreeRealNumbers\obj\Debug\2.ProductOfThreeRealNumbers.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\2.ProductOfThreeRealNumbers\obj\Debug\02.ProductOfThreeRealNumbers.csprojResolveAssemblyReference.cache

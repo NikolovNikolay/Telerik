@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\19.PermutationOfNElements\bin\Debug\19.PermutationOfNElements.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\19.PermutationOfNElements\bin\Debug\19.PermutationOfNElements.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\19.PermutationOfNElements\bin\Debug\19.PermutationOfNElements.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\19.PermutationOfNElements\obj\Debug\19.PermutationOfNElements.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\19.PermutationOfNElements\obj\Debug\19.PermutationOfNElements.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\07.Arrays\19.PermutationOfNElements\obj\Debug\19.PermutationOfNElements.pdb

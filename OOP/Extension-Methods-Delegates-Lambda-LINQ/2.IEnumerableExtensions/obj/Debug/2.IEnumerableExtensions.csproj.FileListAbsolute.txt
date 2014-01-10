@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\2.IEnumerableExtensions\bin\Debug\2.IEnumerableExtensions.exe.config
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\2.IEnumerableExtensions\bin\Debug\2.IEnumerableExtensions.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\2.IEnumerableExtensions\bin\Debug\2.IEnumerableExtensions.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\2.IEnumerableExtensions\obj\Debug\2.IEnumerableExtensions.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\2.IEnumerableExtensions\obj\Debug\2.IEnumerableExtensions.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\Extension-Methods-Delegates-Lambda-LINQ\2.IEnumerableExtensions\obj\Debug\2.IEnumerableExtensions.csprojResolveAssemblyReference.cache

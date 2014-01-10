@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\06.SortListOfStrings\bin\Debug\06.SortListOfStrings.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\06.SortListOfStrings\bin\Debug\06.SortListOfStrings.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\06.SortListOfStrings\bin\Debug\06.SortListOfStrings.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\06.SortListOfStrings\obj\Debug\06.SortListOfStrings.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\13.Text-Files\06.SortListOfStrings\obj\Debug\06.SortListOfStrings.pdb

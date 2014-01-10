@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\04.SortDescending\bin\Debug\04.SortDescending.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\04.SortDescending\bin\Debug\04.SortDescending.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\04.SortDescending\bin\Debug\04.SortDescending.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\04.SortDescending\obj\Debug\04.SortDescending.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\04.SortDescending\obj\Debug\04.SortDescending.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\5.ConditionalStatements\04.SortDescending\obj\Debug\04.SortDescending.csprojResolveAssemblyReference.cache

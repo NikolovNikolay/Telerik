@@ -1,6 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\01.NameMethod\bin\Debug\01.NameMethod.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\01.NameMethod\bin\Debug\01.NameMethod.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\01.NameMethod\bin\Debug\01.NameMethod.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\01.NameMethod\obj\Debug\01.NameMethod.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\01.NameMethod\obj\Debug\01.NameMethod.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 2 Homeworks\09.Methods\01.NameMethod\obj\Debug\01.NameMethod.csprojResolveAssemblyReference.cache

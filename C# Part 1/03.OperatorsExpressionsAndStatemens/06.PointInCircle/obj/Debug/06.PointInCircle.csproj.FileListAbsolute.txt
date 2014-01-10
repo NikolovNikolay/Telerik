@@ -1,5 +1,0 @@
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\06.PointInCircle\bin\Debug\06.PointInCircle.exe.config
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\06.PointInCircle\bin\Debug\06.PointInCircle.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\06.PointInCircle\bin\Debug\06.PointInCircle.pdb
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\06.PointInCircle\obj\Debug\06.PointInCircle.exe
-E:\Dropbox\Telerik Projects\First semester\C# part 1 Homeworks\3.OperatorsExpressionsAndStatemens\06.PointInCircle\obj\Debug\06.PointInCircle.pdb

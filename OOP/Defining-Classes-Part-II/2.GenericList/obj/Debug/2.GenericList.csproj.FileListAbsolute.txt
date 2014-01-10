@@ -1,8 +1,0 @@
-E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\2.GenericList\bin\Debug\2.GenericList.exe.config
-E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\2.GenericList\bin\Debug\2.GenericList.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\2.GenericList\bin\Debug\2.GenericList.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\2.GenericList\obj\Debug\2.GenericList.csprojResolveAssemblyReference.cache
-E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\2.GenericList\obj\Debug\2.GenericList.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\2.GenericList\obj\Debug\2.GenericList.pdb
-E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\2.GenericList\bin\Debug\Matrix.exe
-E:\Dropbox\Telerik Projects\Second semester\OOP\Defining-Classes-Part-II\2.GenericList\bin\Debug\Matrix.pdb
