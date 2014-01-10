@@ -6,21 +6,30 @@
         div {
             margin:5px;
         }
+
+        button {
+            border: 2px solid green;
+            border-radius: 30px;
+            -webkit-transform: rotate(-10deg);
+            -moz-transform: rotate(-10deg);
+            background: transparent;
+            box-shadow: rgba(0, 255, 144,0.5) 2px -2px inset;
+        }
     </style>
 </head>
 <body>
     <form action="" method="post">
         <div>
             <label for="member_name">Member name:</label>
-            <input type="text" id="member_name" required />
+            <input type="text" id="member_name" required /><span><strong>*req</strong></span>
         </div>
         <div>
             <label for="email">Email:</label>
-            <input type="email" id="email" required />
+            <input type="email" id="email" required /><span><strong>*req</strong></span>
         </div>
         <div>
             <label for="school">School:</label>
-            <input type="text" id="school" required />
+            <input type="text" id="school" required /><span><strong>*req</strong></span>
         </div>
         <button type="submit">Submit</button>
     </form>
