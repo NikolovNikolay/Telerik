@@ -1,0 +1,5 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\10.UnitTesting\School\bin\Debug\School.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\10.UnitTesting\School\bin\Debug\School.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\10.UnitTesting\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\10.UnitTesting\School\obj\Debug\School.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\CSharp\High Quality Code\10.UnitTesting\School\obj\Debug\School.pdb
