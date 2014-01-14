@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function calculateRectangleArea(width, height) {
+            var rectangleArea = width * height;
+            jsConsole.writeLine('Rectangle area is: ' + rectangleArea);
+        }
+
+        calculateRectangleArea(5, 3);
+        calculateRectangleArea(8, 4);
+        calculateRectangleArea(5.4, 3);
+        calculateRectangleArea(10, 5);
+    </script>
+</body>
+</html>

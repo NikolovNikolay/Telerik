@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function sortThreeDigitsInDescending(a, b, c) {
+            var biggest, medium, smallest;
+            if (a > b) {
+                if (a > c) {
+                    biggest = a;
+                    if (b > c) {
+                        medium = b;
+                        smallest = c;
+                    }
+                    else {
+                        medium = c;
+                        smallest = b;
+                    }
+                }
+                else {
+                    biggest = c;
+                    medium = a;
+                    smallest = b;
+                }
+            }
+            else {
+                if (b < c) {
+                    biggest = c;
+                    medium = b;
+                    smallest = a;
+                }
+                else {
+                    biggest = b;
+                    if (a < c) {
+                        medium = c;
+                        smallest = a;
+                    }
+                    else {
+                        medium = a;
+                        smallest = c;
+                    }
+                }
+            }
+
+            return new Array(biggest, medium, smallest);
+        }
+
+        var arr = sortThreeDigitsInDescending(1, 2, 3);
+        for (var i = 0; i < arr.length; i++) {
+            jsConsole.write(arr[i] + ' ');
+        }
+
+        jsConsole.writeLine();
+        arr = sortThreeDigitsInDescending(5, 4, 3);
+        for (var i = 0; i < arr.length; i++) {
+            jsConsole.write(arr[i] + ' ');
+        }
+
+        jsConsole.writeLine();
+        arr = sortThreeDigitsInDescending(5, 3, 4);
+        for (var i = 0; i < arr.length; i++) {
+            jsConsole.write(arr[i] + ' ');
+        }
+
+        jsConsole.writeLine();
+        arr = sortThreeDigitsInDescending(4, 3, 5);
+        for (var i = 0; i < arr.length; i++) {
+            jsConsole.write(arr[i] + ' ');
+        }
+    </script>
+</body>
+</html>

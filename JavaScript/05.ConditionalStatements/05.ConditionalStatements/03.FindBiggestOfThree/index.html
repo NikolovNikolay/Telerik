@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function findBiggestOfThree(a, b, c) {
+            var biggestOfAll;
+            if (a > b) {
+                if (a > c) {
+                    biggestOfAll = a;
+                }
+                else {
+                    biggestOfAll = c;
+                }
+            }
+            else {
+                if (b > c) {
+                    biggestOfAll = b;
+                }
+                else {
+                    biggestOfAll = c;
+                }
+            }
+
+            return biggestOfAll;
+        }
+
+        jsConsole.writeLine(findBiggestOfThree(1, 2, 3));
+        jsConsole.writeLine(findBiggestOfThree(2, 3, 1));
+        jsConsole.writeLine(findBiggestOfThree(3, 2, 1));
+    </script>
+</body>
+</html>

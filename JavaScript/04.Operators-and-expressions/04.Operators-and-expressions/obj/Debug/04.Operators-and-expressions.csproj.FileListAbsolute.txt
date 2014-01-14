@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\04.Operators-and-expressions\04.Operators-and-expressions\bin\04.Operators-and-expressions.dll.config
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\04.Operators-and-expressions\04.Operators-and-expressions\bin\04.Operators-and-expressions.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\04.Operators-and-expressions\04.Operators-and-expressions\bin\04.Operators-and-expressions.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\04.Operators-and-expressions\04.Operators-and-expressions\obj\Debug\04.Operators-and-expressions.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\04.Operators-and-expressions\04.Operators-and-expressions\obj\Debug\04.Operators-and-expressions.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\04.Operators-and-expressions\04.Operators-and-expressions\obj\Debug\04.Operators-and-expressions.pdb

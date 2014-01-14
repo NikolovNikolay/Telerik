@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Input digit in the text box and press check</p>
+    <input type="text" id="digit-bx"/>
+    <button value="Check" id="check-btn" onclick="checkDigit(document.getElementById('digit-bx').value)">Check</button>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function checkDigit(digit) {
+            var digitInt = parseInt(digit);
+            switch (digitInt) {
+                case 1: jsConsole.writeLine('One'); break;
+                case 2: jsConsole.writeLine('Two'); break;
+                case 3: jsConsole.writeLine('Three'); break;
+                case 4: jsConsole.writeLine('Four'); break;
+                case 5: jsConsole.writeLine('Five'); break;
+                case 6: jsConsole.writeLine('Six'); break;
+                case 7: jsConsole.writeLine('Seven'); break;
+                case 8: jsConsole.writeLine('Eight'); break;
+                case 9: jsConsole.writeLine('Nine'); break;
+                case 0: jsConsole.writeLine('Zero'); break;
+                default: jsConsole.writeLine('Invalid digit');
+            }
+        }
+    </script>
+</body>
+</html>

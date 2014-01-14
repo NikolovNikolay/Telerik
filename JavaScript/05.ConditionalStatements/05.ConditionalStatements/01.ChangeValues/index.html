@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>    
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function changeValues(a, b) {
+            if (a > b) {
+                var c = a;
+                a = b;
+                b = c;
+            }
+
+            jsConsole.writeLine('a = ' + a + '; b = ' + b);
+        }
+
+        changeValues(3, 5);
+        changeValues(5, 4);
+    </script>
+</body>
+</html>

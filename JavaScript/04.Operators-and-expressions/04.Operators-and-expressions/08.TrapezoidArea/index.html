@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function calculateTrapezoidArea(a, b, h) {
+            var area = ((a + b) / 2) * h;
+
+            return area;
+        }
+
+        jsConsole.writeLine(calculateTrapezoidArea(2, 2, 2));
+        jsConsole.writeLine(calculateTrapezoidArea(6, 3, 9));
+        jsConsole.writeLine(calculateTrapezoidArea(1, 4, 5));
+    </script>
+</body>
+</html>

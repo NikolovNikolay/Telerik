@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function showSignOfProduct(firstNumber, secondNumber, thirdNumber) {
+            if (firstNumber > 0 && secondNumber > 0 && thirdNumber > 0) {
+                jsConsole.writeLine('The product will be +');
+            }
+            else if (firstNumber < 0 && secondNumber > 0 && thirdNumber > 0) {
+                jsConsole.writeLine('The product will be -');
+            }
+            else if (firstNumber > 0 && secondNumber < 0 && thirdNumber > 0) {
+                jsConsole.writeLine('The product will be -');
+            }
+            else if (firstNumber > 0 && secondNumber > 0 && thirdNumber < 0) {
+                jsConsole.writeLine('The product will be -');
+            }
+            else if (firstNumber < 0 && secondNumber < 0 && thirdNumber > 0) {
+                jsConsole.writeLine('The product will be +');
+            }
+            else if (firstNumber < 0 && secondNumber > 0 && thirdNumber < 0) {
+                jsConsole.writeLine('The product will be +');
+            }
+            else if (firstNumber > 0 && secondNumber < 0 && thirdNumber < 0) {
+                jsConsole.writeLine('The product will be +');
+            }
+            else {
+                jsConsole.writeLine('The product will be -');
+            }
+        }
+
+        showSignOfProduct(1, 2, 3);
+        showSignOfProduct(-1, 2, 3);
+        showSignOfProduct(-1, -2, -3);
+        showSignOfProduct(1, -2, -3);
+        showSignOfProduct(-1, 2, -3);
+    </script>
+</body>
+</html>

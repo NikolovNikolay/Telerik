@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkForDigitSeven(number) {
+            for (var i = 0; i < 2; i++) {
+                number = Math.floor(number / 10);
+            }
+
+            if (number % 10 == 7) {
+                jsConsole.writeLine('true');
+            }
+            else {
+                jsConsole.writeLine('false');
+            }
+        }
+
+        checkForDigitSeven(1732);
+        checkForDigitSeven(132);
+        checkForDigitSeven(2);
+        checkForDigitSeven(700);
+    </script>
+</body>
+</html>

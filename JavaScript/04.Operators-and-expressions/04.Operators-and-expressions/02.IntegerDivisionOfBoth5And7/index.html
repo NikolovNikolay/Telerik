@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <script>
+        function divisionCheck(digit) {
+            if (digit % 35 == 0) {
+                jsConsole.writeLine('The number can be divided to 5 and 7!');
+            }
+            else {
+                jsConsole.writeLine('The number can not be divided to 5 and 7!');
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <input type="text" id="digit-box" />
+        <button onclick="divisionCheck(document.getElementById('digit-box').value)">Check digit</button>
+    </div>    
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+</body>
+</html>

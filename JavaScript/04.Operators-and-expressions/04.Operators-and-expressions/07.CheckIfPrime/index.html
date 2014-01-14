@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkIfPrime(number) {
+            var isPrime = true;
+            for (var i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            jsConsole.writeLine(number + ' is prime: ' + isPrime);
+        }
+
+        checkIfPrime(97);
+        checkIfPrime(199);
+        checkIfPrime(607);
+        checkIfPrime(54);
+    </script>
+</body>
+</html>

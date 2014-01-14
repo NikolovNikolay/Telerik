@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function resolveQuadraticEquation(a,b,c) {
+            var discriminant = Math.pow(b, 2) - (4 * a * c);
+
+            if (discriminant < 0) {
+                jsConsole.writeLine("Equation doesn't have real roots");
+            }
+            else if (discriminant == 0) {
+                var root = -(b / (2 * a));
+                jsConsole.writeLine("Equation has only one real root: " + root);
+            }
+            else {
+                var rootOne, rootTwo;
+                rootOne = (-b + Math.sqrt(discriminant)) / (2 * a);
+                rootTwo = (-b - Math.sqrt(discriminant)) / (2 * a);
+                jsConsole.writeLine("Equation has two real roots: " + rootOne + " and " + rootTwo);
+            }
+        }
+
+        resolveQuadraticEquation(1, 2, 3);
+        resolveQuadraticEquation(1, 2, 0);
+        resolveQuadraticEquation(3, 6, 3);
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\05.ConditionalStatements\05.ConditionalStatements\bin\05.ConditionalStatements.dll.config
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\05.ConditionalStatements\05.ConditionalStatements\bin\05.ConditionalStatements.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\05.ConditionalStatements\05.ConditionalStatements\bin\05.ConditionalStatements.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\05.ConditionalStatements\05.ConditionalStatements\obj\Debug\05.ConditionalStatements.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\05.ConditionalStatements\05.ConditionalStatements\obj\Debug\05.ConditionalStatements.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\05.ConditionalStatements\05.ConditionalStatements\obj\Debug\05.ConditionalStatements.pdb
