@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>    
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function findLexicographicallyLargestAndSmallestElements(object) {
+            var properties = Object.getOwnPropertyNames(object);
+
+            properties.sort();
+            jsConsole.writeLine('Object: ' + object.toString());
+            jsConsole.writeLine('Lexicographically largest ' + properties[0]);
+            jsConsole.writeLine('Lexicographically smallest ' + properties[properties.length - 1]);
+            jsConsole.writeLine();
+        }
+
+        findLexicographicallyLargestAndSmallestElements(document);
+        findLexicographicallyLargestAndSmallestElements(window);
+        findLexicographicallyLargestAndSmallestElements(navigator);
+    </script>
+</body>
+</html>

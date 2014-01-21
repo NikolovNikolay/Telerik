@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>\
+    <script>
+
+        var arr = [1, 4, 5, 6, 0, 9, 2, 0, 3, 0];
+        
+        Array.prototype.remove = function (element) {
+            var indexOfElement = this.indexOf(element);
+
+            while (indexOfElement >= 0) {
+                this.splice(indexOfElement, 1);
+                indexOfElement = this.indexOf(element);
+            }
+        }
+        
+        arr.remove(0);
+
+        for (var i = 0; i < arr.length; i++) {
+            jsConsole.writeLine(arr[i]);
+        }
+    </script>
+</body>
+</html>

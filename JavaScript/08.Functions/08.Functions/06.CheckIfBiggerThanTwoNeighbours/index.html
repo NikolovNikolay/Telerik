@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>    
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        var numbers = [12, 34, 45, 6, 7, 0, 100, 150, 4, 45, 150, 12, 16, 88, 280, 94, 34, 15, 15, 1, 34, 34, 35];        
+
+        function checkNeighbours(array, position) {
+            if ((position != 0) && (position != array.length - 1)) {
+                var currentElement = array[position];
+                var preElement = array[position - 1];
+                var postElement = array[position + 1];
+
+                if (currentElement > preElement && currentElement > postElement) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            } else if (position == 0) {
+                if (array[position] > array[position + 1]) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            } else {
+                if (array[position] > array[position - 1]) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+        }
+
+        jsConsole.writeLine(checkNeighbours(numbers, 22));
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function findWord(text, word, caseSensitive) {
+            caseSensitive = caseSensitive || 0;
+            var occurances = 0;
+
+            function findWordCaseSensitive(word, start) {
+                start = start || 0;
+                var index = text.indexOf(word, start);
+
+                if (index >= 0) {
+                    var exactMatch = true;
+                    for (var i = index, j = 0; i < index + word.length; i++, j++) {
+                        if (text[i] != word[j]) {
+                            exactMatch = false;
+                            break;
+                        }
+                    }
+
+                    if (exactMatch) {
+                        occurances++;
+                    }
+                }
+
+                if ((index + word.length < text.length) && index >= 0) {
+                    findWordCaseSensitive(word, index + word.length);
+                }
+            }
+
+            function findWordCaseInsensitive(word) {
+                var words = text.split(' ');
+                for (var i = 0; i < words.length; i++) {
+                    if (words[i].length >= word.length) {
+                        var match = false;
+                        
+                        for (var j = 0; j < word.length ; j++) {
+                            if (words[i][j].toLowerCase() != word[j].toLowerCase()) {
+                                break;
+                            }
+
+                            if (j == word.length - 1) {
+                                match = true;
+                            }
+                        }                        
+                    }
+
+                    if (match) {
+                        occurances++;
+                        match = false;
+                    }
+                }
+            }
+
+            switch (caseSensitive) {
+                case true: findWordCaseSensitive(word); break;
+                case 0: findWordCaseInsensitive(word); break;
+                default:
+            }
+
+            return occurances;
+        }
+
+        var text = "Lorem ipsum Dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate libero sed magna aliquet vulputate. Aenean at blandit ante. Integer justo lorem, ornare ultricies Dolor non, posuere dapibus nibh. Suspendisse potenti. Curabitur ultrices nibh et semper euismod. Nullam vitae metus ligula. Quisque dui tortor, facilisis in aliquet convallis, placerat ac ligula. Nam in posuere tortor. In mauris metus, commodo ac est in, auctor vestibulum dolor. Nullam dictum quam ut ipsum fermentum, sed iaculis dolor lacinia"
+        jsConsole.writeLine(findWord(text, "dolor", true));
+        jsConsole.writeLine(findWord(text, "dolor"));
+    </script>
+</body>
+</html>

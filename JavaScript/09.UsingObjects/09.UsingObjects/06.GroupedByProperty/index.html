@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>\
+    <script>
+        function Person(firstName, lastName, age) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
+            this.toString = function () {
+                return this.firstName + " " + this.lastName + " age: " + this.age;
+            }
+        }
+        
+        var people = new Array();
+        people.push(new Person("Chicho", "Gosho", 65));
+        people.push(new Person("Ivan", "Ivanov", 18));
+        people.push(new Person("Petar", "Stoyanov", 48));
+        people.push(new Person("Nikolay", "Georgiev", 18));
+        people.push(new Person("Chicho", "Ivanov", 56));
+        
+        function group(arraOfPeople, property) {
+
+            var groups = {};
+
+            arraOfPeople.map(function (propArray) {
+                if (!groups[propArray[property]]) {
+                    groups[propArray[property]] = new Array();
+                }
+
+                groups[propArray[property]].push(propArray);
+            });
+
+            return groups;
+        }
+
+        var groupedByFirstName = group(people, 'firstName');
+        var groupedByLastName = group(people, 'lastName');
+        var groupedByAge = group(people, 'age');
+
+
+        function printGrouped(people) {
+            for (var person in people) {
+                jsConsole.writeLine(people[person]);
+            }
+        }
+
+        jsConsole.writeLine('grouped by first name');
+        printGrouped(groupedByFirstName);
+        jsConsole.writeLine();
+        jsConsole.writeLine('grouped by last name');
+        printGrouped(groupedByLastName);
+        jsConsole.writeLine();
+        jsConsole.writeLine('grouped by age');
+        printGrouped(groupedByAge);
+    </script>
+</body>
+</html>

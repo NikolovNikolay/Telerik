@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <div data-type="template" id="list-item"><strong>-{name}-</strong><span>-{age}-</span></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+
+        var tmpl = document.getElementById("list-item").innerHTML;
+        var people = [{ name: "Pesho", age: 14 }, { name: "Gosho", age: 18 }, { name: "Tosho", age: 23 }];
+        
+        function generateList(people,template) {
+            var result = [];
+            var regName = new RegExp('\\-{' + 'name' + '\\}-', 'g');
+            var regAge = new RegExp('\\-{' + 'age' + '\\}-', 'g');
+
+            result.push("<ul>");
+            for (var i = 0; i < people.length; i++) {
+                
+                var buffer = template.replace(regName, people[i].name).toString();
+                buffer = buffer.replace(regAge, people[i].age);
+                var res = "<li>" + buffer + "</li>";
+                result.push(res);
+            }
+            result.push("</ul>");
+
+            return result.join('');
+        }
+
+        String.prototype.htmlEscape = function () {
+            var escapedStr = String(this).replace(/&/g, '&amp;');
+            escapedStr = escapedStr.replace(/</g, '&lt;');
+            escapedStr = escapedStr.replace(/>/g, '&gt;');
+            escapedStr = escapedStr.replace(/"/g, '&quot;');
+            escapedStr = escapedStr.replace(/'/g, "&#39");
+            return escapedStr;
+        }
+
+        var res = generateList(people, tmpl).htmlEscape();
+        jsConsole.writeLine(res);
+
+    </script>
+</body>
+</html>

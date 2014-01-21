@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        var startArray = [4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3];
+
+        var maxIndex = Math.max.apply(Math, startArray);
+        var indexedArray = new Array(maxIndex + 1);
+
+        for (var i = 0; i < startArray.length; i++) {
+            if (indexedArray[startArray[i]] == undefined) {
+                indexedArray[startArray[i]] = 0;
+                indexedArray[startArray[i]]++;
+            }
+            else {
+                indexedArray[startArray[i]]++;
+            }
+        }
+
+        for (var i = 0; i < indexedArray.length; i++) {
+            if (indexedArray[i] == undefined) {
+                indexedArray[i] = 0;
+            }
+        }
+
+        var repetitionsOfMostFrequentElement = Math.max.apply(Math, indexedArray);
+        var valueOfMostFrequentElement = indexedArray.indexOf(repetitionsOfMostFrequentElement);
+
+        jsConsole.writeLine('Most frequent element: ' + valueOfMostFrequentElement + ' - ' + repetitionsOfMostFrequentElement + ' times');
+    </script>
+</body>
+</html>

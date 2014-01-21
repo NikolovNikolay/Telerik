@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>\
+    <script>
+
+        function Point(x, y) {
+            this.x = x;
+            this.y = y;
+
+            this.distance = function (point) {
+                return Math.sqrt((this.x - point.x) * (this.x - point.x) + (this.y - point.y) * (this.y - point.y));
+            }
+        }
+
+        function Line(startPoint, endPoint) {
+            this.start = startPoint;
+            this.end = endPoint;
+            this.length = this.start.distance(this.end);
+        }
+
+        function checkIfPointsCanMakeTriangle(pointA, pointB, pointC) {
+            if (((pointA.x - pointB.x) * (pointA.x - pointB.x)) / ((pointA.y - pointB.y) * (pointA.y - pointB.y)) != 
+                ((pointA.x - pointC.x) * (pointA.x - pointC.x)) / ((pointA.y - pointC.y) * (pointA.y - pointC.y))) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
+        var pointA = new Point(3, 5);
+        var pointB = new Point(4, 7);
+        var pointC = new Point(7, 6);
+        
+        var abLength = new Line(pointA, pointB);
+
+        jsConsole.writeLine(abLength.length);
+        jsConsole.writeLine(checkIfPointsCanMakeTriangle(pointA, pointB, pointC));
+    </script>
+</body>
+</html>

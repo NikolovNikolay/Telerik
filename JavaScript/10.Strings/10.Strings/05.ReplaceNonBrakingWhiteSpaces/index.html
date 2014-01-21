@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+
+        function parseText(stringToParse) {            
+            stringToParse = stringToParse.replace(/\s{1,}/g, '&nbsp');
+            return stringToParse;
+        };
+
+        var text = "ala bala   portokala, ala baala       portokala";
+        jsConsole.writeLine(text);
+    </script>
+</body>
+</html>

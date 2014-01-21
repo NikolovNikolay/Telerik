@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        var charArrayOne = ['a', 'd', 'g', 'n'];
+        var charArrayTwo = ['a', 'b', 'i', 'p'];
+
+        function compareElements(a, b) {
+            return (a == b) ? 0 : a > b ? 1 : -1;
+        }
+
+        for (var i = 0; i < charArrayOne.length; i++) {
+            var result = compareElements(charArrayOne[i], charArrayTwo[i]);
+            if (result == 0) {
+                jsConsole.writeLine(charArrayOne[i] + ' = ' + charArrayTwo[i]);
+            }
+            else if (result > 0) {
+                jsConsole.writeLine(charArrayOne[i] + ' > ' + charArrayTwo[i]);
+            }
+            else {
+                jsConsole.writeLine(charArrayOne[i] + ' < ' + charArrayTwo[i]);
+            } 
+        }
+    </script>
+</body>
+</html>

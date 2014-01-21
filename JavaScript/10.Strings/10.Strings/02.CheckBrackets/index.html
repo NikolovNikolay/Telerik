@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="expression" />
+    <button onclick="checkBrackets(document.getElementById('expression').value)">Check</button>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function checkBrackets(expression) {
+            var brackets = 0;
+
+            if (expression == undefined || expression == "" || expression == null) {
+                jsConsole.writeLine("Error in expression!");
+                return;
+            }
+
+            for (var i = 0; i < expression.length; i++) {
+                if (expression[i] == '(') {
+                    brackets++;
+                }
+
+                if (expression[i] == ')') {
+                    brackets--;
+                }
+
+                if (brackets < 0) {
+                    jsConsole.writeLine("Error in expression!");
+                    return;
+                }
+            }
+
+            if (brackets != 0) {
+                jsConsole.writeLine("Error in expression!");
+            }
+            else {
+                jsConsole.writeLine("Expression is correct!");
+            }
+        }
+    </script>
+</body>
+</html>

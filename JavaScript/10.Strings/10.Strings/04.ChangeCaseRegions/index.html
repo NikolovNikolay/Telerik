@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function parseText(string) {
+            var strToParse = string;
+
+            var mixCaseReplasePattern = /<mixcase>(.*?)<\/mixcase>/g;
+            var lowerCaseReplasePattern = /<lowcase>(.*?)<\/lowcase>/g;
+            var upperCaseReplasePattern = /<upcase>(.*?)<\/upcase>/g;
+
+            strToParse = strToParse.replace(mixCaseReplasePattern, function (match) {
+                for (var i = 0; i < match.length; i++) {
+                    var charCase = Math.round(Math.random());
+                    if (charCase == 1) {
+                        match = match.replace(match[i], match[i].toLowerCase());
+                    }
+                    else {
+                        match = match.replace(match[i], match[i].toUpperCase());
+                    }
+                }
+
+                return match;
+            });
+
+            strToParse = strToParse.replace(lowerCaseReplasePattern, function (match) {
+                return match.toLowerCase();
+            });
+
+            strToParse = strToParse.replace(upperCaseReplasePattern, function (match) {
+                return match.toUpperCase();
+            });
+
+            return strToParse;
+        }
+
+        var text = "We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.";
+        jsConsole.writeLine(parseText(text));
+    </script>
+</body>
+</html>

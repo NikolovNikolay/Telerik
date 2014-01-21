@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>\
+    <script>
+        function Person(firstName, lastName, age) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
+        }
+        
+        var people = new Array();
+        people.push(new Person("Chicho", "Gosho", 65));
+        people.push(new Person("Ivan", "Ivanov", 23));
+        people.push(new Person("Petar", "Stoyanov", 48));
+        people.push(new Person("Nikolay", "Georgiev", 18));
+        people.push(new Person("Stoyan", "Petkanov", 56));
+
+        function findYoungestPerson(arrayOfPeople) {
+            var youngestOne = arrayOfPeople[0];
+
+            for (var i = 1; i < arrayOfPeople.length; i++) {
+                if (arrayOfPeople[i].age < youngestOne.age) {
+                    youngestOne = arrayOfPeople[i];
+                }
+            }
+
+            return youngestOne;
+        }
+        var youngestOne = findYoungestPerson(people);
+        jsConsole.writeLine('The youngest one is: ' + youngestOne.firstName + ' ' + youngestOne.lastName + ' ' + youngestOne.age);
+    </script>
+</body>
+</html>

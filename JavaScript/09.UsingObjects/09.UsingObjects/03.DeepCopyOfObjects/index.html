@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>\
+    <script>
+
+        function copy(objectToClone) {
+            if (objectToClone == null || typeof objectToClone != 'object') {
+                return objectToClone;
+            }
+
+            var copy = objectToClone.constructor();
+
+            for (var attr in objectToClone) {
+                if (objectToClone.hasOwnProperty(attr)) {
+                    copy[attr] = objectToClone[attr];
+                }
+            }
+
+            return copy;
+        }
+
+        var pesho = {
+            fname: 'Pesho',
+            lname: 'peshev',
+            egn: 9045902349
+        }
+
+        jsConsole.writeLine(pesho.fname + ' ' + pesho.lname + ' ' + pesho.egn);
+
+        var clonedPesho = copy(pesho);
+        jsConsole.writeLine(clonedPesho.fname + ' ' + clonedPesho.lname + ' ' + clonedPesho.egn);
+        clonedPesho.egn = 90000000;
+
+        jsConsole.writeLine(pesho.fname + ' ' + pesho.lname + ' ' + pesho.egn);
+        jsConsole.writeLine(clonedPesho.fname + ' ' + clonedPesho.lname + ' ' + clonedPesho.egn);
+        
+    </script>
+</body>
+</html>

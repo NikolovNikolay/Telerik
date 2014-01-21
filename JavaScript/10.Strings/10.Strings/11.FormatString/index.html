@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+
+        function formatString() {
+            var formatted = arguments[0];
+            for (var i = 0; i < arguments.length; i++) {
+                var regEx = new RegExp('\\{' + i + '\\}', 'g');
+                formatted = formatted.replace(regEx, arguments[i + 1]);
+            }
+            return formatted;
+        }
+
+        var text = "Hello, {0}. How are you, you {1}, you {0}! If you {2} {3} happened to me, {0}, you {4} wont't {5}!";
+        var result = formatString(text, "Gosho", "mad man", "know", "what", "just", "believe");
+
+        jsConsole.writeLine(result);
+
+    </script>
+</body>
+</html>

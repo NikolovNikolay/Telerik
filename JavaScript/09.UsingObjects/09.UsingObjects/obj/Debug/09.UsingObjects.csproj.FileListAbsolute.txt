@@ -1,0 +1,5 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\09.UsingObjects\09.UsingObjects\bin\09.UsingObjects.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\09.UsingObjects\09.UsingObjects\bin\09.UsingObjects.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\09.UsingObjects\09.UsingObjects\obj\Debug\09.UsingObjects.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\09.UsingObjects\09.UsingObjects\obj\Debug\09.UsingObjects.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\09.UsingObjects\09.UsingObjects\obj\Debug\09.UsingObjects.pdb

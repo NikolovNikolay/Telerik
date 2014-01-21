@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+
+        function extractEmails(text) {
+            var regExpression = /\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}/gi;
+            var matches = text.match(regExpression);
+
+            return matches;
+        }
+
+        var text = "Curabitur alabala@abv.bg, sollicitudin massa opagagnamstail@gmail.com ut sem tincidunt, at asdwer_345@tralala.net hendrerit libero egestas.";
+        
+        var matches = extractEmails(text);
+
+        for (var i = 0; i < matches.length ; i++) {
+            jsConsole.writeLine(matches[i]);
+        }
+    </script>
+</body>
+</html>

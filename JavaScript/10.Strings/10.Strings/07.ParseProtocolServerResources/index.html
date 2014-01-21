@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+
+        function parseDataFromURL(url) {
+            var string = url.toString();
+            
+            var indexOfSemicolumnSlashes = string.indexOf("://");
+            var indexOfFirstIndividualSlash = string.indexOf("/", indexOfSemicolumnSlashes + 3);
+
+            var protocol = string.substring(0, indexOfSemicolumnSlashes);
+            var server = string.substring(indexOfSemicolumnSlashes + 3, indexOfFirstIndividualSlash);
+            var resources = string.substring(indexOfFirstIndividualSlash);
+
+            var data = {
+                prot: protocol,
+                serv: server,
+                res: resources
+            }
+            
+            return data;
+        }
+
+        var url = "http://www.devbg.org/forum/index.php";
+        var urlToString = url.toString();
+        var data = parseDataFromURL(urlToString);
+
+        jsConsole.writeLine("Protocol: \"" + data.prot + '\" , Server: \"' + data.serv + '\" , Resource: \"' + data.res+ '\"');
+    </script>
+</body>
+</html>

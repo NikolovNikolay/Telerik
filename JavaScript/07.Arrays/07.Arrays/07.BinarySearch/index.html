@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function binarySearch(array, key) {
+            var imin = 0;
+            var imax = array.length;
+            while (imax >= imin) {
+                var imid = imin + (Math.floor((imax - imin) / 2));
+
+                if (array[imid] == key) {
+                    return imid;
+                }
+                else if (array[imid] < key) {
+                    imin = imid + 1;
+                }
+                else {
+                    imax = imid - 1;
+                }
+            }
+
+            return -1;
+        }
+
+
+        var array = [1,2,3,4,5,6,7,8,9];
+       // array.sort();
+        jsConsole.writeLine('index is: ' + binarySearch(array, 7));
+    </script>
+</body>
+</html>

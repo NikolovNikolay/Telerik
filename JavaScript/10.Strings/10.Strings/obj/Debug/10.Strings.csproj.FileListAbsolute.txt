@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\10.Strings\10.Strings\bin\10.Strings.dll.config
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\10.Strings\10.Strings\bin\10.Strings.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\10.Strings\10.Strings\bin\10.Strings.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\10.Strings\10.Strings\obj\Debug\10.Strings.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\10.Strings\10.Strings\obj\Debug\10.Strings.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\10.Strings\10.Strings\obj\Debug\10.Strings.pdb

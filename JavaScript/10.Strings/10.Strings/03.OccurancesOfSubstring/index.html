@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function countSubstring(rawText, substring, index) {
+            var text = rawText.toLowerCase();
+            var startIndex = index || 0;
+            var occurances = 0;
+            var index = text.indexOf(substring,startIndex);
+
+            if (index < 0) {
+                return occurances;
+            }
+            else {
+                occurances++;
+                occurances += countSubstring(text, substring, index + 1);
+            }
+
+            return occurances;
+        }
+
+        var text = "We are living in an yellow submarine. We don't have anything else.Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+
+        jsConsole.writeLine(countSubstring(text, "in"));
+    </script>
+</body>
+</html>

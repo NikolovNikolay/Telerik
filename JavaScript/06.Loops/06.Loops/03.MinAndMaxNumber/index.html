@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <span><p>Input numbers with space: </p></span><input type="text" id="n" />
+    <button id="prnt-btn" onclick="printFrom1ToN(document.getElementById('n').value)">Print</button>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function printFrom1ToN(sequence) {
+            var numbers = sequence.split(" ");
+            var biggest = parseInt(numbers[0]);
+            var smallest = parseInt(numbers[0]);
+            for (var i = 1; i < numbers.length; i++) {
+                if (parseInt(numbers[i]) > biggest) {
+                    biggest = parseInt(numbers[i]);
+                }
+                
+                if (parseInt(numbers[i]) < smallest) {
+                    smallest = parseInt(numbers[i]);
+                }
+            }
+
+            jsConsole.writeLine('Biggest number is ' + biggest);
+            jsConsole.writeLine('Smallest number is ' + smallest);
+        }
+    </script>
+</body>
+</html>

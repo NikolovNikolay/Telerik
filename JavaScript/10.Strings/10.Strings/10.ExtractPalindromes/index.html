@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+
+        function reverse_string(str){
+            var  result = "";
+            var  alen = str.length;
+            for (var i = alen ; i > 0 ; i--){
+                result += str.charAt(i - 1)
+            }
+            return result;
+        }
+
+        function palindrome(str){
+            return (str == reverse_string(str));
+        }
+
+        function palindrome_check(word) {
+            word = word.toLowerCase();
+            var checkIfPalindrome = palindrome(word);
+            return checkIfPalindrome;
+        }
+
+        function extractPalindromes(text) {
+            var words = text.split(/[\s\.,-?!)(]/);
+
+            for (var i = 0; i < words.length; i++) {
+                if (palindrome_check(words[i]) && words[i] != "") {
+                    jsConsole.writeLine(words[i]);
+                }
+            }
+
+        }
+
+        var text = "Sos, bob ili potop, ABBA slusham az!";
+
+        extractPalindromes(text);        
+    </script>
+</body>
+</html>

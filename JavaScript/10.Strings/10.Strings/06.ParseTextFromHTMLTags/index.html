@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        function parseTextFromHTML(htmlCode) {
+            var code = htmlCode;
+            
+            code = code.replace(/<(.*?)>/g, '');
+
+            return code;
+        }
+
+        var htmlTagsAndText = "<html><head><title>Sample site</title></head><body><div>text<div>more text</div>and more...</div>in body</body></html>";
+
+        jsConsole.writeLine(parseTextFromHTML(htmlTagsAndText));
+    </script>
+</body>
+</html>

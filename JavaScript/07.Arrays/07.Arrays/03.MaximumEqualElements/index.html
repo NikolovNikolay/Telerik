@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        var array = [2, 1, 1, 2, 3, 3, 2, 2, 2, 1, 4, 5, 5, 5, 5, 7, 8];
+
+        var counter = 1;
+        var maxCounter = 0;
+        var sequence = "";
+        var bestSequence = "";
+
+        for (var i = 0; i < array.length - 1; i++) {
+            if (array[i] == array[i + 1]) {
+                counter++;
+                sequence = array[i].toString();
+            }
+
+            if (counter > maxCounter) {
+                maxCounter = counter;
+                bestSequence = sequence;
+            }
+
+            if (array[i] != array[i + 1]) {
+                sequence = "";
+                counter = 1;
+            }
+        }
+
+        for (var i = 0; i < maxCounter; i++) {
+            jsConsole.write(bestSequence + " ");
+        }
+    </script>
+</body>
+</html>

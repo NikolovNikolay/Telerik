@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\08.Functions\08.Functions\bin\08.Functions.dll.config
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\08.Functions\08.Functions\bin\08.Functions.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\08.Functions\08.Functions\bin\08.Functions.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\08.Functions\08.Functions\obj\Debug\08.Functions.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\08.Functions\08.Functions\obj\Debug\08.Functions.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScript\08.Functions\08.Functions\obj\Debug\08.Functions.pdb

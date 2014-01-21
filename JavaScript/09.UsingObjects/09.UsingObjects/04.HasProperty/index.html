@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>\
+    <script>
+
+        function objectHasProperty(objectToCheck, propToCheck) {
+            if (objectToCheck.hasOwnProperty(propToCheck)) {
+                return true;
+            }
+
+            return false;
+        }
+
+        var pesho = {
+            fname: 'Pesho',
+            lname: 'Peshev',
+            egn: 9045678934,
+        }
+
+        jsConsole.writeLine(objectHasProperty(pesho, 'fname'));
+        jsConsole.writeLine(objectHasProperty(pesho, 'years'));
+    </script>
+</body>
+</html>
