@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\01.NorthwindCategoryCount\bin\Debug\01.NorthwindCategoryCount.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\01.NorthwindCategoryCount\bin\Debug\01.NorthwindCategoryCount.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\01.NorthwindCategoryCount\bin\Debug\01.NorthwindCategoryCount.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\01.NorthwindCategoryCount\obj\Debug\01.NorthwindCategoryCount.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\01.NorthwindCategoryCount\obj\Debug\01.NorthwindCategoryCount.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\01.NorthwindCategoryCount\obj\Debug\01.NorthwindCategoryCount.pdb

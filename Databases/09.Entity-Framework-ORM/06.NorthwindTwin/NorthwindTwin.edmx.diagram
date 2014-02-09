@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6cc26554f7ee4dd5a7f579e36da4b382" Name="Diagram1" >
+        <EntityTypeShape EntityType="NorthwindTwin.Category" Width="1.5" PointX="3.834609519613259" PointY="18.280553423930218" />
+        <EntityTypeShape EntityType="NorthwindTwin.CustomerDemographic" Width="1.5" PointX="1.9175738608080772" PointY="12.662513619597309" />
+        <EntityTypeShape EntityType="NorthwindTwin.Customer" Width="1.5" PointX="8.5052873606352541" PointY="23.284668083900897" />
+        <EntityTypeShape EntityType="NorthwindTwin.Employee" Width="1.5" PointX="10.039459676500158" PointY="25.876565766463319" />
+        <EntityTypeShape EntityType="NorthwindTwin.Order_Detail" Width="1.5" PointX="5.44053358092929" PointY="0.45082011839878749" />
+        <EntityTypeShape EntityType="NorthwindTwin.Order" Width="1.5" PointX="2.4523937992995575" PointY="10.112073858320747" />
+        <EntityTypeShape EntityType="NorthwindTwin.Product" Width="1.5" PointX="0.0630393214817342" PointY="18.86750581249013" />
+        <EntityTypeShape EntityType="NorthwindTwin.Region" Width="1.5" PointX="1.4782969902634142" PointY="16.462409384763991" />
+        <EntityTypeShape EntityType="NorthwindTwin.Shipper" Width="1.5" PointX="10.064435205452346" PointY="14.806419722180078" />
+        <EntityTypeShape EntityType="NorthwindTwin.Supplier" Width="1.5" PointX="3.8740851152101929" PointY="16.650601201062372" />
+        <EntityTypeShape EntityType="NorthwindTwin.Territory" Width="1.5" PointX="4.0264787264291568" PointY="15.38784865261421" />
+        <EntityTypeShape EntityType="NorthwindTwin.Alphabetical_list_of_product" Width="1.5" PointX="1.2004242992030569" PointY="25.457414832644822" />
+        <EntityTypeShape EntityType="NorthwindTwin.Category_Sales_for_1997" Width="1.5" PointX="4.1191957742530834" PointY="6.4262016147497114" />
+        <EntityTypeShape EntityType="NorthwindTwin.Current_Product_List" Width="1.5" PointX="9.1523615015448812" PointY="8.6819389800922657" />
+        <EntityTypeShape EntityType="NorthwindTwin.Customer_and_Suppliers_by_City" Width="1.5" PointX="0.13934606692723281" PointY="25.356274467593188" />
+        <EntityTypeShape EntityType="NorthwindTwin.Invoice" Width="1.5" PointX="6.3002109072637786" PointY="24.193681400359459" />
+        <EntityTypeShape EntityType="NorthwindTwin.Order_Details_Extended" Width="1.5" PointX="8.8160609159693415" PointY="28.526791302732562" />
+        <EntityTypeShape EntityType="NorthwindTwin.Order_Subtotal" Width="1.5" PointX="11.726901048667218" PointY="29.474974839703634" />
+        <EntityTypeShape EntityType="NorthwindTwin.Orders_Qry" Width="1.5" PointX="6.9293514522394872" PointY="4.5020707568629046" />
+        <EntityTypeShape EntityType="NorthwindTwin.Product_Sales_for_1997" Width="1.5" PointX="3.3707246665706503" PointY="10.090319250752367" />
+        <EntityTypeShape EntityType="NorthwindTwin.Products_Above_Average_Price" Width="1.5" PointX="7.8430218304707768" PointY="2.9153010709748144" />
+        <EntityTypeShape EntityType="NorthwindTwin.Products_by_Category" Width="1.5" PointX="0.192130375742973" PointY="5.6084347244391379" />
+        <EntityTypeShape EntityType="NorthwindTwin.Sales_by_Category" Width="1.5" PointX="2.2875189475191378" PointY="23.516725238187576" />
+        <EntityTypeShape EntityType="NorthwindTwin.Sales_Totals_by_Amount" Width="1.5" PointX="11.533057713663698" PointY="23.811155658127348" />
+        <EntityTypeShape EntityType="NorthwindTwin.Summary_of_Sales_by_Quarter" Width="1.5" PointX="0.00825128518429179" PointY="21.597268844767132" />
+        <EntityTypeShape EntityType="NorthwindTwin.Summary_of_Sales_by_Year" Width="1.5" PointX="5.0789979067998932" PointY="12.444926252795815" />
+        <AssociationConnector Association="NorthwindTwin.FK_Products_Categories" />
+        <AssociationConnector Association="NorthwindTwin.FK_Orders_Customers" />
+        <AssociationConnector Association="NorthwindTwin.FK_Employees_Employees" />
+        <AssociationConnector Association="NorthwindTwin.FK_Orders_Employees" />
+        <AssociationConnector Association="NorthwindTwin.FK_Order_Details_Orders" />
+        <AssociationConnector Association="NorthwindTwin.FK_Order_Details_Products" />
+        <AssociationConnector Association="NorthwindTwin.FK_Orders_Shippers" />
+        <AssociationConnector Association="NorthwindTwin.FK_Products_Suppliers" />
+        <AssociationConnector Association="NorthwindTwin.FK_Territories_Region" />
+        <AssociationConnector Association="NorthwindTwin.CustomerCustomerDemo" />
+        <AssociationConnector Association="NorthwindTwin.EmployeeTerritories" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

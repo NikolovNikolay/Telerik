@@ -1,0 +1,12 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\bin\Debug\03.SelectCustomersFrom1997.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\bin\Debug\03.SelectCustomersFrom1997.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\bin\Debug\03.SelectCustomersFrom1997.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\bin\Debug\01.NorthwindContext.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\bin\Debug\EntityFramework.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\bin\Debug\EntityFramework.SqlServer.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\bin\Debug\01.NorthwindContext.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\bin\Debug\EntityFramework.xml
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\bin\Debug\EntityFramework.SqlServer.xml
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\obj\Debug\03.SelectCustomersFrom1997.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\obj\Debug\03.SelectCustomersFrom1997.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\03.SelectCustomersFrom1997\obj\Debug\03.SelectCustomersFrom1997.pdb

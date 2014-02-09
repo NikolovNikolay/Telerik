@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\06.ImportFromExcel\bin\Debug\06.ImportFromExcel.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\06.ImportFromExcel\bin\Debug\06.ImportFromExcel.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\06.ImportFromExcel\bin\Debug\06.ImportFromExcel.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\06.ImportFromExcel\obj\Debug\06.ImportFromExcel.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\06.ImportFromExcel\obj\Debug\06.ImportFromExcel.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\06.ImportFromExcel\obj\Debug\06.ImportFromExcel.csprojResolveAssemblyReference.cache

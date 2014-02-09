@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Rotating divs</title>
+</head>
+<body>
+    <input type="button" id="start-btn" value="start" onclick="StartRotating()" data-start="false"/>
+    
+    <script>
+
+        function GenerateCircles(howMany) {           
+            var fragment = document.createDocumentFragment();
+            
+            for (var i = 0; i < howMany; i++) {
+                var newCirlce = document.createElement("div");
+                newCirlce.className = "circle";
+                newCirlce.style.borderRadius = "60px";
+                newCirlce.style.display = "block";
+                newCirlce.style.position = "absolute";
+                newCirlce.style.width = "30px";
+                newCirlce.style.height = "30px";
+                newCirlce.style.backgroundColor = "red";
+                fragment.appendChild(newCirlce);
+            }            
+            document.body.appendChild(fragment);
+        }
+        
+
+        function StartRotating() {
+            
+            var btn = document.getElementById("start-btn");
+            btn.disabled = "true";
+            GenerateCircles(5);
+            var allElements = document.querySelectorAll('.circle');
+            var angle = 0;
+            var step = Math.PI * 2 / allElements.length;
+
+            (function rotate() {
+                setTimeout(function () {
+                    id = window.requestAnimationFrame(rotate);
+                    for (var i = 0; i < allElements.length; i++) {
+                        x = 100 * Math.cos(angle) + 200;
+                        y = 100 * Math.sin(angle) + 100;
+                        allElements[i].style.left = x + "px";
+                        allElements[i].style.top = y + "px";
+                        angle += step;
+                    }
+
+                    angle += 0.1;
+                    angle %= (2 * Math.PI);
+                }, 20);
+            })();
+        }
+     
+    </script>
+</body>
+</html>

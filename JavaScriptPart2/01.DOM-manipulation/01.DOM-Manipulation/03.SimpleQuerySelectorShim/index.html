@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>QuerySelector Shim</title>
+    <style>
+        div {
+            height: 20px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="one" id="opa"></div>
+    <div class="one"></div>
+    <div class="one"></div>
+    <div></div>
+    <script>
+
+
+        (function () {
+
+            function querySelectorAll(rawInputData) {
+                var inputData = rawInputData.toString();
+                var selector = inputData[0];
+                var rest = inputData.substring(1, inputData.length);
+                var childs = document.body.children;
+                var result = new Array();
+
+                switch (selector) {
+                    case '.': return returnElementsFromClass(childs); break;
+                    case '#': return returnElementFromId(childs); break;
+                    default: return returnElementsFromTagName(childs, inputData); break;
+
+                }
+                                
+                function returnElementsFromClass(childs) {
+                    
+                    for (var i = 0; i < childs.length; i++) {
+                        var attrContent = childs[i].className;
+                        if (attrContent === rest) {
+                            result.push(childs[i]);
+                        }
+                    }
+
+                    return result;
+                }
+
+                function returnElementFromId(childs) {
+                    for (var i = 0; i < childs.length; i++) {
+                        var attrContent = childs[i].id;
+                        if (attrContent === rest) {
+                            return childs[i];
+                        }
+                    }
+
+                    return result;
+                }
+
+                function returnElementsFromTagName(childs, tag) {
+                    for (var i = 0; i < childs.length; i++) {
+                        var tagName = childs[i].tagName;
+                        if (tag.toLowerCase() === tagName.toLowerCase()) {
+                            result.push(childs[i]);
+                        }
+                    }
+
+                    return result;
+                }                          
+            }
+
+            function querySelector(rawInputData) {
+                var inputData = rawInputData.toString();
+                var selector = inputData[0];
+                var rest = inputData.substring(1, inputData.length);
+                var childs = document.body.children;
+
+                switch (selector) {
+                    case '.': return returnElementsFromClass(childs); break;
+                    case '#': return returnElementFromId(childs); break;
+                    default: return returnElementsFromTagName(childs, inputData); break;
+
+                }
+
+                function returnElementsFromClass(childs) {
+
+                    for (var i = 0; i < childs.length; i++) {
+                        var attrContent = childs[i].className;
+                        if (attrContent === rest) {
+                            return childs[i];                            
+                        }
+                    }
+
+                    return result;
+                }
+
+                function returnElementFromId(childs) {
+                    for (var i = 0; i < childs.length; i++) {
+                        var attrContent = childs[i].id;
+                        if (attrContent === rest) {
+                            return childs[i];
+                        }
+                    }
+
+                    return result;
+                }
+
+                function returnElementsFromTagName(childs, tag) {
+                    for (var i = 0; i < childs.length; i++) {
+                        var tagName = childs[i].tagName;
+                        if (tag.toLowerCase() === tagName.toLowerCase()) {
+                           return childs[i];
+                        }
+                    }
+                }
+            }
+
+            if (typeof document.querySelectorAll !== 'function') {
+                document.querySelectorAll = querySelectorAll;
+            }
+
+            if (typeof document.querySelector !== 'function') {
+                document.querySelector = querySelector;
+            }            
+        })();
+        
+        var len = document.querySelectorAll(".one");
+        alert(len.length);
+        var len2 = document.querySelectorAll("#opa");
+        alert(len2.length);
+        var len3 = document.querySelectorAll("div");
+        alert(len3.length);
+
+
+        var test = document.querySelector('div');
+        test.style.backgroundColor = "blue";
+        var test2 = document.querySelector('.one');
+        test2.style.backgroundColor = "orange";
+    </script>
+</body>
+</html>

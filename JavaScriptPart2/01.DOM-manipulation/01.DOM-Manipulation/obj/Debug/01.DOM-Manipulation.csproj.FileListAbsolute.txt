@@ -1,0 +1,5 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScriptPart2\01.DOM-manipulation\01.DOM-Manipulation\bin\01.DOM-Manipulation.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScriptPart2\01.DOM-manipulation\01.DOM-Manipulation\bin\01.DOM-Manipulation.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScriptPart2\01.DOM-manipulation\01.DOM-Manipulation\obj\Debug\01.DOM-Manipulation.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScriptPart2\01.DOM-manipulation\01.DOM-Manipulation\obj\Debug\01.DOM-Manipulation.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\JavaScriptPart2\01.DOM-manipulation\01.DOM-Manipulation\obj\Debug\01.DOM-Manipulation.pdb

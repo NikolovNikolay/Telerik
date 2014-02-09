@@ -1,0 +1,5 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\02.NameDescriptionOfCategories\bin\Debug\02.NameDescriptionOfCategories.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\02.NameDescriptionOfCategories\bin\Debug\02.NameDescriptionOfCategories.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\02.NameDescriptionOfCategories\bin\Debug\02.NameDescriptionOfCategories.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\02.NameDescriptionOfCategories\obj\Debug\02.NameDescriptionOfCategories.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\02.NameDescriptionOfCategories\obj\Debug\02.NameDescriptionOfCategories.pdb

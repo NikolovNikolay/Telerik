@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\05.ImageRetriever\bin\Debug\05.ImageRetriever.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\05.ImageRetriever\bin\Debug\05.ImageRetriever.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\05.ImageRetriever\bin\Debug\05.ImageRetriever.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\05.ImageRetriever\obj\Debug\05.ImageRetriever.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\05.ImageRetriever\obj\Debug\05.ImageRetriever.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\05.ImageRetriever\obj\Debug\05.ImageRetriever.pdb

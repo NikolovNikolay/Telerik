@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>       
+        #tag-cloud {
+            float: right;
+            height: 500px;
+            width: 150px;
+            border: 2px solid blue;
+            border-radius: 15px;
+            background-color: lightblue;
+            font-family: Calibri;
+            padding: 10px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            text-decoration: none; 
+            color: darkblue;       
+        }
+
+            a:visited {
+                color: darkblue;
+            }
+    </style>
+</head>
+<body>
+    <div id="tag-cloud"></div>
+    <script>
+        var tags = ["cms", "TelerikAcAdemy", "javascript", "js", "ASP.NET MVC", "nakov",".net", ".net", "css", "wordpress", "xaml",
+            "js", "http", "web", "asp.net", "asp.net MVC","nakov", "ASP.NET MVC", "wp", "javascript", "js", "NaKov","cms", "html", "javascript", "http", "http", "CMS",
+            "abv.bg","nakov", "TelerikAcademy"];
+
+        (function () {
+            var tagAndSize = calculateTagSizeBasedOnRepetitions(tags, 17, 42);
+
+            for (var tag in tagAndSize) {
+                var aElement = document.createElement("a");
+                var aTextNode = document.createTextNode(tag);
+                aElement.appendChild(aTextNode);
+                aElement.style.fontSize = tagAndSize[tag] + "px";
+                aElement.style.margin = "0px 4px 0px 4px";
+                aElement.href = "#";
+                var cloud = document.getElementById("tag-cloud");
+                cloud.appendChild(aElement);
+            }
+
+            function calculateTagSizeBasedOnRepetitions(tags, min, max) {
+                var sizes = new Array();
+
+                for (var i = 0; i < tags.length; i++) {
+                    var currentTag = tags[i].toLowerCase();
+                    if (sizes[currentTag] === undefined) {
+                        sizes[currentTag] = min;
+                    }
+                    else if (sizes[currentTag] < max) {
+                        sizes[currentTag] += 5;
+                    }
+                }
+
+                return sizes;
+            }
+        })();        
+    </script>
+</body>
+</html>

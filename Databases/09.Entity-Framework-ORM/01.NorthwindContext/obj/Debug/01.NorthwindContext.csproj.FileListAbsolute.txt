@@ -1,0 +1,10 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\01.NorthwindContext\bin\Debug\01.NorthwindContext.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\01.NorthwindContext\obj\Debug\01.NorthwindContext.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\01.NorthwindContext\bin\Debug\01.NorthwindContext.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\01.NorthwindContext\bin\Debug\01.NorthwindContext.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\01.NorthwindContext\bin\Debug\EntityFramework.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\01.NorthwindContext\bin\Debug\EntityFramework.SqlServer.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\01.NorthwindContext\bin\Debug\EntityFramework.xml
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\01.NorthwindContext\bin\Debug\EntityFramework.SqlServer.xml
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\01.NorthwindContext\obj\Debug\01.NorthwindContext.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\01.NorthwindContext\obj\Debug\01.NorthwindContext.pdb

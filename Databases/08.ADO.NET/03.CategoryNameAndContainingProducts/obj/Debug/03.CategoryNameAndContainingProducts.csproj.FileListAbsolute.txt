@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\03.CategoryNameAndContainingProducts\bin\Debug\03.CategoryNameAndContainingProducts.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\03.CategoryNameAndContainingProducts\bin\Debug\03.CategoryNameAndContainingProducts.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\03.CategoryNameAndContainingProducts\bin\Debug\03.CategoryNameAndContainingProducts.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\03.CategoryNameAndContainingProducts\obj\Debug\03.CategoryNameAndContainingProducts.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\03.CategoryNameAndContainingProducts\obj\Debug\03.CategoryNameAndContainingProducts.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\03.CategoryNameAndContainingProducts\obj\Debug\03.CategoryNameAndContainingProducts.csprojResolveAssemblyReference.cache

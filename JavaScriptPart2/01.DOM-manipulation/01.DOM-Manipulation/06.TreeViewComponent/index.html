@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tree View Component</title>
+    <style>
+        li {
+            color: blue;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 5px;
+            display: block;
+            margin: 5px;
+            width: 70px;
+            font-style: italic;
+            font-family: Calibri;
+            word-wrap: break-word;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li > ul {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul id='menu'>
+            <li>Item >
+                <ul>
+                    <li>submenu item >
+                        <ul>
+                            <li>submenu item >
+                                <ul>
+                                    <li>sub sub sub menu item</li>
+                                    <li>sub sub sub menu item</li>
+                                    <li>sub sub sub menu item</li>
+                                    <li>sub sub sub menu item</li>
+                                </ul>
+                            </li>
+                            <li>submenu item</li>
+                            <li>submenu item</li>
+                            <li>submenu item</li>
+                        </ul>
+                    </li>
+                    <li>submenu item</li>
+                    <li>submenu item</li>
+                    <li>submenu item</li>
+                </ul>
+            </li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item >
+                <ul>
+                    <li>submenu item >
+                        <ul>
+                            <li>submenu item >
+                                <ul>
+                                    <li>sub sub sub menu item</li>
+                                    <li>sub sub sub menu item</li>
+                                    <li>sub sub sub menu item</li>
+                                    <li>sub sub sub menu item</li>
+                                </ul>
+                            </li>
+                            <li>submenu item</li>
+                            <li>submenu item</li>
+                            <li>submenu item</li>
+                        </ul>
+                    </li>
+                    <li>submenu item</li>
+                    <li>submenu item</li>
+                    <li>submenu item</li>
+                </ul>
+            </li>
+            <li>Item</li>
+            <li>Item</li>
+        </ul>
+    </nav>
+    <script>
+
+        (function () {
+            'use strict';
+
+            var menu = document.getElementById('menu');
+            var menuItems = menu.getElementsByTagName('li');
+
+            for (var i = 0; i < menuItems.length; i++) {
+                menuItems[i].childrenVisible = false;
+                menuItems[i].addEventListener('click', function (evt) {
+
+                    if (this.childNodes[1] === undefined) {
+                        return 0;
+                    }
+
+                    if (this.childrenVisible === true && this === evt.target) {
+                        this.childrenVisible = false;
+                        this.style.border = '1px solid black';
+                        this.childNodes[1].style.display = 'none';
+                    }
+                    else {
+                        this.childrenVisible = true;
+                        this.style.border = 'none';
+                        this.style.color = 'red';
+                        this.childNodes[1].style.display = 'block';
+
+                    }
+                })
+            }
+        })();
+    </script>
+</body>
+</html>

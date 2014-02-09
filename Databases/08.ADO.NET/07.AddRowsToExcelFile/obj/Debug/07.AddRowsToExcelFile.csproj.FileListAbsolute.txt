@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\07.AddRowsToExcelFile\bin\Debug\07.AddRowsToExcelFile.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\07.AddRowsToExcelFile\obj\Debug\07.AddRowsToExcelFile.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\07.AddRowsToExcelFile\bin\Debug\07.AddRowsToExcelFile.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\07.AddRowsToExcelFile\bin\Debug\07.AddRowsToExcelFile.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\07.AddRowsToExcelFile\obj\Debug\07.AddRowsToExcelFile.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\07.AddRowsToExcelFile\obj\Debug\07.AddRowsToExcelFile.pdb

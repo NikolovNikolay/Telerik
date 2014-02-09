@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\08.FindProductsWhoMatchString\bin\Debug\08.FindProductsWhoMatchString.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\08.FindProductsWhoMatchString\bin\Debug\08.FindProductsWhoMatchString.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\08.FindProductsWhoMatchString\bin\Debug\08.FindProductsWhoMatchString.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\08.FindProductsWhoMatchString\obj\Debug\08.FindProductsWhoMatchString.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\08.FindProductsWhoMatchString\obj\Debug\08.FindProductsWhoMatchString.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\08.FindProductsWhoMatchString\obj\Debug\08.FindProductsWhoMatchString.pdb

@@ -1,0 +1,12 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\bin\Debug\05.OrdersByRegionAndPeriod.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\bin\Debug\05.OrdersByRegionAndPeriod.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\bin\Debug\05.OrdersByRegionAndPeriod.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\bin\Debug\01.NorthwindContext.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\bin\Debug\EntityFramework.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\bin\Debug\EntityFramework.SqlServer.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\bin\Debug\01.NorthwindContext.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\bin\Debug\EntityFramework.xml
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\bin\Debug\EntityFramework.SqlServer.xml
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\obj\Debug\05.OrdersByRegionAndPeriod.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\obj\Debug\05.OrdersByRegionAndPeriod.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\05.OrdersByRegionAndPeriod\obj\Debug\05.OrdersByRegionAndPeriod.pdb

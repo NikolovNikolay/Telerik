@@ -1,0 +1,7 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\04.AddProductParameterized\bin\Debug\04.AddProductParameterized.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\04.AddProductParameterized\bin\Debug\04.AddProductParameterized.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\04.AddProductParameterized\bin\Debug\04.AddProductParameterized.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\04.AddProductParameterized\obj\Debug\04.AddProductParameterized.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\04.AddProductParameterized\obj\Debug\04.AddProductParameterized.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\03.CategoryNameAndContainingProducts\obj\Debug\04.AddProductParameterized.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\08.ADO.NET\03.CategoryNameAndContainingProducts\obj\Debug\04.AddProductParameterized.pdb

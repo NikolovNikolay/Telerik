@@ -1,0 +1,1 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\06.NorthwindTwin\bin\Debug\06.NorthwindTwin.exe.config

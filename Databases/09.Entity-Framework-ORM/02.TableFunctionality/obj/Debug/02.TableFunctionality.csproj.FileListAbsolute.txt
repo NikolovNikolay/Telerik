@@ -1,0 +1,10 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\02.TableFunctionality\obj\Debug\02.TableFunctionality.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\02.TableFunctionality\bin\Debug\02.TableFunctionality.exe.config
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\02.TableFunctionality\bin\Debug\02.TableFunctionality.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\02.TableFunctionality\bin\Debug\02.TableFunctionality.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\02.TableFunctionality\bin\Debug\EntityFramework.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\02.TableFunctionality\bin\Debug\EntityFramework.SqlServer.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\02.TableFunctionality\bin\Debug\EntityFramework.xml
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\02.TableFunctionality\bin\Debug\EntityFramework.SqlServer.xml
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\02.TableFunctionality\obj\Debug\02.TableFunctionality.exe
+E:\GoogleDrive\Telerik Projects\Homeworks\Databases\09.Entity-Framework-ORM\02.TableFunctionality\obj\Debug\02.TableFunctionality.pdb
