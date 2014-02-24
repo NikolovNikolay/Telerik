@@ -1,0 +1,60 @@
+﻿div#wrapper {
+            width: 960px;
+            height: 500px;
+            border: 1px solid black;
+            text-align: right;
+            float: left;
+        }
+
+        aside#scores {
+            margin-left: 20px;
+            float: left;
+            border: 1px solid black;
+            width: 200px;
+            height: 300px;
+        }
+
+            aside#scores header {
+                text-align: center;
+            }
+
+        img#the-bucket {
+            position: relative;
+            top: 50px;
+            width: 150px;
+        }
+
+        .trash {
+            position: absolute;
+        }
+
+            .trash:hover {
+                cursor: pointer;
+            }
+
+        input#nickname {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        input#save-btn {
+            value: "Save";
+        }
+
+        label {
+            position: relative;
+            display: block;
+            top: 50px;
+            right: 40px;
+        }
+
+        section#scoreHold {
+            padding-left: 10px;
+        }
+
+        a {
+            position: relative;
+            display: block;
+            top: 60px;
+            right: 40px;
+        }
