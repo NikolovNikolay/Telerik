@@ -1,0 +1,20 @@
+#newTask{
+	float: left;
+	border: 1px solid black;
+	width: 250px;
+}
+
+label{
+	display: block;
+	margin-top: 10px;
+}
+
+#tasks{
+	float: left;
+	border: none;
+	width: 100px;
+}
+
+button{
+	display: inline-block;
+}

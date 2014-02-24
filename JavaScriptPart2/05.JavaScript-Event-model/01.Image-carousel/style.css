@@ -1,0 +1,40 @@
+body, html, img, p, div, li, ul, a {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #505050;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+}
+
+ul#carousel li{
+	display: none;
+	position: absolute;
+}
+
+ul#carousel > .visible {
+	display: block;
+}
+
+.arrow{
+	margin: 250px 5px;
+}
+
+.arrow:hover{
+	cursor: pointer;
+}
+
+body div#carousel-wrapper{
+	display: inline-block;
+	position: relative;
+	margin-top: 20px;
+	width: 860px;
+	height: 538px;
+	border: 15px solid white;
+	border-radius: 15px;
+}

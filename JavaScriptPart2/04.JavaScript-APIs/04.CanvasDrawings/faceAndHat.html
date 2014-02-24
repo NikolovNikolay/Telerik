@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#the-can{
+			width: 300px;
+			height: 200px;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="the-can">Just some head with a hat</canvas>
+
+	<script>
+	var can = document.getElementById("the-can");
+	var ctx = can.getContext('2d');
+	ctx.fillStyle = 'darkblue';
+
+	// the head
+	drawEllipse(ctx, 80, 80, 20, 'lightBlue', 0.5, 'blue', 2, 1.35);
+    //bottom of hat
+    drawEllipse(ctx, 80, 280, 25, 'darkblue', 2, 'black', 2, 0.3);
+        
+    ctx.fillRect(136,29, 50, 50);
+    ctx.strokeColor = 'black';
+    ctx.strokeRect(135,28,52,52);
+
+    drawEllipse(ctx, 80, 260, 13, 'darkblue', 2, 'black', 2, 0.3);
+    ctx.fillRect(136,29, 50, 50);
+    drawEllipse(ctx, 80, 94, 12, 'darkblue', 2, 'black', 2, 0.3);
+
+    //eyes
+    drawEllipse(ctx, 68, 102, 4, 'lightblue', 0.5, 'blue', 2, 1);
+    drawEllipse(ctx, 84, 102, 4, 'lightblue', 0.5, 'blue', 2, 1);
+    drawEllipse(ctx, 133, 102, 2.5, 'blue', 0.5, 'blue', 1, 1);
+    drawEllipse(ctx, 165, 102, 2.3, 'blue', 0.5, 'blue', 1, 1);
+
+
+    // nose
+    ctx.moveTo(153, 102);
+    ctx.lineTo(143, 115);
+    ctx.lineTo(153,115);
+    ctx.strokeStyle = "blue";
+    ctx.stroke();
+
+    // drawing mouth
+    ctx.setTransform(1,0.1,0,0.8,0,0);
+    drawEllipse(ctx, 77, 226, 10, 'lightblue', 1, 'blue',2,0.6);
+
+    function drawEllipse(ctx, centerX, centerY, radius, fillColor, strokeWidth, strokeColor, scaleX, scaleY) {
+        ctx.save();
+        ctx.beginPath();
+        if (scaleX && scaleY) {
+            ctx.scale(scaleX, scaleY);
+        }
+
+        ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+
+        if (fillColor != null) {
+            ctx.fillStyle = fillColor;
+            ctx.fill();
+        }
+
+        ctx.lineWidth = strokeWidth;
+        ctx.strokeStyle = strokeColor;
+        ctx.stroke();
+        ctx.closePath();
+        ctx.restore();
+    }	
+	</script>
+</body>
+</html>

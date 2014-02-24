@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\Homeworks\CSS\05.CSS-LESS\05.CSS-LESS\bin\05.CSS-LESS.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\CSS\05.CSS-LESS\05.CSS-LESS\bin\05.CSS-LESS.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\CSS\05.CSS-LESS\05.CSS-LESS\obj\Debug\05.CSS-LESS.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\Homeworks\CSS\05.CSS-LESS\05.CSS-LESS\obj\Debug\05.CSS-LESS.dll
+E:\GoogleDrive\Telerik Projects\Homeworks\CSS\05.CSS-LESS\05.CSS-LESS\obj\Debug\05.CSS-LESS.pdb
+E:\GoogleDrive\Telerik Projects\Homeworks\CSS\05.CSS-LESS\05.CSS-LESS\bin\05.CSS-LESS.dll.config

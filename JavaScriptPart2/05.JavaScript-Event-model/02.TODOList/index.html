@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>TODO list</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body onload="resFields()">
+	<div id="wrapper">
+		<fieldset id="newTask">
+			<legend>Add new task</legend>
+			<form>
+				<label for="title">Title: </label>
+				<input type="text" id="title"/>
+				<label for="description">Description: </label>
+				<textarea id="description"></textarea>
+			</form>
+			<button id="save-btn">Save task</button>
+		</fieldset>
+		<section>
+			<fieldset id="tasks">
+				<legend>Tasks:</legend>
+			</fieldset>	
+		</section>
+	</div>
+	<script type="text/javascript" src="list.js"></script>
+</body>
+</html>

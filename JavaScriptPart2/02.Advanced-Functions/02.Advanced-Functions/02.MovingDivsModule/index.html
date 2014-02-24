@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div id="container"></div>
+
+    <script>
+        var movingShaper = (function () {
+
+            function add(shape) {
+                if (shape == 'ellipse') {
+                    var newShape = generateDiv('ellipse');
+                }
+                else {
+                    var newShape = generateDiv();
+                }
+                var container = document.getElementById('container');
+                container.appendChild(newShape);
+
+                if (shape == 'ellipse') {
+                    circulateDivs(newShape);
+                }
+                else {
+                    rectangulateDiv(newShape);
+                }
+            }
+
+            function generateDiv(shape) {
+                var newDiv = document.createElement('div');
+                newDiv.style.width = '30px';
+                newDiv.style.height = '30px';
+                newDiv.textContent = 'div';
+                newDiv.style.background = generateColor();
+                newDiv.style.fontSize = Math.random() * (28 - 15) + 15;
+                newDiv.style.color = generateColor();
+                newDiv.style.border = '2px solid ' + generateColor();
+
+                if (arguments[0] !== undefined) {
+                    newDiv.style.borderRadius = '50px';
+                    newDiv.className = 'ellipse';
+                }
+                newDiv.style.position = 'absolute';
+                newDiv.style.top = Math.random() * (500 - 151) + 151 + 'px';
+                newDiv.style.left = Math.random() * (1000 - 151) + 151 + 'px';
+
+                return newDiv;
+            }
+
+            window.requestAnimationFrame = (function () {
+                return window.requestAnimationFrame
+                    || window.webkitRequestAnimationFrame
+                    || window.mozRequestAnimationFrame;
+            }());
+
+
+            function generateColor() {
+                var red = Math.floor((Math.random() * 255) + 1);
+                var green = Math.floor((Math.random() * 255) + 1);
+                var blue = Math.floor((Math.random() * 255) + 1);
+
+                return 'rgb(' + red + ',' + green + ',' + blue + ')';
+            }
+
+            function rectangulateDiv(element) {
+
+                var top = element.offsetTop;
+                var left = element.offsetLeft;
+
+                var maxRight = left + 150;
+                var maxLeft = left;
+                var maxTop = top - 150;
+                var maxBottom = top;
+
+                (function draw() {
+
+                    setTimeout(function () {
+                        window.requestAnimationFrame(draw);
+
+                        if (top > maxTop && left == maxLeft) {
+                            top--;
+                        }
+                        else if (top == maxTop && left < maxRight) {
+                            left++;
+                        }
+                        else if (top < maxBottom && left == maxRight) {
+                            top++;
+                        }
+                        else if (top == maxBottom && left > maxLeft) {
+                            left--;
+                        }
+                        element.style.top = top + 'px';
+                        element.style.left = left + 'px';
+                    }, 5);
+                }());
+            }
+
+            function circulateDivs(element) {
+                var angle = 0;
+                var step = Math.PI * 2;
+
+                var randX = element.offsetLeft;
+                var randY = element.offsetTop;
+
+                (function rotate() {
+                    setTimeout(function () {
+
+                        window.requestAnimationFrame(rotate);
+                        leftPos = (100 * Math.cos(angle) + randX);
+                        topPos = (100 * Math.sin(angle + 10) + randY);
+                        element.style.left = leftPos + "px";
+                        element.style.top = topPos + "px";
+                        angle += step;
+
+                        angle += 0.1;
+                        angle %= (2 * Math.PI);
+
+                    }, 50);
+                })();
+            }
+
+            return {
+                add: add
+            }
+        }());
+
+        movingShaper.add('ellipse');
+        movingShaper.add('ellipse');
+        movingShaper.add('ellipse');
+        movingShaper.add();
+        movingShaper.add();
+        movingShaper.add('ellipse');
+        movingShaper.add('ellipse');
+        movingShaper.add('ellipse');
+        movingShaper.add();
+        movingShaper.add();
+        movingShaper.add('ellipse');
+        movingShaper.add('ellipse');
+        movingShaper.add('ellipse');
+        movingShaper.add();
+        movingShaper.add();
+    </script>
+</body>
+</html>

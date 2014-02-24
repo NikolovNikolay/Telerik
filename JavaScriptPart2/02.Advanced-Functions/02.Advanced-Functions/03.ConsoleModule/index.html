@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+        var specialConsole = (function () {
+
+            function formatString() {
+                var messageToDisplay = arguments[0];
+
+                for (var i = 1; i < arguments.length; i++) {
+                    var reg = new RegExp('\\{' + (i - 1) + '\\}', "gi");
+                    messageToDisplay = messageToDisplay.replace(reg, arguments[i]);
+                }
+
+                return messageToDisplay;
+            }
+
+            function writeLine() {
+                var messageToDisplay = formatString.apply(null, arguments);
+                console.log(messageToDisplay.toString());
+            }
+
+            function writeWarning() {
+                var messageToDisplay = formatString.apply(null, arguments);
+                console.warn(messageToDisplay.toString());
+            }
+
+            function writeError() {
+                var messageToDisplay = formatString.apply(null, arguments);
+                console.error(messageToDisplay.toString());
+            }
+            return {
+                writeLine: writeLine,
+                writeWarning: writeWarning,
+                writeError: writeError
+            }
+        })();
+
+        specialConsole.writeLine("Hello, {0}! How are you, mister {1}?", "there", "Hopkins");
+        specialConsole.writeWarning("Chsshh, you are about to make a big mistake, {0}", "morron!");
+        specialConsole.writeError("well, now you did it, {0}", "you morron!");
+    </script>
+</body>
+</html>

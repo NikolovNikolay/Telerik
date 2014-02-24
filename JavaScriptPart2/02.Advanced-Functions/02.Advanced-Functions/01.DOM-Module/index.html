@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        span {
+            display: block;
+        }
+
+        ul {
+            list-style: none;
+            margin: 10px 20px 10px 20px;
+        }
+
+        li > ul {
+            display: none;
+        }
+
+        #menu > li {
+            display: inline-block;
+            position: relative;
+        }
+
+            #menu > li:hover > ul {
+                display: inline-block;
+                position: absolute;
+                top: 20px;
+                left: 0;
+                padding: 0;
+                margin: 0;
+            }
+
+
+        ul > li:hover > ul {
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <ul id="menu">
+                <li class="m-item">Item</li>
+                <li class="m-item">Item
+                <ul>
+                    <li class="m-item">Item</li>
+                    <li class="m-item">Item</li>
+                    <li class="m-item">Item
+                        <ul>
+                            <li class="m-item">Item</li>
+                            <li class="m-item">Item</li>
+                            <li class="m-item">Item</li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+                <li class="m-item">Item</li>
+                <li class="m-item">Item
+                <ul>
+                    <li class="m-item">Item</li>
+                    <li class="m-item">Item
+                        <ul>
+                            <li class="m-item">Item</li>
+                            <li class="m-item">Item</li>
+                            <li class="m-item">Item</li>
+                        </ul>
+                    </li>
+                    <li class="m-item">Item</li>
+                </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="content" style="width: 1000px; height: 700px; overflow: hidden;">
+        </div>
+
+    </div>
+
+    <script>
+
+        var testModule = (function () {
+            function addElement(element, parent) {
+                var parElement;
+                switch (parent[0]) {
+                    case ".": parElement = document.getElementsByClassName(parent.substring(parent[1])); break;
+                    case "#": parElement = document.getElementById(parent.substring(1, parent.length)); break;
+                    default: parElement = document.getElementsByTagName(parent); break;
+                }
+
+                if (typeof idCount == 'undefined') {
+                    idCount = 0;
+                }
+
+                idCount++;
+                var elementToAdd = document.createElement(element);
+                elementToAdd.style.border = "1px solid red";
+                elementToAdd.style.width = "50px";
+                elementToAdd.style.height = "50px";
+                elementToAdd.style.borderRadius = "30px";
+                elementToAdd.style.position = "absolute";
+                elementToAdd.style.left = Math.floor((Math.random()) * 1000 + 1) + "px";
+                elementToAdd.style.top = Math.floor((Math.random()) * 500 + 1) + "px";
+                elementToAdd.id = idCount.toString();
+                parElement.appendChild(elementToAdd);
+
+                //elementToAdd.addEventListener('click', function () {
+                //    alert('You clicked on a circle');
+                //});
+            }
+
+            function removeElement(element, parent) {
+                var parElement;
+                switch (parent[0]) {
+                    case ".": parElement = document.getElementsByClassName(parent.substring(parent[1])); break;
+                    case "#": parElement = document.getElementById(parent.substring(1, parent.length)); break;
+                    default: parElement = document.getElementsByTagName(parent.substring(parent[1])); break;
+                }
+
+                var elementToRemove;
+                switch (element[0]) {
+                    case ".": elementToRemove = document.getElementsByClassName(element.substring(element[1]))[0]; break;
+                    case "#": elementToRemove = document.getElementById(element.substring(1, element.length)); break;
+                    default: elementToRemove = document.getElementsByTagName(element.substring(element[1]))[0]; break;
+                }
+
+                parElement.removeChild(elementToRemove)
+            }
+
+            function addHandler(selector, eventType, func) {
+                var elements;
+                switch (selector[0]) {
+                    case ".": elements = document.getElementsByClassName(selector.substring(selector[1]));
+                        for (var i = 0; i < elements.length; i++) {
+                            elements[i].addEventListener('click', func);
+                        }
+                        break;
+                    case "#": elements = document.getElementById(selector.substring(1, selector.length));
+                        elements.addEventListener(eventType, func);
+                        break;
+                    default: elements = document.getElementsByTagName(selector.substring(selector[1]));
+                        for (var i = 0; i < elements.length; i++) {
+                            elements[i].addEventListener('click', func);
+
+                        }
+                        break;
+                }
+            }
+
+
+            function appendToBuffer(element) {
+                if (typeof buffer == 'undefined') {
+                    buffer = [];
+                }
+
+                if (buffer[element] == undefined) {
+                    buffer[element] = [];
+                }
+
+                buffer[element].push(element);
+
+                for (var element in buffer) {
+                    if (buffer[element].length == 100) {
+                        var container = document.getElementById('content');
+                        for (var i = 0; i < buffer[element].length; i++) {
+                            testModule.addElement(element, '#' + container.id);
+                        }
+                        buffer[element] = [];
+                    }
+                }
+            }
+
+
+            function getElementsBySelector(selector) {
+                var elements = document.querySelectorAll(selector);
+                return elements;
+            }
+
+            return {
+                addElement: addElement,
+                removeElement: removeElement,
+                addHandler: addHandler,
+                appendToBuffer: appendToBuffer,
+                getElementsBySelector: getElementsBySelector
+            };
+        })();
+
+
+        // testing side
+
+        // -- test for append to buffer test --
+        for (var i = 0; i < 101; i++) {
+            testModule.appendToBuffer('span');          
+        }
+
+        // -- test for adding element --
+        //for (var i = 0; i < 5; i++) {
+        //    testModule.addElement('span', '#content');
+        //}
+
+        // -- test for remove element --
+        //testModule.removeElement('#1', '#content');
+
+        // -- test for adding event handler --
+        //for (var i = 2; i < 6; i++) {
+        //    testModule.addHandler('#' + i, 'click', function () { alert('Click!') });
+        //}
+
+        //var doc = document.getElementById('content');
+        //var doc1 = doc.getElementsByTagName('div')[0];
+        //doc.removeChild(doc1);
+    </script>
+</body>
+</html>

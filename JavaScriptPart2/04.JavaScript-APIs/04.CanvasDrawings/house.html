@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas id="da-can" width="500px" height="600px">
+		Da house
+	</canvas>
+
+	<script>
+		var can = document.getElementById("da-can");
+		var ctx = can.getContext('2d');
+
+		ctx.beginPath();				
+		ctx.moveTo(250, 10);
+		ctx.lineTo(50, 240);
+		ctx.lineTo(450, 240);
+		//ctx.lineTo(250, 10);	
+		ctx.lineTo(400, 180);
+		ctx.moveTo(360, 136);
+		ctx.lineTo(250, 10);
+
+		ctx.moveTo(400, 210);
+		ctx.lineTo(400, 100);
+		ctx.lineTo(360, 100);
+		ctx.lineTo(360, 210);
+			
+		ctx.moveTo(50,240);
+		ctx.lineTo(50, 580);
+		ctx.lineTo(450, 580);
+		ctx.lineTo(450, 240);
+		
+		ctx.fillStyle = 'brown';
+		ctx.fill();
+		ctx.stroke();
+
+		ctx.fillStyle = 'black';
+		ctx.fillRect(70, 265, 70, 35);
+		ctx.fillRect(145, 265, 70, 35);
+		ctx.fillRect(70, 305, 70, 35);
+		ctx.fillRect(145, 305, 70, 35);
+
+		ctx.fillRect(285, 265, 70, 35);
+		ctx.fillRect(360, 265, 70, 35);
+		ctx.fillRect(285, 305, 70, 35);
+		ctx.fillRect(360, 305, 70, 35);
+
+		ctx.fillRect(285, 380, 70, 35);
+		ctx.fillRect(360, 380, 70, 35);
+		ctx.fillRect(285, 420, 70, 35);
+		ctx.fillRect(360, 420, 70, 35);
+
+		drawEllipse(ctx,380,280,20,'brown',1,'black',1,0.35, 0);
+
+		
+		
+		ctx.strokeStyle = 'black';
+		ctx.strokeRect(90,418, 120, 162);
+
+		drawEllipse(ctx,150,1200,60,'brown',2,'black',1,0.35, 3.2);
+		ctx.beginPath();
+		ctx.moveTo(150,580);
+		ctx.lineTo(150, 400);
+		ctx.stroke();
+
+		ctx.beginPath();
+		ctx.arc(140, 540, 5, 0, 2*Math.PI);
+		ctx.stroke();
+		ctx.beginPath();
+		ctx.arc(160, 540, 5, 0, 2*Math.PI);
+		ctx.stroke();
+
+		function drawEllipse(ctx, centerX, centerY, radius, fillColor, strokeWidth, strokeColor, scaleX, scaleY, arcPart) {
+        ctx.save();
+        ctx.beginPath();
+        if (scaleX && scaleY) {
+            ctx.scale(scaleX, scaleY);
+        }
+
+        ctx.arc(centerX, centerY, radius, arcPart, 2 * Math.PI, false);
+
+        if (fillColor != null) {
+            ctx.fillStyle = fillColor;
+            ctx.fill();
+        }
+
+        ctx.lineWidth = strokeWidth;
+        ctx.strokeStyle = strokeColor;
+        ctx.stroke();
+        ctx.closePath();
+        ctx.restore();
+    }	
+	</script>
+</body>
+</html>

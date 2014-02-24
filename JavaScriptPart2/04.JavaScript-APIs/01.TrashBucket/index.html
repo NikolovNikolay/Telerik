@@ -1,0 +1,235 @@
+<html>
+<head>
+	<title>Trash bucket web API</title>
+	<style type="text/css">
+		div#wrapper{
+			width: 960px;
+			height: 500px;
+			border: 1px solid black;
+			text-align: right;
+			float: left;
+		}
+
+		aside#scores{
+			margin-left: 20px;
+			float: left;
+			border: 1px solid black;
+			width: 200px;
+			height: 300px;
+		}
+
+		aside#scores header{
+			text-align: center;
+		}
+		img#the-bucket {
+			position: relative;
+			top: 50px;
+			width: 150px;
+		}
+
+		.trash {
+			position: absolute;
+		}
+		
+		.trash:hover{
+			cursor: pointer;				
+		}
+
+		input#nickname{
+			margin-left: 20px;
+			margin-bottom: 10px;
+		}
+
+		input#save-btn{
+			value: "Save";
+		}
+
+		label{
+			position: relative;
+			display: block;
+			top: 50px;
+			right: 40px;
+		}
+
+		section#scoreHold{
+			padding-left: 10px;
+		}
+		a{
+			position: relative;
+			display: block;
+			top: 60px;
+			right: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<img id="the-bucket" src="images/trash.png"
+		 onmouseover="openCan()" onmouseout="closeCan()" />
+		<label id="the-label" for="the-bucket">Collected: none</label>
+		<a href="" onclick = "trashBucket.empty()">Empty bucket</a>
+	</div>
+	<input type="text" id="nickname" />
+	<input type="button" id="save-btn" value="Save" onclick = "saveToLocal()"/>
+	<aside id="scores">
+		<header>
+			<h3>
+				High scores:
+			</h3>
+		</header>
+		<section id="scoreHold">
+		</section>
+	</aside>
+	<script>
+	bucket = document.getElementById("the-bucket");
+	var score;
+	function openCan(){
+		bucket.src = "images/trash-opn.png";
+	}
+
+	function closeCan(){
+		bucket.src = "images/trash.png";
+	}
+
+	function saveToLocal(){
+		var inputFldContent = document.getElementById('nickname').value;
+		localStorage.setItem(inputFldContent, parseInt(score));
+	}
+	var trashBucket = (function(){
+		
+		function empty(){
+			document.getElementById("nickname").value = "";
+			var wrapperDiv = document.getElementById("wrapper");
+			bucket.setAttribute('ondragover','allowDrop(event), openCan()');
+			bucket.setAttribute('ondrop','drop(event)');
+
+			for (var i = 0; i < 3; i++) {
+				var coords = randomCoords();
+				var image = document.createElement('img');
+				image.src = "images/garb1.png";
+				image.id = i;
+				image.className = "trash trash-one";
+				image.style.top = coords[0] + "px";
+				image.style.left = coords[1] + "px";
+				image.setAttribute('ondragstart', 'drag(event)');
+				image.setAttribute('draggable', 'true');
+				wrapperDiv.appendChild(image);
+			};
+
+			for (var i = 3; i < 6; i++) {
+				var coords = randomCoords();
+				var image = document.createElement('img');
+				image.src = "images/garb2.png";
+				image.id = i;
+				image.className = "trash trash-two";
+				image.style.top = coords[0] + "px";
+				image.style.left = coords[1] + "px";
+				image.setAttribute('ondragstart', 'drag(event)');
+				image.setAttribute('draggable', 'true');
+				wrapperDiv.appendChild(image);
+			};
+
+			for (var i = 6; i < 9; i++) {
+				var coords = randomCoords();
+				var image = document.createElement('img');
+				image.src = "images/garb3.png";
+				image.id = i;
+				image.className = "trash trash-three";
+				image.style.top = coords[0] + "px";
+				image.style.left = coords[1] + "px";
+				image.setAttribute('ondragstart', 'drag(event)');
+				image.setAttribute('draggable', 'true');
+				wrapperDiv.appendChild(image);
+			};
+
+			for (var i = 9; i < 12; i++) {
+				var coords = randomCoords();
+				var image = document.createElement('img');
+				image.src = "images/garb4.png";
+				image.id = i;
+				image.className = "trash trash-four";
+				image.style.top = coords[0] + "px";
+				image.style.left = coords[1] + "px";
+				image.setAttribute('ondragstart', 'drag(event)');
+				image.setAttribute('draggable', 'true');
+				wrapperDiv.appendChild(image);
+			};
+
+
+
+			function randomCoords(){
+				var left = (Math.random() * (wrapperDiv.clientWidth - 70 - 150)) + 1;
+				var top = (Math.random() * (wrapperDiv.clientHeight - 70)) + 1;
+
+				var result = [top, left];
+				return result;
+			}
+		}
+
+		var sortedScores = Object.keys(localStorage).sort(function (a, b) {
+            return a - b; });
+
+		var innerCounter = 0		
+
+		for (var score in sortedScores) {	
+
+			if(innerCounter < 5){
+				var playerScore = sortedScores[score];
+            	var playerName = localStorage.getItem(sortedScores[score]);
+				var str = "<p><strong>" + playerName + ":</strong>" + " " + playerScore + "</p>";
+				document.getElementById("scoreHold").innerHTML += str;
+			}
+			innerCounter++;
+		};
+
+		return{
+
+			empty: empty
+		}
+	})();
+
+	var counter = 0;
+	function allowDrop(ev) {
+        ev.preventDefault();
+    }
+
+    function drag(ev) {
+        ev.dataTransfer.setData("dragged-id", ev.target.id);
+    }
+
+    var startTime = 0;
+    var endTime = 0;
+
+    function drop(ev) {
+    	var start = new Date();
+    	var end = new Date();
+    	
+    	
+    	counter++;
+    	if(counter == 1){
+    		startTime = start.getTime()
+    	}
+
+    	var lab = document.getElementById("the-label");
+    	lab.innerHTML = "Collected: " + counter;
+    	
+    	if(counter == 12){
+    		lab.innerHTML = "Collected: all";
+    		endTime = end.getTime();    		
+    		alert("Please write your name in the input field above");
+    		score = parseInt(endTime) - parseInt(startTime);
+    	}
+
+        ev.preventDefault();            
+        var data = ev.dataTransfer.getData("dragged-id");
+        ev.target.appendChild(document.getElementById(data));
+
+        while(bucket.firstChild){
+        	bucket.removeChild(bucket.firstChild);
+        }
+    }
+
+	window.onload = trashBucket.empty();	
+	</script>
+</body>
+</html>

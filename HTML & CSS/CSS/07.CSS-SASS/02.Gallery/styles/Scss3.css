@@ -1,0 +1,24 @@
+html, body, div, ul, li, img, input, label {
+  margin: 0;
+  padding: 0; }
+
+body ul {
+  list-style: none;
+  margin: 10px 20px; }
+  body ul li {
+    display: inline-block;
+    margin: 2px; }
+    body ul li label {
+      cursor: pointer; }
+      body ul li label:hover {
+        opacity: 0.4; }
+        body ul li label:hover > img {
+          border: 1px solid black; }
+    body ul li > img {
+      display: none; }
+    body ul li input[type="radio"]:checked + img {
+      position: absolute;
+      display: block;
+      top: 90px;
+      left: 20px; }
+

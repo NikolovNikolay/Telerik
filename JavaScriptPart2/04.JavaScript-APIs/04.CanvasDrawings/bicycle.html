@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas id="the-can" height="300px" width="350px">Just some bicycle</canvas>
+    
+	<script>
+		var can = document.getElementById("the-can");
+		var ctx = can.getContext('2d');
+
+		// rear wheel
+		drawWheel(70,230,50, 'blue', 'lightblue');
+
+		// front wheel
+		drawWheel(260,230,50, 'blue', 'lightblue');
+		drawWheel(70 +50 + 40, 230,15, 'blue', 'white');
+
+		ctx.beginPath();
+		ctx.moveTo(70,230);
+		ctx.lineTo(70 +50 + 40, 230);
+		ctx.lineTo(250,160);
+		ctx.lineTo(70 + 50 + 15,160);
+		ctx.lineTo(70,230);
+		ctx.moveTo(70 +50 + 40, 230);
+		ctx.lineTo(70 + 50 + 5, 135);
+		ctx.moveTo(70 +50 - 15, 135);
+		ctx.lineTo(70 +50 + 25, 135);
+
+		ctx.moveTo(260,230);
+		ctx.lineTo(245, 120);
+		ctx.lineTo(200,135);
+		ctx.moveTo(245, 120);
+		ctx.lineTo(270, 90);
+
+		ctx.moveTo(70 +50 + 40, 245);
+		ctx.lineTo(70 +50 + 40, 260);
+		ctx.moveTo(70 +50 + 40, 215);
+		ctx.lineTo(70 +50 + 40, 200);
+		ctx.stroke();
+		
+
+
+		function drawWheel(x,y,r,strokeColor, fillColor){
+			ctx.beginPath();
+			ctx.arc(x, y, r, 0, 2*Math.PI);
+			ctx.strokeStyle = strokeColor;
+			ctx.fillStyle = fillColor;
+			ctx.fill();
+			ctx.stroke();
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Image Cariusel</title>
+	<link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<img src="images/left.png" id="left-arrow" class="arrow"/>
+	<div id="carousel-wrapper">
+		<ul id="carousel">
+			<li class="visible"><img src="images/one.jpg"/></li>
+			<li><img src="images/two.jpg"/></li>
+			<li><img src="images/three.jpg"/></li>
+			<li><img src="images/four.jpg"/></li>
+			<li><img src="images/five.jpg"/></li>
+			<li><img src="images/six.jpg"/></li>
+		</ul>
+	</div>
+	<img src="images/right.png" id="right-arrow" class="arrow"/>
+	<script type="text/javascript" src="carousel-script.js"></script>
+	<script type="text/javascript">
+
+		(function(){
+			setInterval(function(){ carousel.next() }, 1500);
+		})();
+
+		var nextBtn = document.getElementById('right-arrow');
+		nextBtn.addEventListener('click', function(){
+			carousel.next();
+		})
+
+		var previousBtn = document.getElementById('left-arrow');
+		previousBtn.addEventListener('click', function(){
+			carousel.previous();
+		})
+	</script>
+</body>
+</html>
