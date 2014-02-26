@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\14.MinimalDistance\bin\Debug\14.MinimalDistance.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\14.MinimalDistance\obj\Debug\14.MinimalDistance.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\14.MinimalDistance\bin\Debug\14.MinimalDistance.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\14.MinimalDistance\bin\Debug\14.MinimalDistance.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\14.MinimalDistance\obj\Debug\14.MinimalDistance.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\14.MinimalDistance\obj\Debug\14.MinimalDistance.pdb

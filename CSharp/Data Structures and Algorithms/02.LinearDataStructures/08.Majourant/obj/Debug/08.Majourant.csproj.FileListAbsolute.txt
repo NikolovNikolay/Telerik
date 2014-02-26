@@ -1,0 +1,8 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\08.Majourant\bin\Debug\08.Majourant.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\08.Majourant\bin\Debug\08.Majourant.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\08.Majourant\bin\Debug\08.Majourant.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\08.Majourant\bin\Debug\07.CountRepetitions.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\08.Majourant\bin\Debug\07.CountRepetitions.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\08.Majourant\obj\Debug\08.Majourant.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\08.Majourant\obj\Debug\08.Majourant.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\08.Majourant\obj\Debug\08.Majourant.pdb

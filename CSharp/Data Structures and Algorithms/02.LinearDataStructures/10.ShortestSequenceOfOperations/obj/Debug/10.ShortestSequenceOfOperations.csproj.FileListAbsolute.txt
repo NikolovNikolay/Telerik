@@ -1,0 +1,5 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\10.ShortestSequenceOfOperations\bin\Debug\10.ShortestSequenceOfOperations.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\10.ShortestSequenceOfOperations\bin\Debug\10.ShortestSequenceOfOperations.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\10.ShortestSequenceOfOperations\bin\Debug\10.ShortestSequenceOfOperations.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\10.ShortestSequenceOfOperations\obj\Debug\10.ShortestSequenceOfOperations.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\10.ShortestSequenceOfOperations\obj\Debug\10.ShortestSequenceOfOperations.pdb

@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\09.PredefinedQueueItems\bin\Debug\09.PredefinedQueueItems.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\09.PredefinedQueueItems\bin\Debug\09.PredefinedQueueItems.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\09.PredefinedQueueItems\bin\Debug\09.PredefinedQueueItems.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\09.PredefinedQueueItems\obj\Debug\09.PredefinedQueueItems.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\09.PredefinedQueueItems\obj\Debug\09.PredefinedQueueItems.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\09.PredefinedQueueItems\obj\Debug\09.PredefinedQueueItems.csprojResolveAssemblyReference.cache

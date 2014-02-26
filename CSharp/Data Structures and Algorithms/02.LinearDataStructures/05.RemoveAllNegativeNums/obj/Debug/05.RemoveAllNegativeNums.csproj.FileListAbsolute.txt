@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\05.RemoveAllNegativeNums\bin\Debug\05.RemoveAllNegativeNums.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\05.RemoveAllNegativeNums\bin\Debug\05.RemoveAllNegativeNums.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\05.RemoveAllNegativeNums\bin\Debug\05.RemoveAllNegativeNums.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\05.RemoveAllNegativeNums\obj\Debug\05.RemoveAllNegativeNums.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\05.RemoveAllNegativeNums\obj\Debug\05.RemoveAllNegativeNums.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\05.RemoveAllNegativeNums\obj\Debug\05.RemoveAllNegativeNums.csprojResolveAssemblyReference.cache

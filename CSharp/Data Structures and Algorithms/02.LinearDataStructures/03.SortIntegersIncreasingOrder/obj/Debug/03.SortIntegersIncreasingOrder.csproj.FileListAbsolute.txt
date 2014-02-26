@@ -1,0 +1,10 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\03.SortIntegersIncreasingOrder\bin\Debug\03.SortIntegersIncreasingOrder.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\03.SortIntegersIncreasingOrder\bin\Debug\03.SortIntegersIncreasingOrder.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\03.SortIntegersIncreasingOrder\bin\Debug\03.SortIntegersIncreasingOrder.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\03.SortIntegersIncreasingOrder\bin\Debug\01.Sum-Average-List-Elements.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\03.SortIntegersIncreasingOrder\bin\Debug\01.Sum-Average-List-Elements.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\03.SortIntegersIncreasingOrder\obj\Debug\03.SortIntegersIncreasingOrder.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\03.SortIntegersIncreasingOrder\obj\Debug\03.SortIntegersIncreasingOrder.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\03.SortIntegersIncreasingOrder\obj\Debug\03.SortIntegersIncreasingOrder.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\03.SortIntegersIncreasingOrder\bin\Debug\02.ReverseViaStack.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\03.SortIntegersIncreasingOrder\bin\Debug\02.ReverseViaStack.pdb

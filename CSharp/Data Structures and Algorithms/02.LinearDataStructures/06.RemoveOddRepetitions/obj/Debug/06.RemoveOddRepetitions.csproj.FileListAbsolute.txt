@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\06.RemoveOddRepetitions\bin\Debug\06.RemoveOddRepetitions.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\06.RemoveOddRepetitions\bin\Debug\06.RemoveOddRepetitions.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\06.RemoveOddRepetitions\bin\Debug\06.RemoveOddRepetitions.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\06.RemoveOddRepetitions\obj\Debug\06.RemoveOddRepetitions.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\06.RemoveOddRepetitions\obj\Debug\06.RemoveOddRepetitions.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\06.RemoveOddRepetitions\obj\Debug\06.RemoveOddRepetitions.csprojResolveAssemblyReference.cache

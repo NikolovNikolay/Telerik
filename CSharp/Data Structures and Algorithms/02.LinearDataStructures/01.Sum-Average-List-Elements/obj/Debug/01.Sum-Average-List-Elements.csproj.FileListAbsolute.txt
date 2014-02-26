@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\01.Sum-Average-List-Elements\bin\Debug\01.Sum-Average-List-Elements.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\01.Sum-Average-List-Elements\bin\Debug\01.Sum-Average-List-Elements.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\01.Sum-Average-List-Elements\bin\Debug\01.Sum-Average-List-Elements.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\01.Sum-Average-List-Elements\obj\Debug\01.Sum-Average-List-Elements.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\01.Sum-Average-List-Elements\obj\Debug\01.Sum-Average-List-Elements.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\01.Sum-Average-List-Elements\obj\Debug\01.Sum-Average-List-Elements.pdb

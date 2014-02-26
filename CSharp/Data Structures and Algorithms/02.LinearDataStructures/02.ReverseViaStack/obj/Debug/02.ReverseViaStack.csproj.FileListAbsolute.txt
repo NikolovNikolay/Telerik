@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\02.ReverseViaStack\bin\Debug\02.ReverseViaStack.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\02.ReverseViaStack\bin\Debug\02.ReverseViaStack.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\02.ReverseViaStack\bin\Debug\02.ReverseViaStack.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\02.ReverseViaStack\obj\Debug\02.ReverseViaStack.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\02.ReverseViaStack\obj\Debug\02.ReverseViaStack.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\02.ReverseViaStack\obj\Debug\02.ReverseViaStack.csprojResolveAssemblyReference.cache

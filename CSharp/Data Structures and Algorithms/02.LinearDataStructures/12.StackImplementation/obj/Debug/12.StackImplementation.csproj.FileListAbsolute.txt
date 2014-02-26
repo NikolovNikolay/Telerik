@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\12.StackImplementation\bin\Debug\12.StackImplementation.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\12.StackImplementation\bin\Debug\12.StackImplementation.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\12.StackImplementation\bin\Debug\12.StackImplementation.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\12.StackImplementation\obj\Debug\12.StackImplementation.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\12.StackImplementation\obj\Debug\12.StackImplementation.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\12.StackImplementation\obj\Debug\12.StackImplementation.pdb

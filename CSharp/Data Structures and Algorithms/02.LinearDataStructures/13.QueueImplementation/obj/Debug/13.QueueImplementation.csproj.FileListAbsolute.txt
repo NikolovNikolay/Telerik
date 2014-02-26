@@ -1,0 +1,8 @@
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\13.QueueImplementation\bin\Debug\13.QueueImplementation.exe.config
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\13.QueueImplementation\obj\Debug\13.QueueImplementation.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\13.QueueImplementation\bin\Debug\13.QueueImplementation.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\13.QueueImplementation\bin\Debug\13.QueueImplementation.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\13.QueueImplementation\bin\Debug\11.LinkedListImplementation.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\13.QueueImplementation\bin\Debug\11.LinkedListImplementation.pdb
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\13.QueueImplementation\obj\Debug\13.QueueImplementation.exe
+E:\GoogleDrive\Telerik Projects\testings\02.Linear-Data-Structures\13.QueueImplementation\obj\Debug\13.QueueImplementation.pdb
