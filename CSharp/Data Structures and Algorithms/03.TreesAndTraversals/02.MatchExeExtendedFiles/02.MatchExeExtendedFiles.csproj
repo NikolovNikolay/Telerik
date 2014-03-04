@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A457E65C-9E67-4EBF-A2D9-681DC4CF6DB5}</ProjectGuid>
+    <ProjectGuid>{E11FDA1E-1743-499C-89B9-9CEFFE35BA82}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02.TraverseDirectory</RootNamespace>
-    <AssemblyName>02.TraverseDirectory</AssemblyName>
+    <RootNamespace>_02.MatchExeExtendedFiles</RootNamespace>
+    <AssemblyName>02.MatchExeExtendedFiles</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TraverseDirectory.cs" />
+    <Compile Include="MatchExeExtendedFiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
