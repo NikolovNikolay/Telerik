@@ -1,4 +1,0 @@
-find(Kireto)
-find(Kireto, Lovech)
-find(Bat Gancho)
-find(Bat Gancho, Asparuhovo)

@@ -1,0 +1,10 @@
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSetTesting\bin\Debug\05.HashedSetTesting.exe.config
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSetTesting\bin\Debug\05.HashedSetTesting.exe
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSetTesting\bin\Debug\05.HashedSetTesting.pdb
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSetTesting\bin\Debug\05.HashedSet.dll
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSetTesting\bin\Debug\04.HashTable.dll
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSetTesting\bin\Debug\05.HashedSet.pdb
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSetTesting\bin\Debug\04.HashTable.pdb
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSetTesting\obj\Debug\05.HashedSetTesting.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSetTesting\obj\Debug\05.HashedSetTesting.exe
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSetTesting\obj\Debug\05.HashedSetTesting.pdb

@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\03.WordOccurancesInText\bin\Debug\03.WordOccurancesInText.exe.config
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\03.WordOccurancesInText\bin\Debug\03.WordOccurancesInText.exe
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\03.WordOccurancesInText\bin\Debug\03.WordOccurancesInText.pdb
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\03.WordOccurancesInText\obj\Debug\03.WordOccurancesInText.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\03.WordOccurancesInText\obj\Debug\03.WordOccurancesInText.exe
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\03.WordOccurancesInText\obj\Debug\03.WordOccurancesInText.pdb

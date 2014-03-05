@@ -1,0 +1,7 @@
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSet\obj\Debug\05.HashedSet.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSet\bin\Debug\05.HashedSet.dll
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSet\bin\Debug\05.HashedSet.pdb
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSet\bin\Debug\04.HashTable.dll
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSet\bin\Debug\04.HashTable.pdb
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSet\obj\Debug\05.HashedSet.dll
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\05.HashedSet\obj\Debug\05.HashedSet.pdb

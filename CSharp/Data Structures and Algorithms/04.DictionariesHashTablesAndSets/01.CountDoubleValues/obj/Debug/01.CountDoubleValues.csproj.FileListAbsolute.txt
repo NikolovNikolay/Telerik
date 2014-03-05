@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\01.CountDoubleValues\bin\Debug\01.CountDoubleValues.exe.config
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\01.CountDoubleValues\bin\Debug\01.CountDoubleValues.exe
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\01.CountDoubleValues\bin\Debug\01.CountDoubleValues.pdb
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\01.CountDoubleValues\obj\Debug\01.CountDoubleValues.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\01.CountDoubleValues\obj\Debug\01.CountDoubleValues.exe
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\01.CountDoubleValues\obj\Debug\01.CountDoubleValues.pdb

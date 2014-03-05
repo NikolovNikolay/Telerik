@@ -1,0 +1,8 @@
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\06.Phonebook\bin\Debug\06.Phonebook.exe.config
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\06.Phonebook\bin\Debug\06.Phonebook.exe
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\06.Phonebook\bin\Debug\06.Phonebook.pdb
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\06.Phonebook\bin\Debug\PowerCollections.dll
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\06.Phonebook\bin\Debug\PowerCollections.xml
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\06.Phonebook\obj\Debug\06.Phonebook.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\06.Phonebook\obj\Debug\06.Phonebook.exe
+E:\GoogleDrive\Telerik Projects\testings\04.Dictionaries-Hash-Tables-and-Sets\06.Phonebook\obj\Debug\06.Phonebook.pdb
