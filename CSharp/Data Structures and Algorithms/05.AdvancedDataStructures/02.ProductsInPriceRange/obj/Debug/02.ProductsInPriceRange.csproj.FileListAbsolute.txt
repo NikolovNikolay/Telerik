@@ -1,0 +1,8 @@
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\02.ProductsInPriceRange\obj\Debug\02.ProductsInPriceRange.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\02.ProductsInPriceRange\bin\Debug\02.ProductsInPriceRange.exe.config
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\02.ProductsInPriceRange\bin\Debug\02.ProductsInPriceRange.exe
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\02.ProductsInPriceRange\bin\Debug\02.ProductsInPriceRange.pdb
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\02.ProductsInPriceRange\bin\Debug\PowerCollections.dll
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\02.ProductsInPriceRange\bin\Debug\PowerCollections.xml
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\02.ProductsInPriceRange\obj\Debug\02.ProductsInPriceRange.exe
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\02.ProductsInPriceRange\obj\Debug\02.ProductsInPriceRange.pdb

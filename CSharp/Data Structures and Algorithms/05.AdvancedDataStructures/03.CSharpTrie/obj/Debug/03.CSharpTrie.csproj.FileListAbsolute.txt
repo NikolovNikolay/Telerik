@@ -1,0 +1,6 @@
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\03.CSharpTrie\bin\Debug\03.CSharpTrie.exe.config
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\03.CSharpTrie\obj\Debug\03.CSharpTrie.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\03.CSharpTrie\bin\Debug\03.CSharpTrie.exe
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\03.CSharpTrie\bin\Debug\03.CSharpTrie.pdb
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\03.CSharpTrie\obj\Debug\03.CSharpTrie.exe
+E:\GoogleDrive\Telerik Projects\testings\05.AdvancedDataStructures\03.CSharpTrie\obj\Debug\03.CSharpTrie.pdb
