@@ -15,7 +15,6 @@ class PrintNumbersOneToTen
         {
             Console.Write("{0} ",i);
         }
-
         Console.WriteLine();
 
         // Second method
@@ -24,12 +23,10 @@ class PrintNumbersOneToTen
         {
             array[i] = i + 1;
         }
-
         for (int i = 0; i < array.Length; i++)
         {
             Console.Write("{0} ",array[i]);
         }
-
         Console.WriteLine();
     }
 }
