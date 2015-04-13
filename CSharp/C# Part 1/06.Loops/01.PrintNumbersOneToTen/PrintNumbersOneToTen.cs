@@ -7,7 +7,7 @@ class PrintNumbersOneToTen
 {
     static void Main()
     {
-        Console.WriteLine("Enter number: ");
+        Console.WriteLine("Enter number, please: ");
         int number = Int32.Parse(Console.ReadLine());
 
         // First method

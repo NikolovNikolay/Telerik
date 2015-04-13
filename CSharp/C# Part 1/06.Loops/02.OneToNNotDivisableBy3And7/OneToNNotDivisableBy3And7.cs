@@ -8,7 +8,7 @@ class OneToNNotDivisableBy3And7
 {
     static void Main()
     {
-        Console.Write("Enter number n= ");
+        Console.Write("Enter number n = ");
         int number = Int32.Parse(Console.ReadLine());
         Console.Write("The numbers which can not be divided to 3 and 7 are: ");
         for (int i = 1; i <= number; i++)
